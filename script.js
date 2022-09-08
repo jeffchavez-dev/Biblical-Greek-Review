@@ -102,7 +102,7 @@ const retake = document.querySelector(".retake");
 const vocabKeys = Object.keys(vocabulary[0])
 
 
-let shuffled = lessonFive
+let shuffled = vocabulary
     .map(value => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value)
