@@ -19,21 +19,21 @@ const lessonOne = [
     {"ὁ, ἡ, τό" : "the"}
 ]
 const lessonTwo = [
-    "ἀδελφός, ὁ ": "brother (and sister) ",
-    "ἄνθρωπος, ὁ ": "man, human being, husband (anthropology)",
-    "θεός, ὁ ": "God (theology)",
-     "κόσμος, ὁ ": "world, universe; adornment (cosmos, cosmology, cosmetics)",
-     "κύριος, ὁ ": "Lord, master, sir",
-    "λόγος, ὁ ": "word, message, account (logic, theology,psychology)",
-    "νόμος, ὁ ": "law, principle (theonomists)",
-    "οὐρανός, ὁ": " heaven, sky (Uranus)",
-    "υἱός, ὁ ": "son, descendant",
-    "Χριστός, ὁ ": "Christ, Messiah, Anointed One (Christ)",
-    "ἔργον, τό": "work, deed (ergonomic)",
-    "εὐαγγέλιον, τό ": "good news, gospel (evangelistic, evangelical)",
-    "ἱερόν, τό ": "temple, sanctuary",
-     "σημεἱον, τό ": "sign (semiotics)",
-    "τέκνον, τό": " child, son, descendant"
+    {"ἀδελφός, ὁ ": "brother (and sister) "},
+    {"ἄνθρωπος, ὁ ": "man, human being, husband (anthropology)"},
+    {"θεός, ὁ ": "God (theology)"},
+     {"κόσμος, ὁ ": "world, universe; adornment (cosmos, cosmology, cosmetics)"},
+     {"κύριος, ὁ ": "Lord, master, sir"},
+    {"λόγος, ὁ ": "word, message, account (logic, theology,psychology)"},
+    {"νόμος, ὁ ": "law, principle (theonomists)"},
+    {"οὐρανός, ὁ": " heaven, sky (Uranus)"},
+    {"υἱός, ὁ ": "son, descendant"},
+    {"Χριστός, ὁ ": "Christ, Messiah, Anointed One (Christ)"},
+    {"ἔργον, τό": "work, deed (ergonomic)"},
+    {"εὐαγγέλιον, τό ": "good news, gospel (evangelistic, evangelical)"},
+    {"ἱερόν, τό ": "temple, sanctuary"},
+     {"σημεἱον, τό ": "sign (semiotics)"},
+    {"τέκνον, τό": " child, son, descendant"}
 ]
 const lessonThree = [
     "ἀποκρίνομαι ": "I answer, reply",
