@@ -1,0 +1,108 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+.container {
+    background-color: wheat;
+    width: 50%;
+    /* min-width: 90%; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.vocabulary {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em .5em .5em .5em;
+    font-size: 4rem;
+}
+
+.english-vocabulary {
+    display: none;
+    margin: .5em;
+}
+
+.show {
+    display: block;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 1em;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+}
+.show-answer {
+    display: block;
+    background-color: white;
+    border: none;
+    margin-top: 2em;
+}
+
+.hide {
+    display: none;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: .5em;
+}
+
+
+
+.wrong-answer {
+    background-color: red;
+    color: white;
+}
+.correct-answer {
+    background-color: green;
+    color: white;
+}
+
+.retake {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+    .vocabulary {
+        font-size: 2rem;
+    }
+    .english-vocabulary {
+        font-size: 1.5rem;
+    }
+}
