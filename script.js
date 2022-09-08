@@ -70,20 +70,20 @@ const vocabulary = [
 ]
 
 const lessonFive = [
-    {"βαπτίζω,":" I baptize, immerse, dip (baptize)"},
-    {"θεραπεύω,":" I heal (therapeutic)"},
-    {"κράζω, ":"I cry out"},
-    {"ἄγγελος, ὁ, ":"angel, messenger (angel)"},
-    {"μαθητής, ὁ,":" disciple, follower 	(mathematics)"},
-    {"ὄχλος, ὁ,":" crowd"},
-    {"προφήτης, ὁ,":" prophet (prophet)"},
-    {"γάρ, ":"for, because "},
-    {"ἐκεῖ, ":"there, in that place"},
-    {"κἀγώ,":" and I (καί + ἐγώ)"},
-    {"οὖν, ":"then, so, therefore"},
-    {"οὕτως,":" in this manner, thus, so"},
-    {"τέ,":" and, but"},
-    {"οὐ, οὐκ, οὐχ,":" no, not"},
+    {"βαπτίζω":" I baptize, immerse, dip (baptize)"},
+    {"θεραπεύω":" I heal (therapeutic)"},
+    {"κράζω ":"I cry out"},
+    {"ἄγγελος, ὁ ":"angel, messenger (angel)"},
+    {"μαθητής, ὁ":" disciple, follower 	(mathematics)"},
+    {"ὄχλος, ὁ":" crowd"},
+    {"προφήτης, ὁ":" prophet (prophet)"},
+    {"γάρ ":"for, because "},
+    {"ἐκεῖ ":"there, in that place"},
+    {"κἀγώ":" and I (καί + ἐγώ)"},
+    {"οὖν ":"then, so, therefore"},
+    {"οὕτως":" in this manner, thus, so"},
+    {"τέ":" and, but"},
+    {"οὐ, οὐκ, οὐχ":" no, not"},
     {"οὐχί, no! ":"(emphatic)"}
 ]
 
