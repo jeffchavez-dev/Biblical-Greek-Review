@@ -89,9 +89,11 @@ const lessonFive = [
     {"οὐχί, no! ":"(emphatic)"}
 ]
 
+const addLesson = vocabulary.concat(lessonFive)
 
+const addLessonTwo = vocabulary.concat(lessonTwo)
 
-
+console.log(vocabulary)
 
 const greekVocab = document.querySelector(".greek-vocabulary")
 const vocabEL = document.querySelector(".container")
@@ -99,7 +101,7 @@ const englishVocab = document.querySelector(".english-vocabulary")
 const correct = document.querySelector(".correct-answer")
 const showAnswer = document.querySelector(".show-answer")
 const retake = document.querySelector(".retake");
-const vocabKeys = Object.keys(vocabulary[0])
+
 
 
 let shuffled = vocabulary
@@ -114,12 +116,12 @@ let currentVocab = 0;
 
 
 
-const loadVocabulary = () => {
-    // greekVocab.innerHTML = vocabKeys[currentVocab];
-    greekVocab.innerHTML = Object.keys(shuffled[currentVocab]);
-    // englishVocab.innerHTML = vocabulary[0][vocabKeys[currentVocab]]
-    englishVocab.innerHTML = shuffled[currentVocab][Object.keys(shuffled[currentVocab])]
-}
+// const loadVocabulary = () => {
+//   
+//     greekVocab.innerHTML = Object.keys(shuffled[currentVocab]);
+//     
+//     englishVocab.innerHTML = shuffled[currentVocab][Object.keys(shuffled[currentVocab])]
+// }
 
 correct.addEventListener("click", ()  => {
     currentVocab++;
@@ -139,7 +141,7 @@ correct.addEventListener("click", ()  => {
 
 })
 
-loadVocabulary()
+// loadVocabulary()
 
 showAnswer.addEventListener("click", ()  => {
     englishVocab.classList.add("show");
