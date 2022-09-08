@@ -36,21 +36,21 @@ const lessonTwo = [
     {"τέκνον, τό": " child, son, descendant"}
 ]
 const lessonThree = [
-    "ἀποκρίνομαι ": "I answer, reply",
-    "εἰμί ": "I am, exist",
-    "ἀκούω": " I hear, listen to, obey (acoustics)",
-    "γινώσκω ": "I know, understand, acknowledge (knowledge, Gnostics)",
-    "γράφω ": "I write (graphics)",
-    "ἔχω ": "I have, hold",
-    "λέγω ": "I say, speak (legend)",
-    "λαμβάνω ": "I take, receive",
-    "λύω ": "I loose, destroy",
-    "πιστεύω ": "I believe, have faith/trust in",
-    "γίνομαι ": "I become, come, exist, am born",
-    "ἔρχομαι ": "I come, go16",
-    "πορεύομαι ": "I go, travel",
-    "ἀλλά ": "18 but, yet, nevertheless",
-    "ὅτι": " that, because"
+    {"ἀποκρίνομαι ": "I answer, reply"},
+    {"εἰμί ": "I am, exist"},
+    {"ἀκούω": " I hear, listen to, obey (acoustics)"},
+    {"γινώσκω ": "I know, understand, acknowledge (knowledge, Gnostics)"},
+    {"γράφω ": "I write (graphics)"},
+    {"ἔχω ": "I have, hold"},
+    {"λέγω ": "I say, speak (legend)"},
+    {"λαμβάνω ": "I take, receive"},
+    {"λύω ": "I loose, destroy"},
+    {"πιστεύω ": "I believe, have faith/trust in"},
+    {"γίνομαι ": "I become, come, exist, am born"},
+    {"ἔρχομαι ": "I come, go16"},
+    {"πορεύομαι ": "I go, travel"},
+    {"ἀλλά ": "18 but, yet, nevertheless"},
+    {"ὅτι": " that, because"}
 ]
 const lessonFour = [
     "ἄγω ": "- I lead, bring (pedagogical)",
