@@ -1,5 +1,5 @@
 const vocabulary = [
-            
+    {"ἀγάπη, ἡ": "love"}
 ]
 const lessonOne = [
     {"ἀγάπη, ἡ": "love"},
@@ -89,11 +89,13 @@ const lessonFive = [
     {"οὐχί, no! ":"(emphatic)"}
 ]
 
-const addLesson = vocabulary.concat(lessonFive)
+const addLesson = vocabulary.push(lessonFive)
 
-const addLessonTwo = vocabulary.concat(lessonTwo)
+const addLessonTwo = vocabulary.push(lessonTwo)
 
-console.log(vocabulary)
+const combinedVocabs = vocabulary.flat()
+
+// console.log(addLessonTwo)
 
 const greekVocab = document.querySelector(".greek-vocabulary")
 const vocabEL = document.querySelector(".container")
@@ -104,7 +106,7 @@ const retake = document.querySelector(".retake");
 
 
 
-let shuffled = vocabulary
+let shuffled = combinedVocabs
     .map(value => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value)
@@ -116,18 +118,18 @@ let currentVocab = 0;
 
 
 
-// const loadVocabulary = () => {
-//   
-//     greekVocab.innerHTML = Object.keys(shuffled[currentVocab]);
-//     
-//     englishVocab.innerHTML = shuffled[currentVocab][Object.keys(shuffled[currentVocab])]
-// }
+const loadVocabulary = () => {
+  
+    greekVocab.innerHTML = Object.keys(shuffled[currentVocab]);
+    
+    englishVocab.innerHTML = shuffled[currentVocab][Object.keys(shuffled[currentVocab])]
+}
 
 correct.addEventListener("click", ()  => {
     currentVocab++;
    
 
-    if(currentVocab < vocabKeys.length) {
+    if(currentVocab < combinedVocabs.length) {
 
         loadVocabulary();
         englishVocab.classList.remove("show");
@@ -141,7 +143,7 @@ correct.addEventListener("click", ()  => {
 
 })
 
-// loadVocabulary()
+loadVocabulary()
 
 showAnswer.addEventListener("click", ()  => {
     englishVocab.classList.add("show");
