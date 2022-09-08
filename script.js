@@ -89,6 +89,12 @@ const lessonFive = [
     {"οὐχί, no! ":"(emphatic)"}
 ]
 
+
+//add a function that will push every checked input
+
+const addLessons = () => {
+    
+}
 const addLesson = vocabulary.push(lessonFive)
 
 const addLessonTwo = vocabulary.push(lessonTwo)
