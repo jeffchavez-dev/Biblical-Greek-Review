@@ -53,23 +53,23 @@ const lessonThree = [
     {"ὅτι": " that, because"}
 ]
 const lessonFour = [
-    "ἄγω ": "- I lead, bring (pedagogical)",
-    "βλέπω": " - I see, look at",
-    "διδάσκω": " - I teach (didactic)",
-    "ἐγείρω ": "- I raise up",
-    "κρίνω ": "- I judge, condemn (critic)",
-    "μένω": " - I remain, abide, dwell (remain)",
-    "ὑπάγω": " - I go away, depart",
-    "δοῦλος, -ου, ὁ ": "-  slave (doula)",
-    "θάνατος, -ου, ὁ ": "-  death (“Thanatopsis,” poem by William Cullen Bryant)",
-    "ψυχή, -ης, ἡ ": "- soul, life, living being (psychology)",
-    "ὥρα, -ας, ἡ ": "- hour",
-    "εἰ ": "if, - whether",
-    "εἴτε ": "if, - whether",
-    "καθώς": " - as, just as, even as",
-    "ὡς ": "as, - like",
-    "ὦ, τό ": "- end, Omega",
-    "ὁδὸς, ἡ ": "- way"
+    {"ἄγω ": "- I lead, bring (pedagogical)"},
+    {"βλέπω": " - I see, look at"},
+    {"διδάσκω": " - I teach (didactic)"},
+    {"ἐγείρω ": "- I raise up"},
+    {"κρίνω ": "- I judge, condemn (critic)"},
+    {"μένω": " - I remain, abide, dwell (remain)"},
+    {"ὑπάγω": " - I go away, depart"},
+    {"δοῦλος, -ου, ὁ ": "-  slave (doula)"},
+    {"θάνατος, -ου, ὁ ": "-  death (“Thanatopsis,” poem by William Cullen Bryant)"},
+    {"ψυχή, -ης, ἡ ": "- soul, life, living being (psychology)"},
+    {"ὥρα, -ας, ἡ ": "- hour"},
+    {"εἰ ": "if, - whether"},
+    {"εἴτε ": "if, - whether"},
+    {"καθώς": " - as, just as, even as"},
+    {"ὡς ": "as, - like"},
+    {"ὦ, τό ": "- end, Omega"},
+    {"ὁδὸς, ἡ ": "- way"}
 ]
 const lessonFive = [
     {"βαπτίζω":" I baptize, immerse, dip (baptize)"},
