@@ -88,6 +88,20 @@ h1 {
 .show {
     display: block;
 }
+/*Lessons*/
+.lessons {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lesson {
+    display: block;
+    width: 25%;
+}
+/*footer*/
 
 footer {
     position: absolute;
