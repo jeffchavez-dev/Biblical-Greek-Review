@@ -94,6 +94,8 @@ const correct = document.querySelector(".correct-answer")
 const showAnswer = document.querySelector(".show-answer")
 const hideAnswer = document.querySelector(".hide-answer")
 const retake = document.querySelector(".retake");
+const wordCount = document.querySelector(".count");
+
 
 
 //add a function that will push every checked input to vocabulary
@@ -111,13 +113,15 @@ lessonOneEl.addEventListener('click', () => {
 
 
 const addLesson = vocabulary.push(lessonOne)
-
 const addLessonTwo = vocabulary.push(lessonTwo)
+const addLessonThree = vocabulary.push(lessonThree)
+const addLessonFour = vocabulary.push(lessonFour)
+const addLessonFive = vocabulary.push(lessonFive)
 
 const combinedVocabs = vocabulary.flat()
 console.log(combinedVocabs)
 
-
+wordCount.innerText = combinedVocabs.length;
 
 
 
