@@ -52,12 +52,12 @@ const lessonThree = [
 ]
 const lessonFour = [
     {"ἄγω ": "- I lead, bring (pedagogical)"},
-    {"βλέπω": " - I see, look at"},
-    {"διδάσκω": " - I teach (didactic)"},
-    {"ἐγείρω ": "- I raise up"},
-    {"κρίνω ": "- I judge, condemn (critic)"},
-    {"μένω": " - I remain, abide, dwell (remain)"},
-    {"ὑπάγω": " - I go away, depart"},
+    {"βλέπω": " I see, look at"},
+    {"διδάσκω": " I teach (didactic)"},
+    {"ἐγείρω ": " I raise up"},
+    {"κρίνω ": " I judge, condemn (critic)"},
+    {"μένω": "  I remain, abide, dwell (remain)"},
+    {"ὑπάγω": "  I go away, depart"},
     {"δοῦλος, -ου, ὁ ": " slave (doula)"},
     {"θάνατος, -ου, ὁ ": " death "},
     {"ψυχή, -ης, ἡ ": " soul, life, living being (psychology)"},
