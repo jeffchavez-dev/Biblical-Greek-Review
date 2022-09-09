@@ -1,5 +1,5 @@
 const vocabulary = [
-    {"ἀγάπη, ἡ": "love"}
+    {"Select Lesson/s": ""}
 ]
 const lessonOne = [
     {"ἀγάπη, ἡ": "love"},
@@ -90,18 +90,27 @@ const lessonFive = [
 ]
 
 
-//add a function that will push every checked input
+//add a function that will push every checked input to vocabulary
+
+const lessonOneEl = document.getElementById("lessonOne");
+
+lessonOneEl.addEventListener('click', () => {
+    if(lessonOneEl.checked) {
+        console.log("lessons added");
+        vocabulary.push(lessonFive);
+    }
+})
 
 const addLessons = () => {
-    
+    console.log("lessons added")
 }
-const addLesson = vocabulary.push(lessonFive)
+// const addLesson = vocabulary.push(lessonFive)
 
-const addLessonTwo = vocabulary.push(lessonTwo)
+// const addLessonTwo = vocabulary.push(lessonTwo)
 
 const combinedVocabs = vocabulary.flat()
+console.log(combinedVocabs)
 
-// console.log(addLessonTwo)
 
 const greekVocab = document.querySelector(".greek-vocabulary")
 const vocabEL = document.querySelector(".container")
@@ -117,7 +126,7 @@ let shuffled = combinedVocabs
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value)
 
-console.log(shuffled)
+
 
 let currentVocab = 0;
 //load vocabulary 
