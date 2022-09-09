@@ -46,6 +46,7 @@ h1 {
     visibility: hidden;
     font-size: 2rem;
     margin: .5em;
+    height: 120px
 }
 
 .words {
