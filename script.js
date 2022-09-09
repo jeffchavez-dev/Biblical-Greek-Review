@@ -86,6 +86,24 @@ const lessonFive = [
     {"οὐ, οὐκ, οὐχ":" no, not"},
     {"οὐχί, no! ":"(emphatic)"}
 ]
+const lessonSix = [
+    {"ἀγαπάω" : "I love"},
+    {"γεννάω" : "I give birth to, bear, beget (genealogy)"},
+    {"ἐπερωτάω" : "I ask "},
+    {"ἐρωτάω" : "I ask, question, request"},
+    {"αἰτέω" : "I ask, demand"},
+    {"ἀκολουθέω" : "I follow (acolyte)"},
+    {"ζητέω" : "I seek, look for"},
+    {"καλέω" : "I call, invite, name (call)"},
+    {"λαλέω" : "I speak, say (glossolalia)"},
+    {"μαρτυρέω ": "I testify, bear witness (martyr)"},
+    {"παρακαλέω" : "I call, urge, comfort"},
+    {"περιπατέω" : "I walk, live (peripatetic)"},
+    {"ποιέω" : "I do, make (poet)"},
+    {"φοβέομαι" : "I am afraid, fear, respect (phobia)"},
+    {"πληρόω" : "I fill, fulfill, complete"}
+]
+
 
 const greekVocab = document.querySelector(".greek-vocabulary")
 const vocabEL = document.querySelector(".main")
@@ -117,6 +135,7 @@ const addLessonTwo = vocabulary.push(lessonTwo)
 const addLessonThree = vocabulary.push(lessonThree)
 const addLessonFour = vocabulary.push(lessonFour)
 const addLessonFive = vocabulary.push(lessonFive)
+const addLessonSix = vocabulary.push(lessonSix)
 
 const combinedVocabs = vocabulary.flat()
 console.log(combinedVocabs)
