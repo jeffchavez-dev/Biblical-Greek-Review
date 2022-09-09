@@ -1,4 +1,4 @@
-const vocabulary = [];
+let vocabulary = [];
 const lessonOne = [
     {"ἀγάπη, ἡ": "love"},
     {"γῆ ἡ": "earth, land, ground (geology)"},
@@ -107,9 +107,7 @@ lessonOneEl.addEventListener('click', () => {
     }
 })
 
-if(vocabulary === "") {
-    greekVocab.innerHTML = 'Select Lesson';
-}
+
 
 const addLesson = vocabulary.push(lessonOne)
 
@@ -131,15 +129,18 @@ let shuffled = combinedVocabs
 
 
 let currentVocab = 0;
-//load vocabulary 
+//load vocabulary s
 
 
 
 const loadVocabulary = () => {
-  
-    greekVocab.innerHTML = Object.keys(shuffled[currentVocab]);
-    
-    englishVocab.innerHTML = shuffled[currentVocab][Object.keys(shuffled[currentVocab])]
+    if(vocabulary.length == 0) {
+        greekVocab.innerHTML = 'Select Lesson';
+    } else {
+        greekVocab.innerHTML = Object.keys(shuffled[currentVocab]);
+        englishVocab.innerHTML = shuffled[currentVocab][Object.keys(shuffled[currentVocab])]
+    }
+   
 }
 
 correct.addEventListener("click", ()  => {
