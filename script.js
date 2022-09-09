@@ -1,6 +1,4 @@
-const vocabulary = [
-    {"Select Lesson/s": ""}
-]
+const vocabulary = [];
 const lessonOne = [
     {"ἀγάπη, ἡ": "love"},
     {"γῆ ἡ": "earth, land, ground (geology)"},
@@ -105,6 +103,7 @@ lessonOneEl.addEventListener('click', () => {
     if(lessonOneEl.checked) {
         console.log("lessons added");
         const addLessonOne = vocabulary.push(lessonOne);
+        console.log(addLessonOne)
     }
 })
 
@@ -112,12 +111,9 @@ if(vocabulary === "") {
     greekVocab.innerHTML = 'Select Lesson';
 }
 
-const addLessons = () => {
-    console.log("lessons added")
-}
-// const addLesson = vocabulary.push(lessonFive)
+const addLesson = vocabulary.push(lessonOne)
 
-// const addLessonTwo = vocabulary.push(lessonTwo)
+const addLessonTwo = vocabulary.push(lessonTwo)
 
 const combinedVocabs = vocabulary.flat()
 console.log(combinedVocabs)
