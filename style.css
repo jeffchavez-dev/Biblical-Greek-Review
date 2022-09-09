@@ -141,4 +141,8 @@ footer {
     .english-vocabulary {
         font-size: 1.5rem;
     }
+
+    .words {
+        font-size: .8rem;
+    }
 }
