@@ -5,7 +5,6 @@
 }
 
 body {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,14 +102,13 @@ h1 {
 
 .lesson {
     display: block;
-    width: 25%;
     font-size: 1.5em;
 }
 /*footer*/
 
 footer {
-    bottom: 0;
-    margin: 2em;
+    margin-top: 2rem;
+    padding: 2em;
 }
 
 @media only screen and (max-width: 600px) {

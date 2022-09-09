@@ -109,9 +109,9 @@ lessonOneEl.addEventListener('click', () => {
 
 
 
-// const addLesson = vocabulary.push(lessonOne)
+const addLesson = vocabulary.push(lessonOne)
 
-// const addLessonTwo = vocabulary.push(lessonTwo)
+const addLessonTwo = vocabulary.push(lessonTwo)
 
 const combinedVocabs = vocabulary.flat()
 console.log(combinedVocabs)
