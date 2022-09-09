@@ -92,6 +92,7 @@ const vocabEL = document.querySelector(".main")
 const englishVocab = document.querySelector(".english-vocabulary")
 const correct = document.querySelector(".correct-answer")
 const showAnswer = document.querySelector(".show-answer")
+const hideAnswer = document.querySelector(".hide-answer")
 const retake = document.querySelector(".retake");
 
 
@@ -152,6 +153,7 @@ correct.addEventListener("click", ()  => {
         loadVocabulary();
         englishVocab.classList.remove("show");
         showAnswer.classList.remove('hide');
+        hideAnswer.classList.remove('show');
 
        
     } else {
@@ -164,8 +166,15 @@ correct.addEventListener("click", ()  => {
 loadVocabulary()
 
 showAnswer.addEventListener("click", ()  => {
-    englishVocab.classList.add("show");
-    showAnswer.classList.add('hide');
+    englishVocab.classList.toggle("show");
+    showAnswer.classList.add('hide')
+    hideAnswer.classList.add('show')
+})
+
+hideAnswer.addEventListener("click", ()  => {
+    englishVocab.classList.toggle("show");
+    showAnswer.classList.remove('hide')
+    hideAnswer.classList.remove('show')
 })
 
 
