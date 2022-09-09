@@ -89,6 +89,13 @@ const lessonFive = [
     {"οὐχί, no! ":"(emphatic)"}
 ]
 
+const greekVocab = document.querySelector(".greek-vocabulary")
+const vocabEL = document.querySelector(".container")
+const englishVocab = document.querySelector(".english-vocabulary")
+const correct = document.querySelector(".correct-answer")
+const showAnswer = document.querySelector(".show-answer")
+const retake = document.querySelector(".retake");
+
 
 //add a function that will push every checked input to vocabulary
 
@@ -97,9 +104,13 @@ const lessonOneEl = document.getElementById("lessonOne");
 lessonOneEl.addEventListener('click', () => {
     if(lessonOneEl.checked) {
         console.log("lessons added");
-        vocabulary.push(lessonOne);
+        const addLessonOne = vocabulary.push(lessonOne);
     }
 })
+
+if(vocabulary === "") {
+    greekVocab.innerHTML = 'Select Lesson';
+}
 
 const addLessons = () => {
     console.log("lessons added")
@@ -112,12 +123,7 @@ const combinedVocabs = vocabulary.flat()
 console.log(combinedVocabs)
 
 
-const greekVocab = document.querySelector(".greek-vocabulary")
-const vocabEL = document.querySelector(".container")
-const englishVocab = document.querySelector(".english-vocabulary")
-const correct = document.querySelector(".correct-answer")
-const showAnswer = document.querySelector(".show-answer")
-const retake = document.querySelector(".retake");
+
 
 
 
