@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 80vh;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,34 +14,37 @@ body {
 }
 h1 {
     font-size: 2rem;
-    margin-bottom: 1em;
+    margin: 1em;
 }
 .container {
     width: 500px;
     max-width: 90%;
-    
 }
 
 .main {
-    background-color: wheat;
-    box-shadow: 0 0 10px rgba(0,0,0,0.8);
-    border-radius: 10px;
-    overflow: hidden;
+    height: auto;  
+    margin: 2em auto;
 }
 
 
 .vocabulary {
+    background-color: wheat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 2em .5em .5em .5em;
+    padding: 1rem;
     font-size: 4rem;
 }
 
+.greek-vocabulary {
+    margin: 1rem auto;
+}
 .english-vocabulary {
     display: none;
+    font-size: 2rem;
     margin: .5em;
 }
 
@@ -51,10 +54,14 @@ h1 {
 
 .btn {
     cursor: pointer;
-    padding: 1em;
     font-size: 1.2rem;
     border: none;
     border-radius: 10px;
+
+    margin: .5rem;
+    padding: 1em;
+   
+    
 }
 .show-answer {
     display: block;
@@ -66,15 +73,6 @@ h1 {
 .hide {
     display: none;
 }
-.buttons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgba(0,0,0,0.5);
-    padding: .5em;
-}
-
-
 
 .wrong-answer {
     background-color: red;
@@ -99,7 +97,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
+    height: auto;
     margin-top: 1em;
 }
 
@@ -111,9 +109,8 @@ h1 {
 /*footer*/
 
 footer {
-    position: absolute;
     bottom: 0;
-    margin-bottom: 1em;
+    margin: 2em;
 }
 
 @media only screen and (max-width: 600px) {

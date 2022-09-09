@@ -88,7 +88,7 @@ const lessonFive = [
 ]
 
 const greekVocab = document.querySelector(".greek-vocabulary")
-const vocabEL = document.querySelector(".container")
+const vocabEL = document.querySelector(".main")
 const englishVocab = document.querySelector(".english-vocabulary")
 const correct = document.querySelector(".correct-answer")
 const showAnswer = document.querySelector(".show-answer")
@@ -103,15 +103,15 @@ lessonOneEl.addEventListener('click', () => {
     if(lessonOneEl.checked) {
         console.log("lessons added");
         const addLessonOne = vocabulary.push(lessonOne);
-        console.log(addLessonOne)
+        console.log(addLessonOne[1])
     }
 })
 
 
 
-const addLesson = vocabulary.push(lessonOne)
+// const addLesson = vocabulary.push(lessonOne)
 
-const addLessonTwo = vocabulary.push(lessonTwo)
+// const addLessonTwo = vocabulary.push(lessonTwo)
 
 const combinedVocabs = vocabulary.flat()
 console.log(combinedVocabs)
