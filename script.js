@@ -97,7 +97,7 @@ const lessonOneEl = document.getElementById("lessonOne");
 lessonOneEl.addEventListener('click', () => {
     if(lessonOneEl.checked) {
         console.log("lessons added");
-        vocabulary.push(lessonFive);
+        vocabulary.push(lessonOne);
     }
 })
 
