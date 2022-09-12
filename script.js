@@ -131,11 +131,11 @@ lessonOneEl.addEventListener('click', () => {
 
 
 const addLesson = vocabulary.push(lessonOne)
-// const addLessonTwo = vocabulary.push(lessonTwo)
-// const addLessonThree = vocabulary.push(lessonThree)
-// const addLessonFour = vocabulary.push(lessonFour)
-// const addLessonFive = vocabulary.push(lessonFive)
-// const addLessonSix = vocabulary.push(lessonSix)
+const addLessonTwo = vocabulary.push(lessonTwo)
+const addLessonThree = vocabulary.push(lessonThree)
+const addLessonFour = vocabulary.push(lessonFour)
+const addLessonFive = vocabulary.push(lessonFive)
+const addLessonSix = vocabulary.push(lessonSix)
 console.log(addLesson)
 
 const combinedVocabs = vocabulary.flat()
