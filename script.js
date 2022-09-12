@@ -117,7 +117,7 @@ const currentCountEL = document.querySelector(".current");
 
 
 
-//add a function that will push every checked input to vocabulary
+//add a function that will push every checked input to vocabulary array
 
 const lessonOneEl = document.getElementById("lessonOne");
 
@@ -130,12 +130,13 @@ lessonOneEl.addEventListener('click', () => {
 
 
 
-// const addLesson = vocabulary.push(lessonOne)
+const addLesson = vocabulary.push(lessonOne)
 // const addLessonTwo = vocabulary.push(lessonTwo)
 // const addLessonThree = vocabulary.push(lessonThree)
 // const addLessonFour = vocabulary.push(lessonFour)
 // const addLessonFive = vocabulary.push(lessonFive)
 // const addLessonSix = vocabulary.push(lessonSix)
+console.log(addLesson)
 
 const combinedVocabs = vocabulary.flat()
 console.log(combinedVocabs)
