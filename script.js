@@ -124,19 +124,18 @@ const lessonOneEl = document.getElementById("lessonOne");
 lessonOneEl.addEventListener('click', () => {
     if(lessonOneEl.checked) {
         console.log("lessons added");
-        const addLessonOne = vocabulary.push(lessonOne);
-        console.log(addLessonOne[1])
+        vocabulary.push(lessonOne);
     }
 })
 
 
 
-const addLesson = vocabulary.push(lessonOne)
-const addLessonTwo = vocabulary.push(lessonTwo)
-const addLessonThree = vocabulary.push(lessonThree)
-const addLessonFour = vocabulary.push(lessonFour)
-const addLessonFive = vocabulary.push(lessonFive)
-const addLessonSix = vocabulary.push(lessonSix)
+// const addLesson = vocabulary.push(lessonOne)
+// const addLessonTwo = vocabulary.push(lessonTwo)
+// const addLessonThree = vocabulary.push(lessonThree)
+// const addLessonFour = vocabulary.push(lessonFour)
+// const addLessonFive = vocabulary.push(lessonFive)
+// const addLessonSix = vocabulary.push(lessonSix)
 
 const combinedVocabs = vocabulary.flat()
 console.log(combinedVocabs)
@@ -144,20 +143,22 @@ console.log(combinedVocabs)
 wordCount.innerText = combinedVocabs.length;
 
 
-
-
 let shuffled = combinedVocabs
     .map(value => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value)
 
-
-
 let currentVocab = 0;
-//load vocabulary s
-
 let currentCount = 1;
-currentCountEL.innerText = currentCount;
+
+if(vocabulary == '') {
+    currentCountEL.innerText = 0;
+} else {
+    currentCountEL.innerText = currentCount;
+}
+
+
+
 const loadVocabulary = () => {
     if(vocabulary.length == 0) {
         greekVocab.innerHTML = 'Select Lesson';
@@ -170,7 +171,6 @@ const loadVocabulary = () => {
 
 correct.addEventListener("click", ()  => {
     currentVocab++;
-    console.log(currentVocab + 1)
     currentCountEL.innerText = currentCount + currentVocab;
     if(currentVocab < combinedVocabs.length) {
 
