@@ -113,6 +113,7 @@ const showAnswer = document.querySelector(".show-answer")
 const hideAnswer = document.querySelector(".hide-answer")
 const retake = document.querySelector(".retake");
 const wordCount = document.querySelector(".count");
+const currentCountEL = document.querySelector(".current");
 
 
 
@@ -155,8 +156,8 @@ let shuffled = combinedVocabs
 let currentVocab = 0;
 //load vocabulary s
 
-
-
+let currentCount = 1;
+currentCountEL.innerText = currentCount;
 const loadVocabulary = () => {
     if(vocabulary.length == 0) {
         greekVocab.innerHTML = 'Select Lesson';
@@ -169,8 +170,8 @@ const loadVocabulary = () => {
 
 correct.addEventListener("click", ()  => {
     currentVocab++;
-   
-
+    console.log(currentVocab + 1)
+    currentCountEL.innerText = currentCount + currentVocab;
     if(currentVocab < combinedVocabs.length) {
 
         loadVocabulary();
