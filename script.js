@@ -104,6 +104,25 @@ const lessonSix = [
     {"πληρόω" : "I fill, fulfill, complete"}
 ]
 
+const lessonSeven = [
+    {"ἀπό" : "from, away from (gen)"},
+    {"διά" : "through (gen); because of (acc) 	(diameter)"},
+    {"εἰς" : "into, among, for (acc) (eisegesis)"},
+    {"ἐκ" :"from, out of (gen) (exhale, exegesis)"},
+    {"ἐν" : "in, on, at, by, with (dat)"},
+    {"ἐπί" : "on, upon, over (gen); on, upon, at, in (dat); on, upon, to, for (acc) (epigraph)"},
+    {"κατά" : "down, against (gen); according to (acc) (cataphoric)"},
+    {"μετά" : "with, among (gen); after (acc) "},
+    {"παρά" : "from (gen); with (dat); beside, on, at 	(acc) (parable, paramedic)"},
+    {"περί" : "about, concerning (gen); around (acc) (perimeter)"},
+    {"πρός" : "to, toward (acc) (prosthesis)"},
+    {"σύν" : "with (dat) (syntax)"},
+    {"ὑπέρ" : "for, on behalf of (gen); above, beyond (acc) (hypercritical, hyperactive)"},
+    {"ὑπό" : "by (gen); under, below (acc) (hypotaxis, hypothesis)"},
+    {"ἐνώπιον" : "before, in the presence of"}
+
+]
+
 
 const greekVocab = document.querySelector(".greek-vocabulary")
 const vocabEL = document.querySelector(".main")
