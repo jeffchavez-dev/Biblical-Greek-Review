@@ -153,32 +153,38 @@ let currentCount = 1;
 
 lessonOneEl.addEventListener('click', () => {
     addNewLessonOne();
-    // lessonOneEl.classList.add("hide");
+    lessonOneEl.classList.add("hide");
     console.log("Great!")
 })
 
 lessonTwoEl.addEventListener('click', () => {
     addNewLessonTwo();
+    lessonTwoEl.classList.add("hide");
 })
 
 lessonThreeEl.addEventListener('click', () => {
     addNewLessonThree();
+    lessonThreeEl.classList.add("hide");
 })
 
 lessonFourEl.addEventListener('click', () => {
     addNewLessonFour();
+    lessonFourEl.classList.add("hide");
 })
 
 lessonFiveEl.addEventListener('click', () => {
     addNewLessonFive();
+    lessonFiveEl.classList.add("hide");
 })
 
 lessonSixEl.addEventListener('click', () => {
     addNewLessonSix();
+    lessonSixEl.classList.add("hide");
 })
 
 lessonSevenEl.addEventListener('click', () => {
     addNewLessonSeven();
+    lessonSevenEl.classList.add("hide");
 });
 
 
