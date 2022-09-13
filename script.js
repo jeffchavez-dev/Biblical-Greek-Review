@@ -153,6 +153,7 @@ let currentCount = 1;
 
 lessonOneEl.addEventListener('click', () => {
     addNewLessonOne();
+    // lessonOneEl.classList.add("hide");
     console.log("Great!")
 })
 
