@@ -287,7 +287,7 @@ function loadVocabulary() {
     } else {
         greekVocab.innerHTML = Object.keys(vocabulary[currentVocab]);
         // greekVocab.innerText = Object.keys(combinedVocabs[currentVocab]);
-        // englishVocab.innerHTML = shuffled[currentVocab][Object.keys(shuffled[currentVocab])]
+        englishVocab.innerHTML = vocabulary[currentVocab][Object.keys(vocabulary[currentVocab])]
     }
    
 }
