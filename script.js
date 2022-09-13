@@ -131,6 +131,7 @@ const correct = document.querySelector(".correct-answer")
 const showAnswer = document.querySelector(".show-answer")
 const hideAnswer = document.querySelector(".hide-answer")
 const retake = document.querySelector(".retake");
+const reset = document.querySelector(".reset");
 const wordCount = document.querySelector(".totalCount");
 const currentCountEL = document.querySelector(".current");
 const checkboxes = document.getElementsByName("lessons");
@@ -337,4 +338,7 @@ retake.addEventListener("click", () => {
     location.reload();
 })
 
+reset.addEventListener("click", () => {
+    location.reload();
+})
 
