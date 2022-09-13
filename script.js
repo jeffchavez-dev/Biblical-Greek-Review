@@ -155,6 +155,7 @@ const addLessonThree = vocabulary.push(lessonThree)
 const addLessonFour = vocabulary.push(lessonFour)
 const addLessonFive = vocabulary.push(lessonFive)
 const addLessonSix = vocabulary.push(lessonSix)
+const addLessonSeven = vocabulary.push(lessonSeven)
 console.log(addLesson)
 
 const combinedVocabs = vocabulary.flat()
