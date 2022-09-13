@@ -1,4 +1,4 @@
-let vocabulary = [];
+const vocabulary = [];
 const lessonOne = [
     {"ἀγάπη, ἡ": "love"},
     {"γῆ ἡ": "earth, land, ground (geology)"},
@@ -131,61 +131,163 @@ const correct = document.querySelector(".correct-answer")
 const showAnswer = document.querySelector(".show-answer")
 const hideAnswer = document.querySelector(".hide-answer")
 const retake = document.querySelector(".retake");
-const wordCount = document.querySelector(".count");
+const wordCount = document.querySelector(".totalCount");
 const currentCountEL = document.querySelector(".current");
+const checkboxes = document.getElementsByName("lessons");
 
 
 
 //add a function that will push every checked input to vocabulary array
 
 const lessonOneEl = document.getElementById("lessonOne");
-
-lessonOneEl.addEventListener('click', () => {
-    if(lessonOneEl.checked) {
-        console.log("lessons added");
-        vocabulary.push(lessonOne);
-    }
-})
-
-
-
-const addLesson = vocabulary.push(lessonOne)
-const addLessonTwo = vocabulary.push(lessonTwo)
-const addLessonThree = vocabulary.push(lessonThree)
-const addLessonFour = vocabulary.push(lessonFour)
-const addLessonFive = vocabulary.push(lessonFive)
-const addLessonSix = vocabulary.push(lessonSix)
-const addLessonSeven = vocabulary.push(lessonSeven)
-console.log(addLesson)
-
-const combinedVocabs = vocabulary.flat()
-console.log(combinedVocabs)
-
-wordCount.innerText = combinedVocabs.length;
-
-
-let shuffled = combinedVocabs
-    .map(value => ({ value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ value }) => value)
+const lessonTwoEl = document.getElementById("lessonTwo");
+const lessonThreeEl = document.getElementById("lessonThree");
+const lessonFourEl = document.getElementById("lessonFour");
+const lessonFiveEl = document.getElementById("lessonFive");
+const lessonSixEl = document.getElementById("lessonSix");
+const lessonSevenEl = document.getElementById("lessonSeven");
 
 let currentVocab = 0;
 let currentCount = 1;
 
-if(vocabulary == '') {
-    currentCountEL.innerText = 0;
-} else {
-    currentCountEL.innerText = currentCount;
+
+lessonOneEl.addEventListener('click', () => {
+    addNewLessonOne();
+    console.log("Great!")
+})
+
+lessonTwoEl.addEventListener('click', () => {
+    addNewLessonTwo();
+})
+
+lessonThreeEl.addEventListener('click', () => {
+    addNewLessonThree();
+})
+
+lessonFourEl.addEventListener('click', () => {
+    addNewLessonFour();
+})
+
+lessonFiveEl.addEventListener('click', () => {
+    addNewLessonFive();
+})
+
+lessonSixEl.addEventListener('click', () => {
+    addNewLessonSix();
+})
+
+lessonSevenEl.addEventListener('click', () => {
+    addNewLessonSeven();
+});
+
+
+function addNewLessonOne() {
+    if(lessonOneEl.checked) {
+        vocabulary.push(...lessonOne);
+        // vocabulary.concat(lessonTwo);
+        loadReview()
+    } 
+    if(!lessonOneEl.checked) {
+        vocabulary.shift(lessonOne);
+        // vocabulary.concat(lessonTwo);
+        loadReview()
+    } 
+
+}
+function addNewLessonTwo() {
+    if(lessonTwoEl.checked) {
+        vocabulary.push(...lessonTwo);
+        // vocabulary.concat(lessonTwo);
+        loadReview()
+    }
+}
+function addNewLessonThree() {
+    if(lessonThreeEl.checked) {
+        vocabulary.push(...lessonThree);
+        // vocabulary.concat(lessonTwo);
+        loadReview()
+    }
+}
+function addNewLessonFour() {
+    if(lessonFourEl.checked) {
+        vocabulary.push(...lessonFour);
+        // vocabulary.concat(lessonTwo);
+        loadReview()
+    }
+}
+function addNewLessonFive() {
+    if(lessonFiveEl.checked) {
+        vocabulary.push(...lessonFive);
+        // vocabulary.concat(lessonTwo);
+        loadReview()
+    }
+}
+
+function addNewLessonSix() {
+    if(lessonSixEl.checked) {
+        vocabulary.push(...lessonSix);
+        // vocabulary.concat(lessonTwo);
+        loadReview()
+    }
+}
+
+function addNewLessonSeven() {
+    if(lessonSevenEl.checked) {
+        vocabulary.push(...lessonSeven);
+        // vocabulary.concat(lessonTwo);
+        loadReview()
+    }
 }
 
 
 
-const loadVocabulary = () => {
-    if(vocabulary.length == 0) {
-        greekVocab.innerHTML = 'Select Lesson';
+
+
+
+function loadReview() {
+    loadVocabulary()
+    if(vocabulary == '') {
+        currentCountEL.innerText = 0;
     } else {
-        greekVocab.innerHTML = Object.keys(shuffled[currentVocab]);
-        englishVocab.innerHTML = shuffled[currentVocab][Object.keys(shuffled[currentVocab])]
+        currentCountEL.innerText = currentCount;
+    }
+    wordCount.innerText = vocabulary.length;
+}
+
+
+
+// function addLEssons() {
+//     checkboxes.forEach(item => {
+//         if(item.checked) {
+//             console.log("Great!");
+//         }
+       
+//     })
+// }
+
+// addLEssons()
+
+
+
+
+
+
+let shuffled = vocabulary
+    .map(value => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value)
+
+
+
+
+
+function loadVocabulary() {
+    if(vocabulary.length == 0) {
+        greekVocab.innerHTML = 'Select lesson/s';
+    } else {
+        greekVocab.innerHTML = Object.keys(vocabulary[currentVocab]);
+        // greekVocab.innerText = Object.keys(combinedVocabs[currentVocab]);
+        // englishVocab.innerHTML = shuffled[currentVocab][Object.keys(shuffled[currentVocab])]
     }
    
 }
@@ -193,7 +295,7 @@ const loadVocabulary = () => {
 correct.addEventListener("click", ()  => {
     currentVocab++;
     currentCountEL.innerText = currentCount + currentVocab;
-    if(currentVocab < combinedVocabs.length) {
+    if(currentVocab < vocabulary.length) {
 
         loadVocabulary();
         englishVocab.classList.remove("show");
