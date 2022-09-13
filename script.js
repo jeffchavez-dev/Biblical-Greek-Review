@@ -45,9 +45,9 @@ const lessonThree = [
     {"λύω ": "I loose, destroy"},
     {"πιστεύω ": "I believe, have faith/trust in"},
     {"γίνομαι ": "I become, come, exist, am born"},
-    {"ἔρχομαι ": "I come, go16"},
+    {"ἔρχομαι ": "I come, go"},
     {"πορεύομαι ": "I go, travel"},
-    {"ἀλλά ": "18 but, yet, nevertheless"},
+    {"ἀλλά ": "but, yet, nevertheless"},
     {"ὅτι": " that, because"}
 ]
 const lessonFour = [
