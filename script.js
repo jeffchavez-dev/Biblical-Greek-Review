@@ -135,8 +135,6 @@ const englishVocab = document.querySelector(".english-vocabulary")
 const correct = document.querySelector(".correct-answer")
 const showAnswer = document.querySelector(".show-answer")
 const hideAnswer = document.querySelector(".hide-answer")
-const retake = document.querySelector(".retake");
-const reset = document.querySelector(".reset");
 const switchVocab = document.querySelector(".switch");
 const reviewNow = document.querySelector(".review-now");
 const wordCount = document.querySelector(".totalCount");
@@ -369,17 +367,4 @@ reviewNow.addEventListener('click', () => {
     }
  
 })
-
-// const goBack = document.querySelector(".goBack");
-// goBack.addEventListener('click', () => {
-//     window.history.back();
-// })
-
-retake.addEventListener("click", () => {
-    location.reload();
-})
-
-// reset.addEventListener("click", () => {
-//     location.reload();
-// })
 
