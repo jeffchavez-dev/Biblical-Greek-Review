@@ -20,6 +20,20 @@ h1 {
     max-width: 90%;
 }
 
+/* .love-greek {
+    background-image: url(/AA.PNG);
+    opacity: .5;
+} */
+.main-review {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+
+    padding: .8em 1em;
+}
 .main {
     display: none;
     height: auto;  
@@ -77,8 +91,7 @@ h1 {
     border: none;
     border-radius: 10px;
     padding: 1em;
-   
-    
+
 }
 .show-answer, .hide-answer {
     display: block;
@@ -119,11 +132,22 @@ h1 {
     display: block;
 }
 /*Lessons*/
+
+.lesson-section {
+    display: none;
+    margin: auto;
+}
+
+
 .lessons {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.show-lesson {
+    display: flex;
 }
 .lessons-list {
     cursor: pointer;

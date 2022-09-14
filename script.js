@@ -123,6 +123,10 @@ const lessonSeven = [
 
 ]
 
+const mainReview = document.querySelector(".main-review")
+const reviewVocabs = document.querySelector(".vocabulary-review")
+const reviewParadigm = document.querySelector(".paradigm-review")
+const lessonSection = document.querySelector(".lesson-section")
 
 const greekVocab = document.querySelector(".greek-vocabulary")
 const vocabEL = document.querySelector(".main")
@@ -133,6 +137,7 @@ const showAnswer = document.querySelector(".show-answer")
 const hideAnswer = document.querySelector(".hide-answer")
 const retake = document.querySelector(".retake");
 const reset = document.querySelector(".reset");
+const switchVocab = document.querySelector(".switch");
 const reviewNow = document.querySelector(".review-now");
 const wordCount = document.querySelector(".totalCount");
 const currentCountEL = document.querySelector(".current");
@@ -161,7 +166,10 @@ const toReview = document.querySelector(".toReview");
 let currentVocab = 0;
 let currentCount = 1;
 
-
+reviewVocabs.addEventListener('click', () => {
+    mainReview.classList.add("hide");
+    lessonSection.classList.add("show-lesson")
+})
 lessonOneBtn.addEventListener('click', () => {
     addNewLessonOne();    
     lessonOneEl.classList.add("hide")
@@ -316,7 +324,6 @@ function loadVocabulary() {
         // greekVocab.innerText = Object.keys(combinedVocabs[currentVocab]);
         englishVocab.innerHTML = vocabulary[currentVocab][Object.keys(vocabulary[currentVocab])]
     }
-   
 }
 
 correct.addEventListener("click", ()  => {
