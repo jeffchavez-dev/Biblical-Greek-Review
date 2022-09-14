@@ -218,6 +218,7 @@ lessonSixBtn.addEventListener('click', () => {
 
 lessonSevenBtn.addEventListener('click', () => {
     addNewLessonSeven();
+    lessonSevenEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "LESSON 7";
     review.classList.add('lesson-added');
