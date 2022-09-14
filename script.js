@@ -143,6 +143,7 @@ const checkboxes = document.getElementsByName("lessons");
 //add a function that will push every checked input to vocabulary array
 
 const lessonOneEl = document.getElementById("lessonOne");
+const toReview = document.querySelector(".toReview");
 const lessonTwoEl = document.getElementById("lessonTwo");
 const lessonThreeEl = document.getElementById("lessonThree");
 const lessonFourEl = document.getElementById("lessonFour");
@@ -155,14 +156,20 @@ let currentCount = 1;
 
 
 lessonOneEl.addEventListener('click', () => {
-    addNewLessonOne();
-    lessonOneEl.classList.add("hide");
-    console.log("Great!")
+    addNewLessonOne();    
+    const review = document.createElement("div")
+    review.innerHTML = "LESSON 1";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
 })
 
 lessonTwoEl.addEventListener('click', () => {
     addNewLessonTwo();
     lessonTwoEl.classList.add("hide");
+    const review = document.createElement("div")
+    review.innerHTML = "LESSON 2";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
 })
 
 lessonThreeEl.addEventListener('click', () => {

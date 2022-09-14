@@ -126,6 +126,7 @@ h1 {
     align-items: center;
 }
 .lessons-list {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -137,9 +138,10 @@ h1 {
 
 .lesson {
     display: block;
+    cursor: pointer;
     font-size: 1.5em;
     background-color: wheat;
-    padding: 10px;
+    padding: 1rem;
     margin: .5rem;
     border-radius: 10px;
 }
@@ -149,8 +151,26 @@ h1 {
     transition:all ease-in-out .3s;
 }
 
+.toReview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5em;
+}
+.lesson-added {
+    background-color: rgb(177, 113, 240);
+    color: white;
+    border-radius: 5px;
+    padding: .3em .5em;
+    font-size: .6em;
+}
+input {
+    display: none;
+}
+
 .hide {
     display: none;
+    pointer-events: none
 }
 
 .review-now {
