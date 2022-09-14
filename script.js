@@ -336,6 +336,7 @@ correct.addEventListener("click", ()  => {
     } else {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
+        reset.classList.remove('show');
     }
 
 })
