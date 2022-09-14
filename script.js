@@ -284,9 +284,6 @@ function addNewLessonSeven() {
 
 
 
-
-const myVocabs = []
-
 function loadReview() {
     // myVocabs.push(...vocabulary)
     vocabulary.sort(() => Math.random() - 0.5);
