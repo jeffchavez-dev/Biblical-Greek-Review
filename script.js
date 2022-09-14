@@ -165,7 +165,6 @@ lessonOneEl.addEventListener('click', () => {
 
 lessonTwoEl.addEventListener('click', () => {
     addNewLessonTwo();
-    lessonTwoEl.classList.add("hide");
     const review = document.createElement("div")
     review.innerHTML = "LESSON 2";
     review.classList.add('lesson-added');
@@ -174,27 +173,42 @@ lessonTwoEl.addEventListener('click', () => {
 
 lessonThreeEl.addEventListener('click', () => {
     addNewLessonThree();
-    lessonThreeEl.classList.add("hide");
+    const review = document.createElement("div")
+    review.innerHTML = "LESSON 3";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
 })
 
 lessonFourEl.addEventListener('click', () => {
     addNewLessonFour();
-    lessonFourEl.classList.add("hide");
+    const review = document.createElement("div")
+    review.innerHTML = "LESSON 4";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
 })
 
 lessonFiveEl.addEventListener('click', () => {
     addNewLessonFive();
-    lessonFiveEl.classList.add("hide");
+    const review = document.createElement("div")
+    review.innerHTML = "LESSON 5";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
 })
 
 lessonSixEl.addEventListener('click', () => {
     addNewLessonSix();
-    lessonSixEl.classList.add("hide");
+    const review = document.createElement("div")
+    review.innerHTML = "LESSON 6";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
 })
 
 lessonSevenEl.addEventListener('click', () => {
     addNewLessonSeven();
-    lessonSevenEl.classList.add("hide");
+    const review = document.createElement("div")
+    review.innerHTML = "LESSON 7";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
 });
 
 
