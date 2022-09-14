@@ -231,6 +231,7 @@ function addNewLessonOne() {
         vocabulary.push(...lessonOne);
         // vocabulary.concat(lessonTwo);
         loadReview()
+       
     } 
 
 }
@@ -239,8 +240,10 @@ function addNewLessonTwo() {
         vocabulary.push(...lessonTwo);
         // vocabulary.concat(lessonTwo);
         loadReview()
-    }
+        
+    } 
 }
+
 function addNewLessonThree() {
     if(lessonThreeBtn.checked) {
         vocabulary.push(...lessonThree);
@@ -282,9 +285,11 @@ function addNewLessonSeven() {
 
 
 
-
+const myVocabs = []
 
 function loadReview() {
+    // myVocabs.push(...vocabulary)
+    vocabulary.sort(() => Math.random() - 0.5);
     loadVocabulary()
     if(vocabulary == '') {
         currentCountEL.innerText = 0;
@@ -312,12 +317,10 @@ function loadReview() {
 
 
 
-let shuffled = vocabulary
-    .map(value => ({ value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ value }) => value)
-
-
+// let shuffled = vocabulary
+//     .map(value => ({ value, sort: Math.random() }))
+//     .sort((a, b) => a.sort - b.sort)
+//     .map(({ value }) => value)
 
 
 
