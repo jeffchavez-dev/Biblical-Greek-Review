@@ -126,12 +126,14 @@ const lessonSeven = [
 
 const greekVocab = document.querySelector(".greek-vocabulary")
 const vocabEL = document.querySelector(".main")
+const lessonsEL = document.querySelector(".lessons")
 const englishVocab = document.querySelector(".english-vocabulary")
 const correct = document.querySelector(".correct-answer")
 const showAnswer = document.querySelector(".show-answer")
 const hideAnswer = document.querySelector(".hide-answer")
 const retake = document.querySelector(".retake");
 const reset = document.querySelector(".reset");
+const reviewNow = document.querySelector(".review-now");
 const wordCount = document.querySelector(".totalCount");
 const currentCountEL = document.querySelector(".current");
 const checkboxes = document.getElementsByName("lessons");
@@ -332,7 +334,16 @@ hideAnswer.addEventListener("click", ()  => {
     hideAnswer.classList.remove('show')
 })
 
-
+reviewNow.addEventListener('click', () => {
+    if(vocabulary == '') {
+        alert('choose lessons')
+    } else {
+        vocabEL.classList.add("show");
+        lessonsEL.classList.add('hide')
+        reset.classList.add('show');
+    }
+ 
+})
 
 retake.addEventListener("click", () => {
     location.reload();

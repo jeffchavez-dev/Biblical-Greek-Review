@@ -21,6 +21,7 @@ h1 {
 }
 
 .main {
+    display: none;
     height: auto;  
     margin: 2em auto;
 }
@@ -109,6 +110,11 @@ h1 {
     display: none;
 }
 
+.reset {
+    display: none;
+    margin: 0 auto;
+}
+
 .show {
     display: block;
 }
@@ -116,6 +122,12 @@ h1 {
 .lessons {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lessons-list {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -126,9 +138,30 @@ h1 {
 .lesson {
     display: block;
     font-size: 1.5em;
+    background-color: wheat;
+    padding: 10px;
+    margin: .5rem;
+    border-radius: 10px;
+}
+
+.lesson:hover {
+    transform: scale(1.1);
+    transition:all ease-in-out .3s;
+}
+
+.hide {
+    display: none;
+}
+
+.review-now {
+    background-color: aquamarine;
+    margin: 1em
 }
 /*footer*/
 
+h2 {
+    text-transform: uppercase;
+}
 footer {
     margin-top: 2rem;
     padding: 2em;
