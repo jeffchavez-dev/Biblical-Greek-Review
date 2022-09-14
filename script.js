@@ -310,19 +310,6 @@ function loadReview() {
 //     })
 // }
 
-// addLEssons()
-
-
-
-
-
-
-// let shuffled = vocabulary
-//     .map(value => ({ value, sort: Math.random() }))
-//     .sort((a, b) => a.sort - b.sort)
-//     .map(({ value }) => value)
-
-
 
 function loadVocabulary() {
     if(vocabulary.length == 0) {

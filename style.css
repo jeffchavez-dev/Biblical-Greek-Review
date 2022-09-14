@@ -111,7 +111,7 @@ h1 {
 }
 
 .reset {
-    display: block;
+    display: none;
     margin: 0 auto;
 }
 
