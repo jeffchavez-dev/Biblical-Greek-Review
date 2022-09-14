@@ -370,16 +370,16 @@ reviewNow.addEventListener('click', () => {
  
 })
 
-const goBack = document.querySelector(".goBack");
-goBack.addEventListener('click', () => {
-    history.back();
-})
+// const goBack = document.querySelector(".goBack");
+// goBack.addEventListener('click', () => {
+//     window.history.back();
+// })
 
 retake.addEventListener("click", () => {
     location.reload();
 })
 
-reset.addEventListener("click", () => {
-    location.reload();
-})
+// reset.addEventListener("click", () => {
+//     location.reload();
+// })
 
