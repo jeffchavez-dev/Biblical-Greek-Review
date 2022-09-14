@@ -147,6 +147,7 @@ h1 {
 
 .lessons {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -215,6 +216,12 @@ input {
     margin: 1em;
 }
 
+.goBack {
+    padding: .3rem .5rem;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
 /*footer*/
 
 h2 {
