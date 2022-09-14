@@ -142,68 +142,81 @@ const checkboxes = document.getElementsByName("lessons");
 
 //add a function that will push every checked input to vocabulary array
 
-const lessonOneEl = document.getElementById("lessonOne");
+const lessonOneBtn = document.getElementById("lessonOne");
+const lessonOneEl = document.getElementById("lesson-one");
+const lessonTwoBtn = document.getElementById("lessonTwo");
+const lessonTwoEl = document.getElementById("lesson-two");
+const lessonThreeBtn = document.getElementById("lessonThree");
+const lessonThreeEl = document.getElementById("lesson-three");
+const lessonFourBtn = document.getElementById("lessonFour");
+const lessonFourEl = document.getElementById("lesson-four");
+const lessonFiveBtn = document.getElementById("lessonFive");
+const lessonFiveEl = document.getElementById("lesson-five");
+const lessonSixBtn = document.getElementById("lessonSix");
+const lessonSixEl = document.getElementById("lesson-six");
+const lessonSevenBtn = document.getElementById("lessonSeven");
+const lessonSevenEl = document.getElementById("lesson-seven");
 const toReview = document.querySelector(".toReview");
-const lessonTwoEl = document.getElementById("lessonTwo");
-const lessonThreeEl = document.getElementById("lessonThree");
-const lessonFourEl = document.getElementById("lessonFour");
-const lessonFiveEl = document.getElementById("lessonFive");
-const lessonSixEl = document.getElementById("lessonSix");
-const lessonSevenEl = document.getElementById("lessonSeven");
 
 let currentVocab = 0;
 let currentCount = 1;
 
 
-lessonOneEl.addEventListener('click', () => {
+lessonOneBtn.addEventListener('click', () => {
     addNewLessonOne();    
+    lessonOneEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "LESSON 1";
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 })
 
-lessonTwoEl.addEventListener('click', () => {
+lessonTwoBtn.addEventListener('click', () => {
     addNewLessonTwo();
+    lessonTwoEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "LESSON 2";
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 })
 
-lessonThreeEl.addEventListener('click', () => {
+lessonThreeBtn.addEventListener('click', () => {
     addNewLessonThree();
+    lessonThreeEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "LESSON 3";
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 })
 
-lessonFourEl.addEventListener('click', () => {
+lessonFourBtn.addEventListener('click', () => {
     addNewLessonFour();
+    lessonFourEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "LESSON 4";
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 })
 
-lessonFiveEl.addEventListener('click', () => {
+lessonFiveBtn.addEventListener('click', () => {
     addNewLessonFive();
+    lessonFiveEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "LESSON 5";
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 })
 
-lessonSixEl.addEventListener('click', () => {
+lessonSixBtn.addEventListener('click', () => {
     addNewLessonSix();
+    lessonSixEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "LESSON 6";
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 })
 
-lessonSevenEl.addEventListener('click', () => {
+lessonSevenBtn.addEventListener('click', () => {
     addNewLessonSeven();
     const review = document.createElement("div")
     review.innerHTML = "LESSON 7";
@@ -213,41 +226,36 @@ lessonSevenEl.addEventListener('click', () => {
 
 
 function addNewLessonOne() {
-    if(lessonOneEl.checked) {
+    if(lessonOneBtn.checked) {
         vocabulary.push(...lessonOne);
-        // vocabulary.concat(lessonTwo);
-        loadReview()
-    } 
-    if(!lessonOneEl.checked) {
-        vocabulary.shift(lessonOne);
         // vocabulary.concat(lessonTwo);
         loadReview()
     } 
 
 }
 function addNewLessonTwo() {
-    if(lessonTwoEl.checked) {
+    if(lessonTwoBtn.checked) {
         vocabulary.push(...lessonTwo);
         // vocabulary.concat(lessonTwo);
         loadReview()
     }
 }
 function addNewLessonThree() {
-    if(lessonThreeEl.checked) {
+    if(lessonThreeBtn.checked) {
         vocabulary.push(...lessonThree);
         // vocabulary.concat(lessonTwo);
         loadReview()
     }
 }
 function addNewLessonFour() {
-    if(lessonFourEl.checked) {
+    if(lessonFourBtn.checked) {
         vocabulary.push(...lessonFour);
         // vocabulary.concat(lessonTwo);
         loadReview()
     }
 }
 function addNewLessonFive() {
-    if(lessonFiveEl.checked) {
+    if(lessonFiveBtn.checked) {
         vocabulary.push(...lessonFive);
         // vocabulary.concat(lessonTwo);
         loadReview()
@@ -255,7 +263,7 @@ function addNewLessonFive() {
 }
 
 function addNewLessonSix() {
-    if(lessonSixEl.checked) {
+    if(lessonSixBtn.checked) {
         vocabulary.push(...lessonSix);
         // vocabulary.concat(lessonTwo);
         loadReview()
@@ -263,7 +271,7 @@ function addNewLessonSix() {
 }
 
 function addNewLessonSeven() {
-    if(lessonSevenEl.checked) {
+    if(lessonSevenBtn.checked) {
         vocabulary.push(...lessonSeven);
         // vocabulary.concat(lessonTwo);
         loadReview()
