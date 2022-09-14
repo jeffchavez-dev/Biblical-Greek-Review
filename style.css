@@ -183,15 +183,7 @@ h1 {
     transition: all ease-in-out .3s;
 }
 
-.toReview {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: .5em;
-    margin-top: 1em;
-}
+
 
 .lesson-added {
     background-color: rgb(177, 113, 240);
@@ -210,6 +202,17 @@ input {
     pointer-events: none
 }
 
+.toReview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5em;
+    margin-top: 1em;
+    max-width: 50%;
+}
+
 .review-now {
     font-size: 1.5em;
     background-color: aquamarine;
@@ -219,9 +222,8 @@ input {
 
 .goBack {
     padding: .3rem .5rem;
-    position: absolute;
-    bottom: 0;
-    left: 15px;
+    margin-top: 1em;
+    align-self: flex-start;
 }
 /*footer*/
 
