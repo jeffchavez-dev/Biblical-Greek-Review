@@ -133,9 +133,11 @@ const vocabEL = document.querySelector(".main")
 const lessonsEL = document.querySelector(".lessons")
 const englishVocab = document.querySelector(".english-vocabulary")
 const correct = document.querySelector(".correct-answer")
+const wrongAnswer = document.querySelector(".wrong-answer")
 const showAnswer = document.querySelector(".show-answer")
 const hideAnswer = document.querySelector(".hide-answer")
 const retake = document.querySelector(".retake");
+const reviewWrongAnswers = document.querySelector(".reviewWrongAnswers");
 const reset = document.querySelector(".reset");
 const switchVocab = document.querySelector(".switch");
 const reviewNow = document.querySelector(".review-now");
@@ -163,8 +165,7 @@ const lessonSevenBtn = document.getElementById("lessonSeven");
 const lessonSevenEl = document.getElementById("lesson-seven");
 const toReview = document.querySelector(".toReview");
 
-let currentVocab = 0;
-let currentCount = 1;
+
 
 reviewVocabs.addEventListener('click', () => {
     mainReview.classList.add("hide");
@@ -290,8 +291,11 @@ function addNewLessonSeven() {
     }
 }
 
+let currentVocab = 0;
+let currentCount = 1;
 
 
+// function that randomizes the vocabulary
 function loadReview() {
     // myVocabs.push(...vocabulary)
     vocabulary.sort(() => Math.random() - 0.5);
@@ -325,8 +329,36 @@ function loadVocabulary() {
         englishVocab.innerHTML = vocabulary[currentVocab][Object.keys(vocabulary[currentVocab])]
     }
 }
+const wrongVocabs = [];
+
+
 
 correct.addEventListener("click", ()  => {
+    currentVocab++;
+    currentCountEL.innerText = currentCount + currentVocab;
+    if(currentVocab < vocabulary.length) {
+        loadVocabulary();
+        englishVocab.classList.remove("show");
+        showAnswer.classList.remove('hide');
+        hideAnswer.classList.remove('show');
+    } else if(wrongVocabs != '') {
+        vocabulary.length = 0;
+        currentCount = 1;
+        currentVocab = 0;
+        retake.classList.add('show');
+        reviewWrongAnswers.classList.add('show');
+        vocabEL.classList.add('hide')
+        reset.classList.remove('show');
+    } else {
+        retake.classList.add('show');
+        vocabEL.classList.add('hide')
+        reset.classList.remove('show');
+    }
+
+})
+
+wrongAnswer.addEventListener('click', () => {
+    wrongVocabs.push(vocabulary[currentVocab]);
     currentVocab++;
     currentCountEL.innerText = currentCount + currentVocab;
     if(currentVocab < vocabulary.length) {
@@ -336,7 +368,55 @@ correct.addEventListener("click", ()  => {
         showAnswer.classList.remove('hide');
         hideAnswer.classList.remove('show');
 
-       
+    } else if(wrongVocabs != '') {
+        vocabulary.length = 0;
+        currentCount = 1;
+        currentVocab = 0;
+        retake.classList.add('show');
+        reviewWrongAnswers.classList.add('show');
+        vocabEL.classList.add('hide')
+        reset.classList.remove('show');
+    } else {
+        retake.classList.add('show');
+        vocabEL.classList.add('hide')
+        reset.classList.remove('show');
+    }
+    
+})
+
+
+// Review of wrong answers page 
+
+const nextReview = document.querySelector(".next-review");
+
+
+reviewWrongAnswers.addEventListener('click', () => {
+    wordCount.innerText = wrongVocabs.length;
+    currentCountEL.innerText = currentCount;
+    vocabEL.classList.remove("hide");
+    wrongAnswer.classList.add('hide');
+    correct.classList.add('hide');
+    retake.classList.remove('show');
+    reviewWrongAnswers.classList.remove('show');
+    nextReview.classList.add("show-nextReview");
+    wrongVocabsReview()
+
+})
+
+function wrongVocabsReview() {
+    greekVocab.innerHTML = Object.keys(wrongVocabs[currentVocab]);
+    console.log(wrongVocabs);
+    englishVocab.innerHTML = wrongVocabs[currentVocab][Object.keys(wrongVocabs[currentVocab])]
+}
+
+nextReview.addEventListener('click', () => {
+    currentVocab++;
+    currentCountEL.innerText = currentCount + currentVocab;
+    if(currentVocab < wrongVocabs.length) {
+        wrongVocabsReview()
+        englishVocab.classList.remove("show");
+        showAnswer.classList.remove('hide');
+        hideAnswer.classList.remove('show');
     } else {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
@@ -344,6 +424,8 @@ correct.addEventListener("click", ()  => {
     }
 
 })
+
+
 
 loadVocabulary()
 
