@@ -416,7 +416,8 @@ nextReview.addEventListener('click', () => {
         vocabEL.classList.add('hide')
         reset.classList.remove('show');
         const finished = document.createElement('div');
-        finished.innerText = `GREAT JOB!`
+        finished.innerText = `GREAT JOB!`;
+        
         finishedEl.appendChild(finished)
 
     }
