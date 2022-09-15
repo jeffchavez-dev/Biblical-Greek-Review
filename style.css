@@ -267,7 +267,7 @@ footer {
         font-size: .8rem;
     }
 
-    .wrong-answer, .show-answer, .correct-answer, .next-review {
+    .wrong-answer, .show-answer, .correct-answer, .next-review, .hide-answer {
         font-size: .8rem;
     }
 }
