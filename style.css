@@ -251,6 +251,12 @@ h2 {
     opacity: .7;
 }
 
+.finished {
+    font-size: 3rem;
+    color: green;
+    opacity: 1;
+}
+
 footer {
     margin-top: 2rem;
     padding: 2em;

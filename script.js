@@ -345,14 +345,11 @@ correct.addEventListener("click", ()  => {
         vocabulary.length = 0;
         currentCount = 1;
         currentVocab = 0;
-        retake.classList.add('show');
         reviewWrongAnswers.classList.add('show');
         vocabEL.classList.add('hide')
-        reset.classList.remove('show');
     } else {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
-        reset.classList.remove('show');
     }
 
 })
@@ -372,14 +369,11 @@ wrongAnswer.addEventListener('click', () => {
         vocabulary.length = 0;
         currentCount = 1;
         currentVocab = 0;
-        retake.classList.add('show');
         reviewWrongAnswers.classList.add('show');
         vocabEL.classList.add('hide')
-        reset.classList.remove('show');
     } else {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
-        reset.classList.remove('show');
     }
     
 })
@@ -408,6 +402,7 @@ function wrongVocabsReview() {
     englishVocab.innerHTML = wrongVocabs[currentVocab][Object.keys(wrongVocabs[currentVocab])]
 }
 
+const finishedEl = document.querySelector(".finished")
 nextReview.addEventListener('click', () => {
     currentVocab++;
     currentCountEL.innerText = currentCount + currentVocab;
@@ -420,6 +415,10 @@ nextReview.addEventListener('click', () => {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
         reset.classList.remove('show');
+        const finished = document.createElement('div');
+        finished.innerText = `GREAT JOB!`
+        finishedEl.appendChild(finished)
+
     }
 
 })
