@@ -405,7 +405,6 @@ reviewWrongAnswers.addEventListener('click', () => {
 
 function wrongVocabsReview() {
     greekVocab.innerHTML = Object.keys(wrongVocabs[currentVocab]);
-    console.log(wrongVocabs);
     englishVocab.innerHTML = wrongVocabs[currentVocab][Object.keys(wrongVocabs[currentVocab])]
 }
 

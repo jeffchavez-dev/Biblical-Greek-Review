@@ -125,7 +125,10 @@ h1 {
 }
 
 
-
+.reviewWrongAnswers {
+    background-color: red;
+    color: white;
+}
 .retake, .reviewWrongAnswers {
     display: none;
     margin: .5em
