@@ -457,7 +457,8 @@ reviewNow.addEventListener('click', () => {
 const paradigmsTable = document.querySelector('.paradigms-table');
 const paradigmReview = document.querySelector('.paradigm-review');
 
-paradigmReview.addEventListener('click', () => {
-    mainReview.classList.add("hide");
-    paradigmsTable.style.display = 'block';
-})
+// paradigmReview.addEventListener('click', () => {
+//     mainReview.classList.add("hide");
+//     paradigmsTable.style.display = 'block';
+//     reset.classList.add('show');
+// })
