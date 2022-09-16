@@ -257,6 +257,11 @@ h2 {
     opacity: 1;
 }
 
+/* PARADGIMS TABLE */
+
+.paradigms-table {
+    display: none;
+}
 footer {
     margin-top: 2rem;
     padding: 2em;

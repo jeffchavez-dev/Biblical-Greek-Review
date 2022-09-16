@@ -417,7 +417,7 @@ nextReview.addEventListener('click', () => {
         reset.classList.remove('show');
         const finished = document.createElement('div');
         finished.innerText = `GREAT JOB!`;
-        
+
         finishedEl.appendChild(finished)
 
     }
@@ -451,3 +451,13 @@ reviewNow.addEventListener('click', () => {
  
 })
 
+
+// PARADIGMS TABLE //
+
+const paradigmsTable = document.querySelector('.paradigms-table');
+const paradigmReview = document.querySelector('.paradigm-review');
+
+paradigmReview.addEventListener('click', () => {
+    mainReview.classList.add("hide");
+    paradigmsTable.style.display = 'block';
+})
