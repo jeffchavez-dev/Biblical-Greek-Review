@@ -185,6 +185,7 @@ h1 {
     padding: 1rem;
     margin: .5rem;
     border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8); 
 }
 
 .lesson:hover {
