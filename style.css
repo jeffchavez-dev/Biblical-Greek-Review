@@ -14,6 +14,8 @@ body {
 }
 
 h1 {
+    color: white;
+    text-shadow: 0 0 5px rebeccapurple;
     font-size: 2rem;
     margin: 1em auto 1em;
 }
