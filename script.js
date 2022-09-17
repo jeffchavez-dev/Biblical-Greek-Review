@@ -354,13 +354,15 @@ correct.addEventListener("click", ()  => {
 
 })
 
-// const mainVocabulary = document.querySelector(".vocabulary");
+const mainVocabulary = document.querySelector(".vocabulary");
 wrongAnswer.addEventListener('click', () => {
     wrongVocabs.push(vocabulary[currentVocab]);
     currentVocab++;
     currentCountEL.innerText = currentCount + currentVocab;
-    document.querySelector(".vocabulary").classList.toggle('shake-effect');
-    
+    mainVocabulary.classList.add('shake-effect');
+    setTimeout(() => {
+        mainVocabulary.classList.remove('shake-effect');
+    }, 1000)
 
 
     if(currentVocab < vocabulary.length) {
