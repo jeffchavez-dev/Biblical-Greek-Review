@@ -466,6 +466,6 @@ const paradigmReview = document.querySelector('.paradigm-review');
 
 paradigmReview.addEventListener('click', () => {
     mainReview.classList.add("hide");
-    paradigmsTable.style.display = 'block';
+    paradigmsTable.style.display = 'flex';
     reset.classList.add('show');
 })

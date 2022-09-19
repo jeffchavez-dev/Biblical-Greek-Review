@@ -300,6 +300,11 @@ h2 {
 
 .paradigms-table {
     display: none;
+    max-width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 .paradigms-table h3 {
     color: white;
@@ -308,6 +313,13 @@ h2 {
 
 table {
     margin: 1rem;
+}
+
+tr:first-child {
+    padding-right: 1rem;
+}
+td:first-child {
+    padding-right: 1rem;
 }
 footer {
     margin-top: 2rem;
