@@ -306,6 +306,7 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     text-align: left;
+    margin: 3em auto;
 }
 .paradigms-table h3 {
     color: white;
@@ -314,6 +315,7 @@ h2 {
 
 table {
     margin: 1rem;
+    font-size: 1.2rem;
 }
 
 tr:first-child {
@@ -354,4 +356,7 @@ footer {
         font-size: 2rem;
         margin-top: 2rem;
     }
+     table {
+        font-size: 1rem;
+     }
 }

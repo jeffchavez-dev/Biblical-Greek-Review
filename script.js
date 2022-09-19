@@ -468,4 +468,5 @@ paradigmReview.addEventListener('click', () => {
     mainReview.classList.add("hide");
     paradigmsTable.style.display = 'flex';
     reset.classList.add('show');
+    document.querySelector(".love-greek").style.display = 'none';
 })
