@@ -301,6 +301,10 @@ h2 {
 .paradigms-table {
     display: none;
 }
+.paradigms-table h3 {
+    color: white;
+    font-size: 1.5rem;
+}
 
 table {
     margin: 1rem;
