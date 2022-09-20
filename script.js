@@ -493,7 +493,7 @@ let greekParadigms = [
         "Acc-Plural" : "τὰς φωνάς",
     },
     {
-        "Paradigm": "1st Declension: Eta Pattern",
+        "Paradigm": "1st Declension: Alpha Pattern <br>(After –ε, –ι or –ρ )",
         "HCase": "Case",
         "HNumberS": "Singular",
         "HNumberP": "Plural",
@@ -501,13 +501,13 @@ let greekParadigms = [
         "Case2" : "Genitive",
         "Case3" : "Dative",
         "Case4" : "Accusative",
-        "Nom-Singular" : "ἡ φωνή",
-        "Gen-Singular" : "τῆς φωνῆς",
-        "Dat-Singular" : "τῇ φωνῇ",
-        "Acc-Singular" : "τὴν φωνήν",
-        "Nom-Plural" : "αἱ φωναί",
-        "Gen-Plural" : "τῶν φωνῶν",
-        "Dat-Plural" : "ταῖς φωναῖς",
+        "Nom-Singular" : "ἡ οἰκία",
+        "Gen-Singular" : "τῆς οἰκίας",
+        "Dat-Singular" : "τῇ οἰκίᾳ",
+        "Acc-Singular" : "τὴν οἰκίαν",
+        "Nom-Plural" : "αἱ οἰκίαι",
+        "Gen-Plural" : "τῶν οἰκιῶν",
+        "Dat-Plural" : "ταῖς οἰκίαις",
         "Acc-Plural" : "τὰς φωνάς",
     }
 ]
@@ -519,29 +519,29 @@ const paradigmEl = greekParadigms.map(greekParadigm =>
             <table>
                 <tr>
 
-                    <th>CASE</th>
-                    <th>Singular</th>
-                    <th>Plural</th>
+                    <th>${greekParadigm.HCase}</th>
+                    <th>${greekParadigm.HNumberS}</th>
+                    <th>${greekParadigm.HNumberP}</th>
                 </tr>
                 <tr>
-                    <td>Nominative</td>
-                    <td>ἡ φωνή</td>
-                    <td>αἱ φωναί</td>
+                    <td>${greekParadigm.Case1}</td>
+                    <td>${greekParadigm["Nom-Singular"]}</td>
+                    <td>${greekParadigm["Nom-Plural"]}</td>
                 </tr>
                 <tr>
-                    <td>Genitive</td>
-                    <td>τῆς φωνῆς</td>
-                    <td>τῶν φωνῶν</td>
+                    <td>${greekParadigm.Case2}</td>
+                    <td>${greekParadigm["Gen-Singular"]}</td>
+                    <td>${greekParadigm["Gen-Plural"]}</td>
                 </tr>
                 <tr>
-                    <td>Dative</td>
-                    <td>τῇ φωνῇ</td>
-                    <td>ταῖς φωναῖς</td>
+                    <td>${greekParadigm.Case3}</td>
+                    <td>${greekParadigm["Dat-Singular"]}</td>
+                    <td>${greekParadigm["Dat-Plural"]}</td>
                 </tr>
                 <tr>
-                    <td>Accusative</td>
-                    <td>τὴν φωνήν</td>
-                    <td>τὰς φωνάς</td>
+                    <td>${greekParadigm.Case4}</td>
+                    <td>${greekParadigm["Acc-Singular"]}</td>
+                    <td>${greekParadigm["Dat-Plural"]}</td>
                 </tr>
             </table>
 </details>`  
