@@ -164,12 +164,15 @@ const lessonSixEl = document.getElementById("lesson-six");
 const lessonSevenBtn = document.getElementById("lessonSeven");
 const lessonSevenEl = document.getElementById("lesson-seven");
 const toReview = document.querySelector(".toReview");
+const goBack = document.querySelector(".goBack");
+
 
 
 
 reviewVocabs.addEventListener('click', () => {
     mainReview.classList.add("hide");
     lessonSection.classList.add("show-lesson")
+    goBack.style.display = 'block';
 })
 lessonOneBtn.addEventListener('click', () => {
     addNewLessonOne();    
@@ -468,6 +471,7 @@ paradigmReview.addEventListener('click', () => {
     mainReview.classList.add("hide");
     paradigmsTable.style.display = 'flex';
     reset.classList.add('show');
+    goBack.style.display = 'block';
     document.querySelector(".love-greek").style.display = 'none';
 })
 
@@ -527,10 +531,27 @@ let greekParadigms = [
         "Gen-Plural" : "τῶν λόγων",
         "Dat-Plural" : "τοις λόγοις",
         "Acc-Plural" : "τοὺς λόγους",
+    },
+    {
+        "Paradigm": "2nd Declension: Neuter",
+        "HCase": "Case",
+        "HNumberS": "Singular",
+        "HNumberP": "Plural",
+        "Case1" : "Nominative",
+        "Case2" : "Genitive",
+        "Case3" : "Dative",
+        "Case4" : "Accusative",
+        "Nom-Singular" : "τὸ ἔργον",
+        "Gen-Singular" : "τοῦ ἔργου",
+        "Dat-Singular" : "τῷ ἔργῳ",
+        "Acc-Singular" : "τὸν ἔργον",
+        "Nom-Plural" : "τὰ ἔργα",
+        "Gen-Plural" : "τῶν ἔργων",
+        "Dat-Plural" : "τοις ἔργοις",
+        "Acc-Plural" : "τὰ ἔργα",
     }
 ]
-// const nounParadigms = JSON.parse(nameParadigms);
-// console.log(nounParadigms.paradigm)
+
 const paradigmEl = greekParadigms.map(greekParadigm => 
     ` <details>
             <summary> ${greekParadigm.Paradigm}</summary>

@@ -266,10 +266,12 @@ input {
 }
 
 .goBack {
+    display: none;
     padding: .3rem .5rem;
     margin-top: .5rem;
     align-self: flex-start;
 }
+
 /*footer*/
 
 .next-review {
@@ -295,6 +297,7 @@ h2 {
     color: green;
     opacity: 1;
 }
+
 
 /* PARADGIMS TABLE */
 
@@ -325,6 +328,8 @@ tr:first-child {
 td:first-child {
     padding-right: 1rem;
 }
+
+
 footer {
     margin-top: 2rem;
     padding: 2em;
