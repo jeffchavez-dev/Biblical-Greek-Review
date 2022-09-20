@@ -509,6 +509,24 @@ let greekParadigms = [
         "Gen-Plural" : "τῶν οἰκιῶν",
         "Dat-Plural" : "ταῖς οἰκίαις",
         "Acc-Plural" : "τὰς φωνάς",
+    },
+    {
+        "Paradigm": "2nd Declension: Masculine",
+        "HCase": "Case",
+        "HNumberS": "Singular",
+        "HNumberP": "Plural",
+        "Case1" : "Nominative",
+        "Case2" : "Genitive",
+        "Case3" : "Dative",
+        "Case4" : "Accusative",
+        "Nom-Singular" : "ὁ λόγος",
+        "Gen-Singular" : "τοῦ λόγου",
+        "Dat-Singular" : "τῷ λόγῳ",
+        "Acc-Singular" : "τὸν λόγον",
+        "Nom-Plural" : "οἱ λόγοι",
+        "Gen-Plural" : "τῶν λόγων",
+        "Dat-Plural" : "τοις λόγοις",
+        "Acc-Plural" : "τοὺς λόγους",
     }
 ]
 // const nounParadigms = JSON.parse(nameParadigms);
