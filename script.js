@@ -470,3 +470,81 @@ paradigmReview.addEventListener('click', () => {
     reset.classList.add('show');
     document.querySelector(".love-greek").style.display = 'none';
 })
+
+
+
+let greekParadigms = [
+    {
+        "Paradigm": "1st Declension: Eta Pattern",
+        "HCase": "Case",
+        "HNumberS": "Singular",
+        "HNumberP": "Plural",
+        "Case1" : "Nominative",
+        "Case2" : "Genitive",
+        "Case3" : "Dative",
+        "Case4" : "Accusative",
+        "Nom-Singular" : "ἡ φωνή",
+        "Gen-Singular" : "τῆς φωνῆς",
+        "Dat-Singular" : "τῇ φωνῇ",
+        "Acc-Singular" : "τὴν φωνήν",
+        "Nom-Plural" : "αἱ φωναί",
+        "Gen-Plural" : "τῶν φωνῶν",
+        "Dat-Plural" : "ταῖς φωναῖς",
+        "Acc-Plural" : "τὰς φωνάς",
+    },
+    {
+        "Paradigm": "1st Declension: Eta Pattern",
+        "HCase": "Case",
+        "HNumberS": "Singular",
+        "HNumberP": "Plural",
+        "Case1" : "Nominative",
+        "Case2" : "Genitive",
+        "Case3" : "Dative",
+        "Case4" : "Accusative",
+        "Nom-Singular" : "ἡ φωνή",
+        "Gen-Singular" : "τῆς φωνῆς",
+        "Dat-Singular" : "τῇ φωνῇ",
+        "Acc-Singular" : "τὴν φωνήν",
+        "Nom-Plural" : "αἱ φωναί",
+        "Gen-Plural" : "τῶν φωνῶν",
+        "Dat-Plural" : "ταῖς φωναῖς",
+        "Acc-Plural" : "τὰς φωνάς",
+    }
+]
+// const nounParadigms = JSON.parse(nameParadigms);
+// console.log(nounParadigms.paradigm)
+const paradigmEl = greekParadigms.map(greekParadigm => 
+    ` <details>
+            <summary> ${greekParadigm.Paradigm}</summary>
+            <table>
+                <tr>
+
+                    <th>CASE</th>
+                    <th>Singular</th>
+                    <th>Plural</th>
+                </tr>
+                <tr>
+                    <td>Nominative</td>
+                    <td>ἡ φωνή</td>
+                    <td>αἱ φωναί</td>
+                </tr>
+                <tr>
+                    <td>Genitive</td>
+                    <td>τῆς φωνῆς</td>
+                    <td>τῶν φωνῶν</td>
+                </tr>
+                <tr>
+                    <td>Dative</td>
+                    <td>τῇ φωνῇ</td>
+                    <td>ταῖς φωναῖς</td>
+                </tr>
+                <tr>
+                    <td>Accusative</td>
+                    <td>τὴν φωνήν</td>
+                    <td>τὰς φωνάς</td>
+                </tr>
+            </table>
+</details>`  
+  )
+
+  paradigmsTable.innerHTML = paradigmEl;
