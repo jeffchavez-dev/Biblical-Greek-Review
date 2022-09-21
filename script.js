@@ -589,6 +589,9 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
   nounParadigmsTable.innerHTML = nounParadigmEl;
 
 
+
+  const verbParadigmsTable = document.querySelector('.verb-paradigms-table');
+
   let verbParadimgs = [
-    
+
   ]
