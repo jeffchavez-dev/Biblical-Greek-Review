@@ -464,12 +464,12 @@ reviewNow.addEventListener('click', () => {
 
 // PARADIGMS TABLE //
 
-const paradigmsTable = document.querySelector('.paradigms-table');
+const nounParadigmsTable = document.querySelector('.noun-paradigms-table');
 const paradigmReview = document.querySelector('.paradigm-review');
 
 paradigmReview.addEventListener('click', () => {
     mainReview.classList.add("hide");
-    paradigmsTable.style.display = 'flex';
+    nounParadigmsTable.style.display = 'flex';
     reset.classList.add('show');
     goBack.style.display = 'block';
     document.querySelector(".love-greek").style.display = 'none';
@@ -586,4 +586,4 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
 </details>`  
   )
 
-  paradigmsTable.innerHTML = nounParadigmEl;
+  nounParadigmsTable.innerHTML = nounParadigmEl;
