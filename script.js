@@ -587,3 +587,8 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
   )
 
   nounParadigmsTable.innerHTML = nounParadigmEl;
+
+
+  let verbParadimgs = [
+    
+  ]
