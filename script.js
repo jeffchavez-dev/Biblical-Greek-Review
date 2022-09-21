@@ -608,3 +608,5 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3p" : "τῇ φωνῇ",
     }
   ]
+
+  const verbParadigmsEl = 0;
