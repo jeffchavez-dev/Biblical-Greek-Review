@@ -477,7 +477,7 @@ paradigmReview.addEventListener('click', () => {
 
 
 
-let greekParadigms = [
+let nounParadigms = [
     {
         "Paradigm": "1st Declension: Eta Pattern",
         "HCase": "Case",
@@ -552,38 +552,38 @@ let greekParadigms = [
     }
 ]
 
-const paradigmEl = greekParadigms.map(greekParadigm => 
+const nounParadigmEl = nounParadigms.map(nounParadigm => 
     ` <details>
-            <summary> ${greekParadigm.Paradigm}</summary>
+            <summary> ${nounParadigm.Paradigm}</summary>
             <table>
                 <tr>
 
-                    <th>${greekParadigm.HCase}</th>
-                    <th>${greekParadigm.HNumberS}</th>
-                    <th>${greekParadigm.HNumberP}</th>
+                    <th>${nounParadigm.HCase}</th>
+                    <th>${nounParadigm.HNumberS}</th>
+                    <th>${nounParadigm.HNumberP}</th>
                 </tr>
                 <tr>
-                    <td>${greekParadigm.Case1}</td>
-                    <td>${greekParadigm["Nom-Singular"]}</td>
-                    <td>${greekParadigm["Nom-Plural"]}</td>
+                    <td>${nounParadigm.Case1}</td>
+                    <td>${nounParadigm["Nom-Singular"]}</td>
+                    <td>${nounParadigm["Nom-Plural"]}</td>
                 </tr>
                 <tr>
-                    <td>${greekParadigm.Case2}</td>
-                    <td>${greekParadigm["Gen-Singular"]}</td>
-                    <td>${greekParadigm["Gen-Plural"]}</td>
+                    <td>${nounParadigm.Case2}</td>
+                    <td>${nounParadigm["Gen-Singular"]}</td>
+                    <td>${nounParadigm["Gen-Plural"]}</td>
                 </tr>
                 <tr>
-                    <td>${greekParadigm.Case3}</td>
-                    <td>${greekParadigm["Dat-Singular"]}</td>
-                    <td>${greekParadigm["Dat-Plural"]}</td>
+                    <td>${nounParadigm.Case3}</td>
+                    <td>${nounParadigm["Dat-Singular"]}</td>
+                    <td>${nounParadigm["Dat-Plural"]}</td>
                 </tr>
                 <tr>
-                    <td>${greekParadigm.Case4}</td>
-                    <td>${greekParadigm["Acc-Singular"]}</td>
-                    <td>${greekParadigm["Dat-Plural"]}</td>
+                    <td>${nounParadigm.Case4}</td>
+                    <td>${nounParadigm["Acc-Singular"]}</td>
+                    <td>${nounParadigm["Dat-Plural"]}</td>
                 </tr>
             </table>
 </details>`  
   )
 
-  paradigmsTable.innerHTML = paradigmEl;
+  paradigmsTable.innerHTML = nounParadigmEl;
