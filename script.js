@@ -636,7 +636,7 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3p" : "τῇ φωνῇ",
     },
     {
-        "Paradigm": "Imperfect Active Tense-Form",
+        "Paradigm": "Imperfect Mid/Pas Tense-Form",
         "HPerson1": "First Person",
         "HPerson2": "Second Person",
         "HPerson3": "Third Person",
