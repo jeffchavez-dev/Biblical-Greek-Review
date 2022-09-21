@@ -593,5 +593,22 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
   const verbParadigmsTable = document.querySelector('.verb-paradigms-table');
 
   let verbParadimgs = [
-
+    {
+        "Paradigm": "Present Tense-Form",
+        "HPerson": "Person",
+        "HNumberS": "Singular",
+        "HNumberP": "Plural",
+        "Case1" : "Nominative",
+        "Case2" : "Genitive",
+        "Case3" : "Dative",
+        "Case4" : "Accusative",
+        "Nom-Singular" : "ἡ φωνή",
+        "Gen-Singular" : "τῆς φωνῆς",
+        "Dat-Singular" : "τῇ φωνῇ",
+        "Acc-Singular" : "τὴν φωνήν",
+        "Nom-Plural" : "αἱ φωναί",
+        "Gen-Plural" : "τῶν φωνῶν",
+        "Dat-Plural" : "ταῖς φωναῖς",
+        "Acc-Plural" : "τὰς φωνάς",
+    }
   ]
