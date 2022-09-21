@@ -594,6 +594,20 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
 
   let verbParadimgs = [
     {
+        "Paradigm": "Present Active Tense-Form",
+        "HPerson1": "First Person",
+        "HPerson2": "Second Person",
+        "HPerson3": "Third Person",
+        "HNumberS": "Singular",
+        "HNumberP": "Plural",
+        "1s" : "ἡ φωνή",
+        "2s" : "τῆς φωνῆς",
+        "3s" : "τῇ φωνῇ",
+        "1p" : "τὴν φωνήν",
+        "2p" : "τῆς φωνῆς",
+        "3p" : "τῇ φωνῇ",
+    },
+    {
         "Paradigm": "Present Tense-Form",
         "HPerson1": "First Person",
         "HPerson2": "Second Person",
