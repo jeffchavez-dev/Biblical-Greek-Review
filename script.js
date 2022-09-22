@@ -654,7 +654,7 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
   ]
 
   const verbParadigmsEl = verbParadigms.map(verbParadigm => 
-    ` <details>
+    `<details>
             <summary> ${verbParadigm.Paradigm}</summary>
             <table>
                 <tr>
@@ -679,7 +679,7 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
                     <td>${verbParadigm["3p"]}</td>
                 </tr>
             </table>
-</details>`  
-  )
+</details>`
+)
 
   verbParadigmsTable.innerHTML = verbParadigmsEl;
