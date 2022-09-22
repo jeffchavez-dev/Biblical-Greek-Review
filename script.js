@@ -496,7 +496,7 @@ let nounParadigms = [
         "Nom-Plural" : "αἱ φωναί",
         "Gen-Plural" : "τῶν φωνῶν",
         "Dat-Plural" : "ταῖς φωναῖς",
-        "Acc-Plural" : "τὰς φωνάς",
+        "Acc-Plural" : "τὰς φωνάς"
     },
     {
         "Paradigm": "1st Declension: Alpha Pattern <br>(After –ε, –ι or –ρ )",
@@ -514,7 +514,7 @@ let nounParadigms = [
         "Nom-Plural" : "αἱ οἰκίαι",
         "Gen-Plural" : "τῶν οἰκιῶν",
         "Dat-Plural" : "ταῖς οἰκίαις",
-        "Acc-Plural" : "τὰς φωνάς",
+        "Acc-Plural" : "τὰς φωνάς"
     },
     {
         "Paradigm": "2nd Declension: Masculine",
@@ -532,7 +532,7 @@ let nounParadigms = [
         "Nom-Plural" : "οἱ λόγοι",
         "Gen-Plural" : "τῶν λόγων",
         "Dat-Plural" : "τοις λόγοις",
-        "Acc-Plural" : "τοὺς λόγους",
+        "Acc-Plural" : "τοὺς λόγους"
     },
     {
         "Paradigm": "2nd Declension: Neuter",
@@ -550,7 +550,7 @@ let nounParadigms = [
         "Nom-Plural" : "τὰ ἔργα",
         "Gen-Plural" : "τῶν ἔργων",
         "Dat-Plural" : "τοις ἔργοις",
-        "Acc-Plural" : "τὰ ἔργα",
+        "Acc-Plural" : "τὰ ἔργα"
     }
 ]
 
