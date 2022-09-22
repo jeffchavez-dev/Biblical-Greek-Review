@@ -546,7 +546,7 @@ let nounParadigms = [
         "Nom-Singular" : "τὸ ἔργον",
         "Gen-Singular" : "τοῦ ἔργου",
         "Dat-Singular" : "τῷ ἔργῳ",
-        "Acc-Singular" : "τὸν ἔργον",
+        "Acc-Singular" : "τὸ ἔργον",
         "Nom-Plural" : "τὰ ἔργα",
         "Gen-Plural" : "τῶν ἔργων",
         "Dat-Plural" : "τοις ἔργοις",
