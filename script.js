@@ -465,11 +465,13 @@ reviewNow.addEventListener('click', () => {
 // PARADIGMS TABLE //
 
 const nounParadigmsTable = document.querySelector('.noun-paradigms-table');
+const verbParadigmsTable = document.querySelector('.verb-paradigms-table');
 const paradigmReview = document.querySelector('.paradigm-review');
 
 paradigmReview.addEventListener('click', () => {
     mainReview.classList.add("hide");
     nounParadigmsTable.style.display = 'flex';
+    verbParadigmsTable.style.display = 'flex';
     reset.classList.add('show');
     goBack.style.display = 'block';
     document.querySelector(".love-greek").style.display = 'none';
@@ -590,9 +592,9 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
 
 
 
-  const verbParadigmsTable = document.querySelector('.verb-paradigms-table');
+  
 
-  let verbParadimgs = [
+  let verbParadigms = [
     {
         "Paradigm": "Present Active Tense-Form",
         "HPerson1": "First Person",
@@ -662,20 +664,22 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
                     <th>${verbParadigm.HNumberP}</th>
                 </tr>
                 <tr>
-                    <td>${verbParadigm.Case1}</td>
-                    <td>${verbParadigm["Nom-Singular"]}</td>
-                    <td>${verbParadigm["Nom-Plural"]}</td>
+                    <td>${verbParadigm.HPerson1}</td>
+                    <td>${verbParadigm["1s"]}</td>
+                    <td>${verbParadigm["1p"]}</td>
                 </tr>
                 <tr>
-                    <td>${verbParadigm.Case2}</td>
-                    <td>${verbParadigm["Gen-Singular"]}</td>
-                    <td>${verbParadigm["Gen-Plural"]}</td>
+                    <td>${verbParadigm.HPerson2}</td>
+                    <td>${verbParadigm["2s"]}</td>
+                    <td>${verbParadigm["2p"]}</td>
                 </tr>
                 <tr>
-                    <td>${verbParadigm.Case3}</td>
-                    <td>${verbParadigm["Dat-Singular"]}</td>
-                    <td>${verbParadigm["Dat-Plural"]}</td>
+                    <td>${verbParadigm.HPerson3}</td>
+                    <td>${verbParadigm["3s"]}</td>
+                    <td>${verbParadigm["3p"]}</td>
                 </tr>
             </table>
 </details>`  
   )
+
+  verbParadigmsTable.innerHTML = verbParadigmsEl;
