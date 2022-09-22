@@ -651,4 +651,31 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
     }
   ]
 
-  const verbParadigmsEl = 0;
+  const verbParadigmsEl = verbParadigms.map(verbParadigm => 
+    ` <details>
+            <summary> ${verbParadigm.Paradigm}</summary>
+            <table>
+                <tr>
+
+                    <th></th>
+                    <th>${verbParadigm.HNumberS}</th>
+                    <th>${verbParadigm.HNumberP}</th>
+                </tr>
+                <tr>
+                    <td>${verbParadigm.Case1}</td>
+                    <td>${verbParadigm["Nom-Singular"]}</td>
+                    <td>${verbParadigm["Nom-Plural"]}</td>
+                </tr>
+                <tr>
+                    <td>${verbParadigm.Case2}</td>
+                    <td>${verbParadigm["Gen-Singular"]}</td>
+                    <td>${verbParadigm["Gen-Plural"]}</td>
+                </tr>
+                <tr>
+                    <td>${verbParadigm.Case3}</td>
+                    <td>${verbParadigm["Dat-Singular"]}</td>
+                    <td>${verbParadigm["Dat-Plural"]}</td>
+                </tr>
+            </table>
+</details>`  
+  )
