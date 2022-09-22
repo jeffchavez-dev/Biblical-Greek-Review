@@ -644,12 +644,12 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "HPerson3": "Third Person",
         "HNumberS": "Singular",
         "HNumberP": "Plural",
-        "1s" : "λύω",
-        "2s" : "λύεις",
-        "3s" : "λύει",
-        "1p" : "λύομεν",
-        "2p" : "λύετε",
-        "3p" : "λύουσι(ν)",
+        "1s" : "ἐλυόμην",
+        "2s" : "ἐλύου",
+        "3s" : "ἐλύετο",
+        "1p" : "ἐλυόμεθα",
+        "2p" : "ἐλύεσθε",
+        "3p" : "ἐλύοντο",
     }
   ]
 
