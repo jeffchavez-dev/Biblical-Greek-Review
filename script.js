@@ -607,7 +607,7 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3s" : "λύει",
         "1p" : "λύομεν",
         "2p" : "λύετε",
-        "3p" : "λύουσι(ν)",
+        "3p" : "λύουσι(ν)"
     },
     {
         "Paradigm": "Present Mid/Pas Tense-Form",
@@ -621,7 +621,7 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3s" : "λύεται",
         "1p" : "λυόμεθα",
         "2p" : "λύεσθε",
-        "3p" : "λύονται",
+        "3p" : "λύονται"
     },
     {
         "Paradigm": "Imperfect Active Tense-Form",
@@ -635,7 +635,7 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3s" : "ἔλυε(ν)",
         "1p" : "ἐλύομεν",
         "2p" : "ἐλύετε",
-        "3p" : "ἔλυον",
+        "3p" : "ἔλυον"
     },
     {
         "Paradigm": "Imperfect Mid/Pas Tense-Form",
@@ -649,7 +649,7 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3s" : "ἐλύετο",
         "1p" : "ἐλυόμεθα",
         "2p" : "ἐλύεσθε",
-        "3p" : "ἐλύοντο",
+        "3p" : "ἐλύοντο"
     }
   ]
 
