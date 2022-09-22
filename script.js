@@ -624,6 +624,20 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3p" : "λύονται"
     },
     {
+        "Paradigm": "Present Active Indicative of εἰμί",
+        "HPerson1": "First Person",
+        "HPerson2": "Second Person",
+        "HPerson3": "Third Person",
+        "HNumberS": "Singular",
+        "HNumberP": "Plural",
+        "1s" : "εἰμί",
+        "2s" : "εἶ",
+        "3s" : "ἐστίν",
+        "1p" : "ἐσμέν",
+        "2p" : "ἐστέ",
+        "3p" : "εἰσίν"
+    },
+    {
         "Paradigm": "Imperfect Active Tense-Form",
         "HPerson1": "First Person",
         "HPerson2": "Second Person",
@@ -650,6 +664,20 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "1p" : "ἐλυόμεθα",
         "2p" : "ἐλύεσθε",
         "3p" : "ἐλύοντο"
+    },
+    {
+        "Paradigm": "Imperfect Active Indicative of εἰμί",
+        "HPerson1": "First Person",
+        "HPerson2": "Second Person",
+        "HPerson3": "Third Person",
+        "HNumberS": "Singular",
+        "HNumberP": "Plural",
+        "1s" : "ἤμην",
+        "2s" : "ἦς",
+        "3s" : "ἦν",
+        "1p" : "ἦμεν",
+        "2p" : "ἦτε",
+        "3p" : "ἦσαν"
     }
   ]
 
