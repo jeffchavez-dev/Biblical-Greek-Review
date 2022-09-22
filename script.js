@@ -582,7 +582,7 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
                 <tr>
                     <td>${nounParadigm.Case4}</td>
                     <td>${nounParadigm["Acc-Singular"]}</td>
-                    <td>${nounParadigm["Dat-Plural"]}</td>
+                    <td>${nounParadigm["Acc-Plural"]}</td>
                 </tr>
             </table>
 </details>`  
