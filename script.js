@@ -1,3 +1,5 @@
+
+
 const vocabulary = [];
 const lessonOne = [
     {"ἀγάπη, ἡ": "love"},
