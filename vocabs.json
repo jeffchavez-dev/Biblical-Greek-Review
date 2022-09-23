@@ -1,5 +1,5 @@
 { "vocabulary": {
-    "lesson-one": [
+    "lessonOne": [
         {"ἀγάπη, ἡ": "love"},
         {"γῆ ἡ": "earth, land, ground (geology)"},
         {"ζωή ἡ": "life (zoo, zoology)"},
@@ -32,81 +32,85 @@
         {"ἱερόν, τό ": "temple, sanctuary"},
          {"σημεἱον, τό ": "sign (semiotics)"},
         {"τέκνον, τό": " child, son, descendant"}
+    ],
+    "lessonThree": [
+        {"ἀποκρίνομαι ": "I answer, reply"},
+        {"εἰμί ": "I am, exist"},
+        {"ἀκούω": " I hear, listen to, obey (acoustics)"},
+        {"γινώσκω ": "I know, understand, acknowledge (knowledge, Gnostics)"},
+        {"γράφω ": "I write (graphics)"},
+        {"ἔχω ": "I have, hold"},
+        {"λέγω ": "I say, speak (legend)"},
+        {"λαμβάνω ": "I take, receive"},
+        {"λύω ": "I loose, destroy"},
+        {"πιστεύω ": "I believe, have faith/trust in"},
+        {"γίνομαι ": "I become, come, exist, am born"},
+        {"ἔρχομαι ": "I come, go"},
+        {"πορεύομαι ": "I go, travel"},
+        {"ἀλλά ": "but, yet, nevertheless"},
+        {"ὅτι": " that, because"}
+    ],
+    "lessonFour": [
+        {"ἄγω ": "- I lead, bring (pedagogical)"},
+        {"βλέπω": " I see, look at"},
+        {"διδάσκω": " I teach (didactic)"},
+        {"ἐγείρω ": " I raise up"},
+        {"κρίνω ": " I judge, condemn (critic)"},
+        {"μένω": "  I remain, abide, dwell (remain)"},
+        {"ὑπάγω": "  I go away, depart"},
+        {"δοῦλος, -ου, ὁ ": " slave (doula)"},
+        {"θάνατος, -ου, ὁ ": " death "},
+        {"ψυχή, -ης, ἡ ": " soul, life, living being (psychology)"},
+        {"ὥρα, -ας, ἡ ": " hour"},
+        {"εἰ ": "if,  whether"},
+        {"εἴτε ": "if, whether"},
+        {"καθώς": "  as, just as, even as"},
+        {"ὡς ": "as,  like"},
+        {"ὦ, τό ": " end, Omega"},
+        {"ὁδὸς, ἡ ": "- way"}
+    ],
+    "lessonFive" : [
+        {"βαπτίζω":" I baptize, immerse, dip (baptize)"},
+        {"θεραπεύω":" I heal (therapeutic)"},
+        {"κράζω ":"I cry out"},
+        {"ἄγγελος, ὁ ":"angel, messenger (angel)"},
+        {"μαθητής, ὁ":" disciple, follower (mathematics)"},
+        {"ὄχλος, ὁ":" crowd"},
+        {"προφήτης, ὁ":" prophet (prophet)"},
+        {"γάρ ":"for, because "},
+        {"ἐκεῖ ":"there, in that place"},
+        {"κἀγώ":" and I (καί + ἐγώ)"},
+        {"οὖν ":"then, so, therefore"},
+        {"οὕτως":" in this manner, thus, so"},
+        {"τέ":" and, but"},
+        {"οὐ, οὐκ, οὐχ":" no, not"},
+        {"οὐχί, no! ":"(emphatic)"}
+    ],
+    "lessonSix" : [
+        {"ἀγαπάω" : "I love"},
+        {"γεννάω" : "I give birth to, bear, beget (genealogy)"},
+        {"ἐπερωτάω" : "I ask "},
+        {"ἐρωτάω" : "I ask, question, request"},
+        {"αἰτέω" : "I ask, demand"},
+        {"ἀκολουθέω" : "I follow (acolyte)"},
+        {"ζητέω" : "I seek, look for"},
+        {"καλέω" : "I call, invite, name (call)"},
+        {"λαλέω" : "I speak, say (glossolalia)"},
+        {"μαρτυρέω ": "I testify, bear witness (martyr)"},
+        {"παρακαλέω" : "I call, urge, comfort"},
+        {"περιπατέω" : "I walk, live (peripatetic)"},
+        {"ποιέω" : "I do, make (poet)"},
+        {"φοβέομαι" : "I am afraid, fear, respect (phobia)"},
+        {"πληρόω" : "I fill, fulfill, complete"}
     ]
+    
 
 }
 const 
-const lessonThree = [
-    {"ἀποκρίνομαι ": "I answer, reply"},
-    {"εἰμί ": "I am, exist"},
-    {"ἀκούω": " I hear, listen to, obey (acoustics)"},
-    {"γινώσκω ": "I know, understand, acknowledge (knowledge, Gnostics)"},
-    {"γράφω ": "I write (graphics)"},
-    {"ἔχω ": "I have, hold"},
-    {"λέγω ": "I say, speak (legend)"},
-    {"λαμβάνω ": "I take, receive"},
-    {"λύω ": "I loose, destroy"},
-    {"πιστεύω ": "I believe, have faith/trust in"},
-    {"γίνομαι ": "I become, come, exist, am born"},
-    {"ἔρχομαι ": "I come, go"},
-    {"πορεύομαι ": "I go, travel"},
-    {"ἀλλά ": "but, yet, nevertheless"},
-    {"ὅτι": " that, because"}
-]
-const lessonFour = [
-    {"ἄγω ": "- I lead, bring (pedagogical)"},
-    {"βλέπω": " I see, look at"},
-    {"διδάσκω": " I teach (didactic)"},
-    {"ἐγείρω ": " I raise up"},
-    {"κρίνω ": " I judge, condemn (critic)"},
-    {"μένω": "  I remain, abide, dwell (remain)"},
-    {"ὑπάγω": "  I go away, depart"},
-    {"δοῦλος, -ου, ὁ ": " slave (doula)"},
-    {"θάνατος, -ου, ὁ ": " death "},
-    {"ψυχή, -ης, ἡ ": " soul, life, living being (psychology)"},
-    {"ὥρα, -ας, ἡ ": " hour"},
-    {"εἰ ": "if,  whether"},
-    {"εἴτε ": "if, whether"},
-    {"καθώς": "  as, just as, even as"},
-    {"ὡς ": "as,  like"},
-    {"ὦ, τό ": " end, Omega"},
-    {"ὁδὸς, ἡ ": "- way"}
-]
-const lessonFive = [
-    {"βαπτίζω":" I baptize, immerse, dip (baptize)"},
-    {"θεραπεύω":" I heal (therapeutic)"},
-    {"κράζω ":"I cry out"},
-    {"ἄγγελος, ὁ ":"angel, messenger (angel)"},
-    {"μαθητής, ὁ":" disciple, follower 	(mathematics)"},
-    {"ὄχλος, ὁ":" crowd"},
-    {"προφήτης, ὁ":" prophet (prophet)"},
-    {"γάρ ":"for, because "},
-    {"ἐκεῖ ":"there, in that place"},
-    {"κἀγώ":" and I (καί + ἐγώ)"},
-    {"οὖν ":"then, so, therefore"},
-    {"οὕτως":" in this manner, thus, so"},
-    {"τέ":" and, but"},
-    {"οὐ, οὐκ, οὐχ":" no, not"},
-    {"οὐχί, no! ":"(emphatic)"}
-]
-const lessonSix = [
-    {"ἀγαπάω" : "I love"},
-    {"γεννάω" : "I give birth to, bear, beget (genealogy)"},
-    {"ἐπερωτάω" : "I ask "},
-    {"ἐρωτάω" : "I ask, question, request"},
-    {"αἰτέω" : "I ask, demand"},
-    {"ἀκολουθέω" : "I follow (acolyte)"},
-    {"ζητέω" : "I seek, look for"},
-    {"καλέω" : "I call, invite, name (call)"},
-    {"λαλέω" : "I speak, say (glossolalia)"},
-    {"μαρτυρέω ": "I testify, bear witness (martyr)"},
-    {"παρακαλέω" : "I call, urge, comfort"},
-    {"περιπατέω" : "I walk, live (peripatetic)"},
-    {"ποιέω" : "I do, make (poet)"},
-    {"φοβέομαι" : "I am afraid, fear, respect (phobia)"},
-    {"πληρόω" : "I fill, fulfill, complete"}
-]
-
+const 
+const 
+const 
+const 
 const lessonSeven = [
     {"ἀπό" : "from, away from (gen)"},
     {"διά" : "through (gen); because of (acc) 	(diameter)"},
