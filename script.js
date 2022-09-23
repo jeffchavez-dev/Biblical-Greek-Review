@@ -311,7 +311,15 @@ function loadReview() {
     wordCount.innerText = vocabulary.length;
 }
 
+// const vocabularyList = lessonOne.map(vocab => {
+//     `<div>
+//         <p>${vocab["βασιλεία, ἡ"]}
+//     </div>`
+// })
 
+// const vocabularyListOne = document.querySelector(".vocabulary-list")
+
+// vocabularyListOne.innerHTML = vocabularyList;
 
 // function addLEssons() {
 //     checkboxes.forEach(item => {
