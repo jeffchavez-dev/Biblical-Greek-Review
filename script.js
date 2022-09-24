@@ -434,6 +434,7 @@ function wrongVocabsReview() {
 }
 
 const finishedEl = document.querySelector(".finished")
+const closed = document.querySelector(".close");
 nextReview.addEventListener('click', () => {
     currentVocab++;
     currentCountEL.innerText = currentCount + currentVocab;
@@ -448,6 +449,7 @@ nextReview.addEventListener('click', () => {
         reset.classList.remove('show');
         const finished = document.createElement('div');
         finishedEl.style.display = "flex";
+        closed.style.display = "flex";
         finished.innerText = `GREAT JOB!`;
 
         finished.classList.add("modal")
