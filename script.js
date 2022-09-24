@@ -450,7 +450,7 @@ nextReview.addEventListener('click', () => {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
         reset.classList.remove('show');
-        const finished = document.createElement('div');
+    
         finishedEl.style.display = "flex";
 
     }
