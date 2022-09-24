@@ -2,12 +2,20 @@
 async function fetchVocabulary() {
     const response = await fetch('./vocabs.json')
     const data = await response.json();
-    console.log(data);
+    const paradigmsData = data.paradigms;
+    const vocabularyData = data.vocabulary;
+    console.log(paradigmsData);
+    console.log(vocabularyData);
+    // newVocabs(data)
     // console.log(response)
    
 }
 
+// function newVocabs(data) {
+//     console.log(data.paradigms)
+// }
 
+// newVocabs()
 fetchVocabulary()
 
 
