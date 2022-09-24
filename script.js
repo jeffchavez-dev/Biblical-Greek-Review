@@ -435,6 +435,9 @@ function wrongVocabsReview() {
 
 const finishedEl = document.querySelector(".finished")
 const closed = document.querySelector(".close");
+closed.addEventListener('click', () => {
+    finishedEl.style.display = "none";
+})
 nextReview.addEventListener('click', () => {
     currentVocab++;
     currentCountEL.innerText = currentCount + currentVocab;
