@@ -449,11 +449,6 @@ nextReview.addEventListener('click', () => {
         reset.classList.remove('show');
         const finished = document.createElement('div');
         finishedEl.style.display = "flex";
-        closed.style.display = "flex";
-        finished.innerText = `GREAT JOB!`;
-
-        finished.classList.add("modal")
-        finishedEl.appendChild(finished)
 
     }
 
