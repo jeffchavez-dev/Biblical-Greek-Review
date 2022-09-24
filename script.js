@@ -1,7 +1,17 @@
 
-fetch('./vocabs.json')
-    .then((response) => response.json())
-    .then((json) => console.log(json));
+async function fetchVocabulary() {
+    const response = await fetch('./vocabs.json')
+    const allVocabs = await response.json();
+    console.log(allVocabs);
+    // console.log(response)
+   
+}
+
+
+fetchVocabulary()
+// fetch('./vocabs.json')
+//     .then((response) => response.json())
+//     .then((json) => console.log(json));
 
 // async myVocabulary () => {
 
