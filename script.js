@@ -1,8 +1,8 @@
 
 async function fetchVocabulary() {
     const response = await fetch('./vocabs.json')
-    const allVocabs = await response.json();
-    console.log(allVocabs);
+    const data = await response.json();
+    console.log(data);
     // console.log(response)
    
 }
