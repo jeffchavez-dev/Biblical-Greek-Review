@@ -447,8 +447,10 @@ nextReview.addEventListener('click', () => {
         vocabEL.classList.add('hide')
         reset.classList.remove('show');
         const finished = document.createElement('div');
+        finishedEl.style.display = "flex";
         finished.innerText = `GREAT JOB!`;
 
+        finished.classList.add("modal")
         finishedEl.appendChild(finished)
 
     }

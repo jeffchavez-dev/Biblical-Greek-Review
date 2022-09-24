@@ -293,11 +293,36 @@ h2 {
 }
 
 .finished {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     font-size: 3rem;
-    color: green;
-    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+.modal {
+    background-color: white;
+    color: green;
+    width: 40%;
+    height: 20%;
+    border-radius: 10px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.close {
+    display: none;
+}
 
 /* PARADGIMS TABLE */
 
