@@ -9,13 +9,7 @@ async function fetchVocabulary() {
 
 
 fetchVocabulary()
-// fetch('./vocabs.json')
-//     .then((response) => response.json())
-//     .then((json) => console.log(json));
 
-// async myVocabulary () => {
-
-// }
 
 const vocabulary = [];
 const lessonOne = [
