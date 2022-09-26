@@ -341,7 +341,10 @@ h2 {
 }
 
 /* PARADGIMS TABLE */
-
+.paradigms-section {
+    display: none;
+    margin-top: 2em;
+}
 .paradigms-table {
     display: none;
     flex-direction: column;
@@ -349,7 +352,7 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    margin: 3em auto;
+    margin: 1em auto;
     padding: 0;
 }
 

@@ -497,10 +497,12 @@ reviewNow.addEventListener('click', () => {
 
 const nounParadigmsTable = document.querySelector('.noun-paradigms-table');
 const verbParadigmsTable = document.querySelector('.verb-paradigms-table');
+const paradigmsSection = document.querySelector('.paradigms-section');
 const paradigmReview = document.querySelector('.paradigm-review');
 
 paradigmReview.addEventListener('click', () => {
     mainReview.classList.add("hide");
+    paradigmsSection.style.display = "block";
     nounParadigmsTable.style.display = 'flex';
     verbParadigmsTable.style.display = 'flex';
     // reset.classList.add('show');
