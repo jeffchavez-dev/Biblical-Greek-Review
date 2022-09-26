@@ -712,30 +712,39 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
             <table>
                 <tr>
 
-                    <th>Person</th>
-                    <th>Singular</th>
+                    <th></th>
+                    <th></th>
                     <th>Translation</th>
-                    <th>Plural</th>
-                    <th>Translation</th>
+
                 </tr>
                 <tr>
-                    <td>1st</td>
+                    <td>1S</td>
                     <td>${verbParadigm["1s"]}</td>
                     <td class="translation">${verbParadigm["1s-translation"]}</td>
+                </tr>
+                <tr>
+                    <td>2S</td>
+                    <td>${verbParadigm["2s"]}</td>
+                    <td class="translation">${verbParadigm["2s-translation"]}</td>
+                </tr>
+                <tr>
+                    <td>3S</td>
+                    <td>${verbParadigm["3s"]}</td>
+                    <td class="translation">${verbParadigm["3s-translation"]}</td>
+                </tr>
+                <tr>
+                    <td>1P</td>
                     <td>${verbParadigm["1p"]}</td>
                     <td class="translation">${verbParadigm["1p-translation"]}</td>
                 </tr>
-                <tr>
-                    <td>2nd</td>
-                    <td>${verbParadigm["2s"]}</td>
-                    <td class="translation">${verbParadigm["2s-translation"]}</td>
+                
+                 <tr>
+                    <td>2P</td>
                     <td>${verbParadigm["2p"]}</td>
                     <td class="translation">${verbParadigm["2p-translation"]}</td>
                 </tr>
                 <tr>
-                    <td>3rd</td>
-                    <td>${verbParadigm["3s"]}</td>
-                    <td class="translation">${verbParadigm["3s-translation"]}</td>
+                    <td>3P</td>
                     <td>${verbParadigm["3p"]}</td>
                     <td class="translation">${verbParadigm["3p-translation"]}</td>
                 </tr>
