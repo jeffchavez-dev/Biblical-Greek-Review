@@ -727,12 +727,12 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "1p" : "ἦμεν",
         "2p" : "ἦτε",
         "3p" : "ἦσαν",
-        "1s-translation" : "I am loosing",
-        "2s-translation" : "You are loosing",
-        "3s-translation" : "He/she/it is loosing",
-        "1p-translation" : "We are loosing",
-        "2p-translation" : "You (all) are loosing",
-        "3p-translation" : "They loose"
+        "1s-translation" : "I was",
+        "2s-translation" : "You were",
+        "3s-translation" : "He/she/it was",
+        "1p-translation" : "We were",
+        "2p-translation" : "You (all) were",
+        "3p-translation" : "They were"
     }
   ]
 
@@ -751,16 +751,22 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
                     <td>${verbParadigm.HPerson1}</td>
                     <td>${verbParadigm["1s"]}</td>
                     <td>${verbParadigm["1p"]}</td>
+                    <td>${verbParadigm["1p"]}</td>
+                    <td>${verbParadigm["1p"]}</td>
                 </tr>
                 <tr>
                     <td>${verbParadigm.HPerson2}</td>
                     <td>${verbParadigm["2s"]}</td>
+                    <td>${verbParadigm["1p"]}</td>
                     <td>${verbParadigm["2p"]}</td>
+                    <td>${verbParadigm["1p"]}</td>
                 </tr>
                 <tr>
                     <td>${verbParadigm.HPerson3}</td>
                     <td>${verbParadigm["3s"]}</td>
+                    <td>${verbParadigm["1p"]}</td>
                     <td>${verbParadigm["3p"]}</td>
+                    <td>${verbParadigm["1p"]}</td>
                 </tr>
             </table>
 </details>`
