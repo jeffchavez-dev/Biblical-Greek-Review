@@ -146,7 +146,6 @@ const lessonSeven = [
 
 const mainReview = document.querySelector(".main-review")
 const reviewVocabs = document.querySelector(".vocabulary-review")
-const reviewParadigm = document.querySelector(".paradigm-review")
 const lessonSection = document.querySelector(".lesson-section")
 
 const greekVocab = document.querySelector(".greek-vocabulary")
