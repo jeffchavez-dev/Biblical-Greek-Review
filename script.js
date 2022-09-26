@@ -687,12 +687,12 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "1p" : "ἐλύομεν",
         "2p" : "ἐλύετε",
         "3p" : "ἔλυον",
-        "1s-translation" : "I am loosing",
-        "2s-translation" : "You are loosing",
-        "3s-translation" : "He/she/it is loosing",
-        "1p-translation" : "We are loosing",
-        "2p-translation" : "You (all) are loosing",
-        "3p-translation" : "They loose"
+        "1s-translation" : "I was loosing",
+        "2s-translation" : "You were loosing",
+        "3s-translation" : "He/she/it was loosing",
+        "1p-translation" : "We were loosing",
+        "2p-translation" : "You (all) were loosing",
+        "3p-translation" : "They were loosing"
     },
     {
         "Paradigm": "Imperfect Mid/Pas Tense-Form",
