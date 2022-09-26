@@ -591,9 +591,9 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
             <table>
                 <tr>
 
-                    <th>${nounParadigm.HCase}</th>
-                    <th>${nounParadigm.HNumberS}</th>
-                    <th>${nounParadigm.HNumberP}</th>
+                    <th>Case</th>
+                    <th>Singular</th>
+                    <th>Plural</th>
                 </tr>
                 <tr>
                     <td>${nounParadigm.Case1}</td>
