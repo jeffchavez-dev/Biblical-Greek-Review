@@ -616,11 +616,6 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
   let verbParadigms = [
     {
         "Paradigm": "Present Active Tense-Form",
-        "HPerson1": "First Person",
-        "HPerson2": "Second Person",
-        "HPerson3": "Third Person",
-        "HNumberS": "Singular",
-        "HNumberP": "Plural",
         "1s" : "λύω",
         "2s" : "λύεις",
         "3s" : "λύει",
@@ -636,11 +631,6 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
     },
     {
         "Paradigm": "Present Mid/Pas Tense-Form",
-        "HPerson1": "First Person",
-        "HPerson2": "Second Person",
-        "HPerson3": "Third Person",
-        "HNumberS": "Singular",
-        "HNumberP": "Plural",
         "1s" : "λύομαι",
         "2s" : "λύῃ",
         "3s" : "λύεται",
@@ -656,11 +646,6 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
     },
     {
         "Paradigm": "Present Active Indicative of εἰμί",
-        "HPerson1": "First Person",
-        "HPerson2": "Second Person",
-        "HPerson3": "Third Person",
-        "HNumberS": "Singular",
-        "HNumberP": "Plural",
         "1s" : "εἰμί",
         "2s" : "εἶ",
         "3s" : "ἐστίν",
@@ -676,11 +661,6 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
     },
     {
         "Paradigm": "Imperfect Active Tense-Form",
-        "HPerson1": "First Person",
-        "HPerson2": "Second Person",
-        "HPerson3": "Third Person",
-        "HNumberS": "Singular",
-        "HNumberP": "Plural",
         "1s" : "ἔλυον",
         "2s" : "ἔλυες",
         "3s" : "ἔλυε(ν)",
@@ -696,11 +676,6 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
     },
     {
         "Paradigm": "Imperfect Mid/Pas Tense-Form",
-        "HPerson1": "First Person",
-        "HPerson2": "Second Person",
-        "HPerson3": "Third Person",
-        "HNumberS": "Singular",
-        "HNumberP": "Plural",
         "1s" : "ἐλυόμην",
         "2s" : "ἐλύου",
         "3s" : "ἐλύετο",
@@ -716,11 +691,6 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
     },
     {
         "Paradigm": "Imperfect Active Indicative of εἰμί",
-        "HPerson1": "First Person",
-        "HPerson2": "Second Person",
-        "HPerson3": "Third Person",
-        "HNumberS": "Singular",
-        "HNumberP": "Plural",
         "1s" : "ἤμην",
         "2s" : "ἦς",
         "3s" : "ἦν",
@@ -743,8 +713,9 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
                 <tr>
 
                     <th>Person</th>
-                    <th>${verbParadigm.HNumberS}</th>
-                    <th>${verbParadigm.HNumberP}</th>
+                    <th>Singular</th>
+                    <th>Translation</th>
+                    <th>Plural</th>
                     <th>Translation</th>
                 </tr>
                 <tr>
