@@ -457,7 +457,7 @@ nextReview.addEventListener('click', () => {
     } else {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
-        reset.classList.remove('show');
+        // reset.classList.remove('show');
     
         finishedEl.style.display = "flex";
 
@@ -487,7 +487,7 @@ reviewNow.addEventListener('click', () => {
     } else {
         vocabEL.classList.add("show");
         lessonsEL.classList.add('hide')
-        reset.classList.add('show');
+        // reset.classList.add('show');
     }
  
 })
@@ -503,7 +503,7 @@ paradigmReview.addEventListener('click', () => {
     mainReview.classList.add("hide");
     nounParadigmsTable.style.display = 'flex';
     verbParadigmsTable.style.display = 'flex';
-    reset.classList.add('show');
+    // reset.classList.add('show');
     goBack.style.display = 'block';
     document.querySelector(".love-greek").style.display = 'none';
 })
@@ -742,31 +742,31 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
             <table>
                 <tr>
 
-                    <th></th>
+                    <th>Person</th>
                     <th>${verbParadigm.HNumberS}</th>
                     <th>${verbParadigm.HNumberP}</th>
                     <th>Translation</th>
                 </tr>
                 <tr>
-                    <td>${verbParadigm.HPerson1}</td>
+                    <td>1st</td>
                     <td>${verbParadigm["1s"]}</td>
+                    <td>${verbParadigm["1s-translation"]}</td>
                     <td>${verbParadigm["1p"]}</td>
-                    <td>${verbParadigm["1p"]}</td>
-                    <td>${verbParadigm["1p"]}</td>
+                    <td>${verbParadigm["1p-translation"]}</td>
                 </tr>
                 <tr>
-                    <td>${verbParadigm.HPerson2}</td>
+                    <td>2nd</td>
                     <td>${verbParadigm["2s"]}</td>
-                    <td>${verbParadigm["1p"]}</td>
+                    <td>${verbParadigm["2s-translation"]}</td>
                     <td>${verbParadigm["2p"]}</td>
-                    <td>${verbParadigm["1p"]}</td>
+                    <td>${verbParadigm["2p-translation"]}</td>
                 </tr>
                 <tr>
-                    <td>${verbParadigm.HPerson3}</td>
+                    <td>3rd</td>
                     <td>${verbParadigm["3s"]}</td>
-                    <td>${verbParadigm["1p"]}</td>
+                    <td>${verbParadigm["3s-translation"]}</td>
                     <td>${verbParadigm["3p"]}</td>
-                    <td>${verbParadigm["1p"]}</td>
+                    <td>${verbParadigm["3p-translation"]}</td>
                 </tr>
             </table>
 </details>`

@@ -344,13 +344,19 @@ h2 {
 
 .paradigms-table {
     display: none;
+    width: 700px;
     max-width: 90%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    text-align: left;
+    text-align: center;
     margin: 3em auto;
+}
+
+table {
+    width: 100%;
+
 }
 .paradigms-table summary {
     color: white;
@@ -363,12 +369,11 @@ table {
     font-size: 1.2rem;
 }
 
-tr:first-child {
+tr, td, th {
     padding-right: 1rem;
 }
-td:first-child {
-    padding-right: 1rem;
-}
+
+
 
 
 footer {
