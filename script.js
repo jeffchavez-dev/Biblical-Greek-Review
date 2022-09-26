@@ -691,7 +691,7 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "2s-translation" : "You were loosing",
         "3s-translation" : "He/she/it was loosing",
         "1p-translation" : "We were loosing",
-        "2p-translation" : "You (all) were loosing",
+        "2p-translation" : "You (all) loosing",
         "3p-translation" : "They were loosing"
     },
     {
@@ -707,12 +707,12 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "1p" : "ἐλυόμεθα",
         "2p" : "ἐλύεσθε",
         "3p" : "ἐλύοντο",
-        "1s-translation" : "I am loosing",
-        "2s-translation" : "You are loosing",
-        "3s-translation" : "He/she/it is loosing",
-        "1p-translation" : "We are loosing",
-        "2p-translation" : "You (all) are loosing",
-        "3p-translation" : "They loose"
+        "1s-translation" : "I was being loosed",
+        "2s-translation" : "You were being loosed",
+        "3s-translation" : "He/she/it was being loosed",
+        "1p-translation" : "We were being loosed",
+        "2p-translation" : "You (all) were being loosed",
+        "3p-translation" : "They were being loosed"
     },
     {
         "Paradigm": "Imperfect Active Indicative of εἰμί",
