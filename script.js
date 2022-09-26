@@ -513,9 +513,6 @@ paradigmReview.addEventListener('click', () => {
 let nounParadigms = [
     {
         "Paradigm": "1st Declension: Eta Pattern",
-        "HCase": "Case",
-        "HNumberS": "Singular",
-        "HNumberP": "Plural",
         "Case1" : "Nominative",
         "Case2" : "Genitive",
         "Case3" : "Dative",
@@ -531,9 +528,6 @@ let nounParadigms = [
     },
     {
         "Paradigm": "1st Declension: Alpha Pattern <br>(After –ε, –ι or –ρ )",
-        "HCase": "Case",
-        "HNumberS": "Singular",
-        "HNumberP": "Plural",
         "Case1" : "Nominative",
         "Case2" : "Genitive",
         "Case3" : "Dative",
@@ -549,9 +543,6 @@ let nounParadigms = [
     },
     {
         "Paradigm": "2nd Declension: Masculine",
-        "HCase": "Case",
-        "HNumberS": "Singular",
-        "HNumberP": "Plural",
         "Case1" : "Nominative",
         "Case2" : "Genitive",
         "Case3" : "Dative",
@@ -567,9 +558,6 @@ let nounParadigms = [
     },
     {
         "Paradigm": "2nd Declension: Neuter",
-        "HCase": "Case",
-        "HNumberS": "Singular",
-        "HNumberP": "Plural",
         "Case1" : "Nominative",
         "Case2" : "Genitive",
         "Case3" : "Dative",
@@ -638,7 +626,13 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3s" : "λύει",
         "1p" : "λύομεν",
         "2p" : "λύετε",
-        "3p" : "λύουσι(ν)"
+        "3p" : "λύουσι(ν)",
+        "1s-translation" : "I am loosing",
+        "2s-translation" : "You are loosing",
+        "3s-translation" : "He/she/it is loosing",
+        "1p-translation" : "We are loosing",
+        "2p-translation" : "You (all) are loosing",
+        "3p-translation" : "They are loosing"
     },
     {
         "Paradigm": "Present Mid/Pas Tense-Form",
@@ -652,7 +646,13 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3s" : "λύεται",
         "1p" : "λυόμεθα",
         "2p" : "λύεσθε",
-        "3p" : "λύονται"
+        "3p" : "λύονται",
+        "1s-translation" : "I am being loosed",
+        "2s-translation" : "You are being loosed",
+        "3s-translation" : "He/she/it is being loosed",
+        "1p-translation" : "We are being loosed",
+        "2p-translation" : "You (all) are being loosed",
+        "3p-translation" : "They are being loosed"
     },
     {
         "Paradigm": "Present Active Indicative of εἰμί",
@@ -666,7 +666,13 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3s" : "ἐστίν",
         "1p" : "ἐσμέν",
         "2p" : "ἐστέ",
-        "3p" : "εἰσίν"
+        "3p" : "εἰσίν",
+         "1s-translation" : "I am",
+        "2s-translation" : "You are",
+        "3s-translation" : "He/she/it is",
+        "1p-translation" : "We are",
+        "2p-translation" : "You (all) are ",
+        "3p-translation" : "They are"
     },
     {
         "Paradigm": "Imperfect Active Tense-Form",
@@ -680,7 +686,13 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3s" : "ἔλυε(ν)",
         "1p" : "ἐλύομεν",
         "2p" : "ἐλύετε",
-        "3p" : "ἔλυον"
+        "3p" : "ἔλυον",
+        "1s-translation" : "I am loosing",
+        "2s-translation" : "You are loosing",
+        "3s-translation" : "He/she/it is loosing",
+        "1p-translation" : "We are loosing",
+        "2p-translation" : "You (all) are loosing",
+        "3p-translation" : "They loose"
     },
     {
         "Paradigm": "Imperfect Mid/Pas Tense-Form",
@@ -694,7 +706,13 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3s" : "ἐλύετο",
         "1p" : "ἐλυόμεθα",
         "2p" : "ἐλύεσθε",
-        "3p" : "ἐλύοντο"
+        "3p" : "ἐλύοντο",
+        "1s-translation" : "I am loosing",
+        "2s-translation" : "You are loosing",
+        "3s-translation" : "He/she/it is loosing",
+        "1p-translation" : "We are loosing",
+        "2p-translation" : "You (all) are loosing",
+        "3p-translation" : "They loose"
     },
     {
         "Paradigm": "Imperfect Active Indicative of εἰμί",
@@ -708,7 +726,13 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
         "3s" : "ἦν",
         "1p" : "ἦμεν",
         "2p" : "ἦτε",
-        "3p" : "ἦσαν"
+        "3p" : "ἦσαν",
+        "1s-translation" : "I am loosing",
+        "2s-translation" : "You are loosing",
+        "3s-translation" : "He/she/it is loosing",
+        "1p-translation" : "We are loosing",
+        "2p-translation" : "You (all) are loosing",
+        "3p-translation" : "They loose"
     }
   ]
 
@@ -721,6 +745,7 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
                     <th></th>
                     <th>${verbParadigm.HNumberS}</th>
                     <th>${verbParadigm.HNumberP}</th>
+                    <th>Translation</th>
                 </tr>
                 <tr>
                     <td>${verbParadigm.HPerson1}</td>
