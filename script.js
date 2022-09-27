@@ -277,7 +277,7 @@ lessonSevenBtn.addEventListener('click', () => {
     toReview.appendChild(review);
 });
 lessonEightBtn.addEventListener('click', () => {
-    addNewLessonSeven();
+    addNewLessonEight();
     lessonEightEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "LESSON 8";
@@ -344,6 +344,7 @@ function addNewLessonSeven() {
 function addNewLessonEight() {
     if(lessonEightBtn.checked) {
         vocabulary.push(...lessonEight);
+        console.log(lessonEight)
         // vocabulary.concat(lessonTwo);
         loadReview()
     }
