@@ -159,13 +159,6 @@
             },
             {
                 "Paradigm": "2nd Declension: Neuter",
-                "HCase": "Case",
-                "HNumberS": "Singular",
-                "HNumberP": "Plural",
-                "Case1" : "Nominative",
-                "Case2" : "Genitive",
-                "Case3" : "Dative",
-                "Case4" : "Accusative",
                 "Nom-Singular" : "τὸ ἔργον",
                 "Gen-Singular" : "τοῦ ἔργου",
                 "Dat-Singular" : "τῷ ἔργῳ",
@@ -179,11 +172,6 @@
         "verbs" : [
             {
                 "Paradigm": "Present Active Tense-Form",
-                "HPerson1": "First Person",
-                "HPerson2": "Second Person",
-                "HPerson3": "Third Person",
-                "HNumberS": "Singular",
-                "HNumberP": "Plural",
                 "1s" : "λύω",
                 "2s" : "λύεις",
                 "3s" : "λύει",
@@ -193,8 +181,6 @@
             },
             {
                 "Paradigm": "Present Mid/Pas Tense-Form",
-                "HPerson1": "First Person",
-                 
                 "1s" : "λύομαι",
                 "2s" : "λύῃ",
                 "3s" : "λύεται",
@@ -204,11 +190,6 @@
             },
             {
                 "Paradigm": "Present Active Indicative of εἰμί",
-                "HPerson1": "First Person",
-                "HPerson2": "Second Person",
-                "HPerson3": "Third Person",
-                "HNumberS": "Singular",
-                "HNumberP": "Plural",
                 "1s" : "εἰμί",
                 "2s" : "εἶ",
                 "3s" : "ἐστίν",
@@ -218,11 +199,6 @@
             },
             {
                 "Paradigm": "Imperfect Active Tense-Form",
-                "HPerson1": "First Person",
-                "HPerson2": "Second Person",
-                "HPerson3": "Third Person",
-                "HNumberS": "Singular",
-                "HNumberP": "Plural",
                 "1s" : "ἔλυον",
                 "2s" : "ἔλυες",
                 "3s" : "ἔλυε(ν)",
@@ -232,11 +208,6 @@
             },
             {
                 "Paradigm": "Imperfect Mid/Pas Tense-Form",
-                "HPerson1": "First Person",
-                "HPerson2": "Second Person",
-                "HPerson3": "Third Person",
-                "HNumberS": "Singular",
-                "HNumberP": "Plural",
                 "1s" : "ἐλυόμην",
                 "2s" : "ἐλύου",
                 "3s" : "ἐλύετο",
@@ -246,11 +217,6 @@
             },
             {
                 "Paradigm": "Imperfect Active Indicative of εἰμί",
-                "HPerson1": "First Person",
-                "HPerson2": "Second Person",
-                "HPerson3": "Third Person",
-                "HNumberS": "Singular",
-                "HNumberP": "Plural",
                 "1s" : "ἤμην",
                 "2s" : "ἦς",
                 "3s" : "ἦν",
