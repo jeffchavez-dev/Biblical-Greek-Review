@@ -126,13 +126,6 @@
         "nouns": [
             {
                 "Paradigm": "1st Declension: Eta Pattern",
-                "HCase": "Case",
-                "HNumberS": "Singular",
-                "HNumberP": "Plural",
-                "Case1" : "Nominative",
-                "Case2" : "Genitive",
-                "Case3" : "Dative",
-                "Case4" : "Accusative",
                 "Nom-Singular" : "ἡ φωνή",
                 "Gen-Singular" : "τῆς φωνῆς",
                 "Dat-Singular" : "τῇ φωνῇ",
@@ -144,13 +137,6 @@
             },
             {
                 "Paradigm": "1st Declension: Alpha Pattern <br>(After –ε, –ι or –ρ )",
-                "HCase": "Case",
-                "HNumberS": "Singular",
-                "HNumberP": "Plural",
-                "Case1" : "Nominative",
-                "Case2" : "Genitive",
-                "Case3" : "Dative",
-                "Case4" : "Accusative",
                 "Nom-Singular" : "ἡ οἰκία",
                 "Gen-Singular" : "τῆς οἰκίας",
                 "Dat-Singular" : "τῇ οἰκίᾳ",
@@ -162,13 +148,6 @@
             },
             {
                 "Paradigm": "2nd Declension: Masculine",
-                "HCase": "Case",
-                "HNumberS": "Singular",
-                "HNumberP": "Plural",
-                "Case1" : "Nominative",
-                "Case2" : "Genitive",
-                "Case3" : "Dative",
-                "Case4" : "Accusative",
                 "Nom-Singular" : "ὁ λόγος",
                 "Gen-Singular" : "τοῦ λόγου",
                 "Dat-Singular" : "τῷ λόγῳ",
@@ -215,10 +194,7 @@
             {
                 "Paradigm": "Present Mid/Pas Tense-Form",
                 "HPerson1": "First Person",
-                "HPerson2": "Second Person",
-                "HPerson3": "Third Person",
-                "HNumberS": "Singular",
-                "HNumberP": "Plural",
+                 
                 "1s" : "λύομαι",
                 "2s" : "λύῃ",
                 "3s" : "λύεται",
