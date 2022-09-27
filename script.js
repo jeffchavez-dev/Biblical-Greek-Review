@@ -1,23 +1,81 @@
+const mainReview = document.querySelector(".main-review")
+const reviewVocabs = document.querySelector(".vocabulary-review")
+const lessonSection = document.querySelector(".lesson-section")
+
+const greekVocab = document.querySelector(".greek-vocabulary")
+const vocabEL = document.querySelector(".main")
+const lessonsEL = document.querySelector(".lessons")
+const englishVocab = document.querySelector(".english-vocabulary")
+const correct = document.querySelector(".correct-answer")
+const wrongAnswer = document.querySelector(".wrong-answer")
+const showAnswer = document.querySelector(".show-answer")
+const hideAnswer = document.querySelector(".hide-answer")
+const retake = document.querySelector(".retake");
+const reviewWrongAnswers = document.querySelector(".reviewWrongAnswers");
+const reset = document.querySelector(".reset");
+const switchVocab = document.querySelector(".switch");
+const reviewNow = document.querySelector(".review-now");
+const wordCount = document.querySelector(".totalCount");
+const currentCountEL = document.querySelector(".current");
+const checkboxes = document.getElementsByName("lessons");
+
+
+
+//add a function that will push every checked input to vocabulary array
+
+const lessonOneBtn = document.getElementById("lessonOne");
+const lessonOneEl = document.getElementById("lesson-one");
+const lessonTwoBtn = document.getElementById("lessonTwo");
+const lessonTwoEl = document.getElementById("lesson-two");
+const lessonThreeBtn = document.getElementById("lessonThree");
+const lessonThreeEl = document.getElementById("lesson-three");
+const lessonFourBtn = document.getElementById("lessonFour");
+const lessonFourEl = document.getElementById("lesson-four");
+const lessonFiveBtn = document.getElementById("lessonFive");
+const lessonFiveEl = document.getElementById("lesson-five");
+const lessonSixBtn = document.getElementById("lessonSix");
+const lessonSixEl = document.getElementById("lesson-six");
+const lessonSevenBtn = document.getElementById("lessonSeven");
+const lessonSevenEl = document.getElementById("lesson-seven");
+const lessonEightBtn = document.getElementById("lessonEight");
+const lessonEightEl = document.getElementById("lesson-eight");
+const toReview = document.querySelector(".toReview");
+const goBack = document.querySelector(".goBack");
+
 
 async function fetchVocabulary() {
     const response = await fetch('./vocabs.json')
     const data = await response.json();
     const paradigmsData = data.paradigms;
-    const vocabularyData = data.vocabulary;
-    console.log(paradigmsData);
-    console.log(vocabularyData);
-    // newVocabs(data)
-    // console.log(response)
+    const vocabularyData = data.vocabulary.lessonOne;
+    
+    newVocabs(data)
+    // return data
    
 }
+
+fetchVocabulary()
+function newVocabs(vocabs) {
+    console.log(vocabs.paradigms);
+}
+
+
 
 // function newVocabs(data) {
 //     console.log(data.paradigms)
 // }
 
-// newVocabs()
-fetchVocabulary()
+// const allVocabs = fetchVocabulary().then(result => {
+//     console.log(result)
+// }).catch(err => {
+//     console.log(err);
+// })
 
+// console.log("alright" + allVocabs )
+
+// let newVocabsArray = [];
+// newVocabsArray.push(allVocabs.paradigms)
+// console.log("newArray" + newVocabsArray)
 
 const vocabulary = [];
 const lessonOne = [
@@ -162,49 +220,6 @@ const lessonEight = [
 
 ]
 
-const mainReview = document.querySelector(".main-review")
-const reviewVocabs = document.querySelector(".vocabulary-review")
-const lessonSection = document.querySelector(".lesson-section")
-
-const greekVocab = document.querySelector(".greek-vocabulary")
-const vocabEL = document.querySelector(".main")
-const lessonsEL = document.querySelector(".lessons")
-const englishVocab = document.querySelector(".english-vocabulary")
-const correct = document.querySelector(".correct-answer")
-const wrongAnswer = document.querySelector(".wrong-answer")
-const showAnswer = document.querySelector(".show-answer")
-const hideAnswer = document.querySelector(".hide-answer")
-const retake = document.querySelector(".retake");
-const reviewWrongAnswers = document.querySelector(".reviewWrongAnswers");
-const reset = document.querySelector(".reset");
-const switchVocab = document.querySelector(".switch");
-const reviewNow = document.querySelector(".review-now");
-const wordCount = document.querySelector(".totalCount");
-const currentCountEL = document.querySelector(".current");
-const checkboxes = document.getElementsByName("lessons");
-
-
-
-//add a function that will push every checked input to vocabulary array
-
-const lessonOneBtn = document.getElementById("lessonOne");
-const lessonOneEl = document.getElementById("lesson-one");
-const lessonTwoBtn = document.getElementById("lessonTwo");
-const lessonTwoEl = document.getElementById("lesson-two");
-const lessonThreeBtn = document.getElementById("lessonThree");
-const lessonThreeEl = document.getElementById("lesson-three");
-const lessonFourBtn = document.getElementById("lessonFour");
-const lessonFourEl = document.getElementById("lesson-four");
-const lessonFiveBtn = document.getElementById("lessonFive");
-const lessonFiveEl = document.getElementById("lesson-five");
-const lessonSixBtn = document.getElementById("lessonSix");
-const lessonSixEl = document.getElementById("lesson-six");
-const lessonSevenBtn = document.getElementById("lessonSeven");
-const lessonSevenEl = document.getElementById("lesson-seven");
-const lessonEightBtn = document.getElementById("lessonEight");
-const lessonEightEl = document.getElementById("lesson-eight");
-const toReview = document.querySelector(".toReview");
-const goBack = document.querySelector(".goBack");
 
 
 
