@@ -54,10 +54,17 @@ async function fetchVocabulary() {
    
 }
 
+
 fetchVocabulary()
+
+let newVocabsArray = [];
 function newVocabs(vocabs) {
+    newVocabsArray.push(vocabs.vocabulary.lessonOne)
+    newVocabsArray.push(vocabs.vocabulary.lessonTwo)
     console.log(vocabs.paradigms);
 }
+
+console.log(newVocabsArray)
 
 
 
