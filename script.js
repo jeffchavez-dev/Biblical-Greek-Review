@@ -143,6 +143,24 @@ const lessonSeven = [
     {"ἐνώπιον" : "before, in the presence of"}
 
 ]
+const lessonEight = [
+    {"αὐτός, –ή, –ό" : "he, she, it; self, same (autopilot)"},
+    {"ἐγώ, ἡμεῖς" : "I; we (ego, egomaniac)"},
+    {"ὅς, ἥ, ὅ" : "who, which, that"},
+    {"σύ, ὑμεῖς" : "you (sg); you (pl)"},
+    {"ἄρτος, ὁ" : "bread, food "},
+    {"δικαιοσύνη, ἡ" : "righteousness, justice"},
+    {"εἰρήνη, ἡ" : "peace (irenic, Irene)"},
+    {"ἐξουσία, ἡ" : "authority, right, power "},
+    {"θάλασσα, ἡ" : "lake, sea (thalassic)"},
+    {"λαός, ὁ" : "people, crowd (laity)"},
+    {"ὁδός, ἡ" : "way, road (exodus)"},
+    {"οἰκία, ἡ" : "home, dwelling, family (economy)"},
+    {"οἶκος, ὁ" : "house, household, family"},
+    {"ὀφθαλμός, ὁ" : "eye (ophthalmology)"},
+    {"τόπος, ὁ" : "place (topography)"}
+
+]
 
 const mainReview = document.querySelector(".main-review")
 const reviewVocabs = document.querySelector(".vocabulary-review")
@@ -183,6 +201,8 @@ const lessonSixBtn = document.getElementById("lessonSix");
 const lessonSixEl = document.getElementById("lesson-six");
 const lessonSevenBtn = document.getElementById("lessonSeven");
 const lessonSevenEl = document.getElementById("lesson-seven");
+const lessonEightBtn = document.getElementById("lessonEight");
+const lessonEightEl = document.getElementById("lesson-eight");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
@@ -256,6 +276,14 @@ lessonSevenBtn.addEventListener('click', () => {
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 });
+lessonEightBtn.addEventListener('click', () => {
+    addNewLessonSeven();
+    lessonEightEl.classList.add("hide")
+    const review = document.createElement("div")
+    review.innerHTML = "LESSON 8";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
+});
 
 
 function addNewLessonOne() {
@@ -309,6 +337,13 @@ function addNewLessonSix() {
 function addNewLessonSeven() {
     if(lessonSevenBtn.checked) {
         vocabulary.push(...lessonSeven);
+        // vocabulary.concat(lessonTwo);
+        loadReview()
+    }
+}
+function addNewLessonEight() {
+    if(lessonEightBtn.checked) {
+        vocabulary.push(...lessonEight);
         // vocabulary.concat(lessonTwo);
         loadReview()
     }
