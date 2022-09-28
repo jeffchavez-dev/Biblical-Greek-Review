@@ -57,16 +57,38 @@ async function fetchVocabulary() {
 
 fetchVocabulary()
 
+
+// Refactored code // 
 let newVocabsArray = [];
 
+let lessonsValue = [];
 
 function newVocabs(vocabs) {
     // newVocabsArray.push(vocabs.vocabulary.lessonOne)
     // newVocabsArray.push(vocabs.vocabulary.lessonTwo)
-    
+
+    let lessonsChecked = document.querySelectorAll('input[name="lessons"]:checked');
+    reviewNow.addEventListener('click', () => {
+        lessonsChecked.forEach((checkbox) => {
+            lessonsValue.push(checkbox.value)
+        })
+    })
 }
 
-console.log(newVocabsArray)
+
+let lessonsChecked = document.querySelectorAll('input[name="lessons"]');
+
+reviewNow.addEventListener('click', () => {
+        lessonsChecked.forEach((checkbox) => {
+            if(checkbox.checked) {
+                lessonsValue.push(checkbox.value);
+                console.log("new lessons")
+            }
+           
+        })
+    })
+    
+console.log(lessonsValue)
 
 
 
