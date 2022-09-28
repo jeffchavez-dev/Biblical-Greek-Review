@@ -58,31 +58,17 @@ async function fetchVocabulary() {
 fetchVocabulary()
 
 let newVocabsArray = [];
+
+
 function newVocabs(vocabs) {
-    newVocabsArray.push(vocabs.vocabulary.lessonOne)
-    newVocabsArray.push(vocabs.vocabulary.lessonTwo)
-    console.log(vocabs.paradigms);
+    // newVocabsArray.push(vocabs.vocabulary.lessonOne)
+    // newVocabsArray.push(vocabs.vocabulary.lessonTwo)
+    
 }
 
 console.log(newVocabsArray)
 
 
-
-// function newVocabs(data) {
-//     console.log(data.paradigms)
-// }
-
-// const allVocabs = fetchVocabulary().then(result => {
-//     console.log(result)
-// }).catch(err => {
-//     console.log(err);
-// })
-
-// console.log("alright" + allVocabs )
-
-// let newVocabsArray = [];
-// newVocabsArray.push(allVocabs.paradigms)
-// console.log("newArray" + newVocabsArray)
 
 const vocabulary = [];
 const lessonOne = [
