@@ -48,10 +48,7 @@ async function fetchVocabulary() {
     const data = await response.json();
     const paradigmsData = data.paradigms;
     const vocabularyData = data.vocabulary.lessonOne;
-    
-    newVocabs(data)
-    // return data
-   
+    return data
 }
 
 
@@ -63,22 +60,17 @@ let newVocabsArray = [];
 
 let lessonsValue = [];
 
-function newVocabs(vocabs) {
-    // newVocabsArray.push(vocabs.vocabulary.lessonOne)
-    // newVocabsArray.push(vocabs.vocabulary.lessonTwo)
+// newVocabs is a callback function // 
 
-    let lessonsChecked = document.querySelectorAll('input[name="lessons"]:checked');
-    reviewNow.addEventListener('click', () => {
-        lessonsChecked.forEach((checkbox) => {
-            lessonsValue.push(checkbox.value)
-        })
-    })
+function newVocabs(vocabs) {
+
 }
 
 
 let lessonsChecked = document.querySelectorAll('input[name="lessons"]');
 
 reviewNow.addEventListener('click', () => {
+        
         lessonsChecked.forEach((checkbox) => {
             if(checkbox.checked) {
                 lessonsValue.push(checkbox.value);
@@ -88,7 +80,7 @@ reviewNow.addEventListener('click', () => {
         })
     })
     
-console.log(lessonsValue)
+
 
 
 
