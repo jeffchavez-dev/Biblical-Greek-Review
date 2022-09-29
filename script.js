@@ -63,7 +63,7 @@ let lessonsValue = [];
 // newVocabs is a callback function // 
 
 function newVocabs(vocabs) {
-
+    
 }
 
 

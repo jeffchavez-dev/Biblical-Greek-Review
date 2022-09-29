@@ -309,9 +309,10 @@ h2 {
 .modal {
     position: relative;
     background-color: white;
+    opacity: .9;
     color: green;
     width: 40%;
-    height: 20%;
+    height: 15vh;
     border-radius: 10px;
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.8);
     display: flex;
@@ -413,5 +414,9 @@ footer {
     }
      table {
         font-size: .9rem;
+     }
+     .modal {
+        font-size: 1.5rem;
+        
      }
 }
