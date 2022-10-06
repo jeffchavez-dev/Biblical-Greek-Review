@@ -170,7 +170,7 @@ const lessonFive = [
     {"οὕτως":" in this manner, thus, so"},
     {"τέ":" and, but"},
     {"οὐ, οὐκ, οὐχ":" no, not"},
-    {"οὐχί, no! ":"(emphatic)"}
+    {"οὐχί":"no! (emphatic)"}
 ]
 const lessonSix = [
     {"ἀγαπάω" : "I love"},
