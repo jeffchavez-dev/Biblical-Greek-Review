@@ -47,8 +47,8 @@ async function fetchVocabulary() {
     const response = await fetch('./vocabs.json')
     const data = await response.json();
     const paradigmsData = data.paradigms;
-    const vocabularyData = data.vocabulary.lessonOne;
-    return data
+    const vocabularyData = data.vocabulary;
+    newVocabs(vocabularyData)
 }
 
 
@@ -63,7 +63,9 @@ let lessonsValue = [];
 // newVocabs is a callback function // 
 
 function newVocabs(vocabs) {
-    
+    // const vocabList = document.createElement('div')
+    // const vocabularyList = vocabs;
+    // vocabularyList.map(vocab => console.log(vocab.lessonOne) )
 }
 
 
