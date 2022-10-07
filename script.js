@@ -91,11 +91,11 @@ const timer = () => {
             clearInterval(interval)
             alert("Times Up!")
         } else {
-            const timerEl = document.createElement('div');
-            timerEl.classList.add("btn")
-            timerEl.innerHTML = time--;
-            document.body.appendChild(timerEL);
-            console.log(time--)
+            // const timerEl = document.createElement('div');
+            // timerEl.classList.add("btn")
+            // timerEl.innerHTML = time--;
+            // document.body.appendChild(timerEL);
+            // console.log(time--)
         }
            
     } 
