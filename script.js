@@ -86,12 +86,15 @@ reviewNow.addEventListener('click', () => {
 const timer = () => {
     let time = 5;
     const interval = setInterval(myTimer, 1000)
-    if(time === 0) {
-        clearInterval(interval)
-    } else (
-        console.log(time--)
-    )
-
+    function myTimer() {
+        if(time === 0) {
+            clearInterval(interval)
+        } else (
+            console.log(time--)
+        )
+    
+    }
+    
 }
 
 timer()
