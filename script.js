@@ -90,9 +90,11 @@ const timer = () => {
         if(time === 0) {
             clearInterval(interval)
             alert("Times Up!")
-        } else (
+        } else {
+            const timerEl = document.createElement('div');
             console.log(time--)
-        )
+        }
+           
     } 
 }
 
