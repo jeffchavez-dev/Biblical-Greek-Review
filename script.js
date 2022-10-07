@@ -100,7 +100,7 @@ const timer = () => {
     } 
 }
 
-timer()
+// timer()
 
 
 const vocabulary = [];
