@@ -89,12 +89,12 @@ const timer = () => {
     function myTimer() {
         if(time === 0) {
             clearInterval(interval)
+            alert("Times Up!")
         } else (
             console.log(time--)
         )
     
-    }
-    
+    } 
 }
 
 timer()
