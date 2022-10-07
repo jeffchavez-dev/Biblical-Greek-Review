@@ -94,6 +94,8 @@ const timer = () => {
 
 }
 
+timer()
+
 
 const vocabulary = [];
 const lessonOne = [
