@@ -94,7 +94,7 @@ const timer = () => {
             const timerEl = document.createElement('div');
             timerEl.classList.add("btn")
             timerEl.innerHTML = time--;
-            document.body.appendChild(timerEL)
+            document.body.appendChild(timerEL);
             console.log(time--)
         }
            
