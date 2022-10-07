@@ -93,7 +93,6 @@ const timer = () => {
         } else (
             console.log(time--)
         )
-    
     } 
 }
 
