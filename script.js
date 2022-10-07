@@ -91,8 +91,10 @@ const timer = () => {
             clearInterval(interval)
             alert("Times Up!")
         } else {
-            const timerEl = document.createElement('div');
-            console.log(time--)
+            // const timerEl = document.createElement('div');
+            // timerEl.innerHTML = time--;
+            // mainReview.appendChild(timerEL)
+            // console.log(time--)
         }
            
     } 
