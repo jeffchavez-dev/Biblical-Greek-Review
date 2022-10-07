@@ -85,7 +85,9 @@ reviewNow.addEventListener('click', () => {
 
 const timer = () => {
     let time = 5;
+    const interval = setInterval(myTimer, 1000)
     
+
 }
 
 
