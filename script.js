@@ -83,25 +83,25 @@ reviewNow.addEventListener('click', () => {
     })
     
 
-const timer = () => {
-    let time = 5;
-    const interval = setInterval(myTimer, 1000)
-    function myTimer() {
-        if(time === 0) {
-            clearInterval(interval)
-            alert("Times Up!")
-        } else {
-            // const timerEl = document.createElement('div');
-            // timerEl.classList.add("btn")
-            // timerEl.innerHTML = time--;
-            // document.body.appendChild(timerEL);
-            // console.log(time--)
-        }
+// const timer = () => {
+//     let time = 5;
+//     const interval = setInterval(myTimer, 1000)
+//     function myTimer() {
+//         if(time === 0) {
+//             clearInterval(interval)
+//             alert("Times Up!")
+//         } else {
+//             // const timerEl = document.createElement('div');
+//             // timerEl.classList.add("btn")
+//             // timerEl.innerHTML = time--;
+//             // document.body.appendChild(timerEL);
+//             // console.log(time--)
+//         }
            
-    } 
-}
+//     } 
+// }
 
-// timer()
+// // timer()
 
 
 const vocabulary = [];
