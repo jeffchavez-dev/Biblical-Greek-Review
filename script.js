@@ -430,21 +430,50 @@ function loadReview() {
 // }
 
 // show all vocabulary
+const newVocabulary = [
+    {greek : "ἀπό", meaning: "from, away from (gen)"},
+    {greek : "διά" , meaning : "through (gen); because of (acc) (diameter)"},
+    {greek : "εἰς", meaning : "into, among, for (acc) (eisegesis)"},
+    {greek : "ἐκ" , meaning:"from, out of (gen) (exhale, exegesis)"},
+    {greek : "ἐν" , meaning: "in, on, at, by, with (dat)"},
+    {greek : "ἐπί" , meaning: "on, upon, over (gen); on, upon, at, in (dat); on, upon, to, for (acc) (epigraph)"},
+    {greek : "κατά", meaning : "down, against (gen); according to (acc) (cataphoric)"},
+    {greek : "μετά" , meaning: "with, among (gen); after (acc) "},
+    {greek : "παρά" , meaning: "from (gen); with (dat); beside, on, at (acc) (parable, paramedic)"},
+    {greek : "περί" , meaning: "about, concerning (gen); around (acc) (perimeter)"},
+    {greek : "πρός" , meaning: "to, toward (acc) (prosthesis)"},
+    {greek : "σύν" , meaning: "with (dat) (syntax)"},
+    {greek : "ὑπέρ", meaning : "for, on behalf of (gen); above, beyond (acc) (hypercritical, hyperactive)"},
+    {greek : "ὑπό" , meaning: "by (gen); under, below (acc) (hypotaxis, hypothesis)"},
+    {greek : "ἐνώπιον" , meaning: "before, in the presence of"}
 
+]
 const allVocabs = document.querySelector('.all-vocabs');
 
 allVocabs.addEventListener('click', () => {
     
     const allVocabsEl = document.querySelector('.all-vocabsEl')
     lessonsEL.classList.add('hide')
+    // vocabulary.push(...lessonOne);
+    // vocabulary.push(...lessonTwo);
+    // vocabulary.push(...lessonThree);
+    // vocabulary.push(...lessonFour);
+    // vocabulary.push(...lessonFive);
+    // vocabulary.push(...lessonSix);
+    // vocabulary.push(...lessonSeven);
+    // vocabulary.push(...lessonEight);
+    // console.log(vocabulary)
 
-    
-    allVocabsEl.innerHTML = `
-        <h2>All Vocabulary</h2>
-        <ul>
-            <li></li>
-        </ul>
-    `;
+    let vocabularyList = newVocabulary.map(vocab => {
+        return `<ul class="vocabulary-list>
+            <li>${vocab.greek} : ${vocab.meaning} </li>
+        </ul>`
+
+    })
+
+    console.log(vocabularyList)
+
+    allVocabsEl.innerHTML = vocabularyList;
   
     
    
