@@ -107,144 +107,144 @@ const timer = () => {
 
 const vocabulary = [];
 const lessonOne = [
-    {"ἀγάπη, ἡ": "love"},
-    {"γῆ ἡ": "earth, land, ground (geology)"},
-    {"ζωή ἡ": "life (zoo, zoology)"},
-    {"φωνή, ἡ ": "voice, sound (phonetics, phonograph, phone)"},
-    {"ἀλήθεια, ἡ": "truth"},
-    {"ἁμαρτία, ἡ":  "sin (hamartiology—the theological study of sin)"},
-    {"βασιλεία, ἡ" : "kingdom, reign (basilica)"},
-    {"δόξα, ἡ" : "glory, majesty (doxology)"},
-    {"ἐκκλησία, ἡ" : "congregation, assembly, church (ecclesiastical)"},
-    {"ἡμέρα, ἡ" : "day (ephemeral, “for a day”)"},
-    {"καρδία, ἡ":  "heart (cardiologist)"},
-    {"δέ" : "and, but, now"},
-    {"καί" : "and, even, also"},
-    {"μέν" : "on the one hand, indeed"},
-    {"ὁ, ἡ, τό" : "the"}
+    {greek : "ἀγάπη, ἡ", gloss: "love"},
+    {greek : "γῆ ἡ" , gloss: "earth, land, ground (geology)"},
+    {greek : "ζωή ἡ", gloss: "life (zoo, zoology)"},
+    {greek : "φωνή, ἡ ", gloss: "voice, sound (phonetics, phonograph, phone)"},
+    {greek : "ἀλήθεια, ἡ", gloss: "truth"},
+    {greek : "ἁμαρτία, ἡ", gloss:  "sin (hamartiology—the theological study of sin)"},
+    {greek : "βασιλεία, ἡ" , gloss: "kingdom, reign (basilica)"},
+    {greek : "δόξα, ἡ" , gloss: "glory, majesty (doxology)"},
+    {greek : "ἐκκλησία, ἡ" , gloss: "congregation, assembly, church (ecclesiastical)"},
+    {greek : "ἡμέρα, ἡ" , gloss: "day (ephemeral, “for a day”)"},
+    {greek : "καρδία, ἡ", gloss:  "heart (cardiologist)"},
+    {greek : "δέ" , gloss: "and, but, now"},
+    {greek : "καί" , gloss: "and, even, also"},
+    {greek : "μέν" , gloss: "on the one hand, indeed"},
+    {greek : "ὁ, ἡ, τό" , gloss: "the"}
 ]
 const lessonTwo = [
-    {"ἀδελφός, ὁ ": "brother (and sister) "},
-    {"ἄνθρωπος, ὁ ": "man, human being, husband (anthropology)"},
-    {"θεός, ὁ ": "God (theology)"},
-     {"κόσμος, ὁ ": "world, universe; adornment (cosmos, cosmology, cosmetics)"},
-     {"κύριος, ὁ ": "Lord, master, sir"},
-    {"λόγος, ὁ ": "word, message, account (logic, theology,psychology)"},
-    {"νόμος, ὁ ": "law, principle (theonomists)"},
-    {"οὐρανός, ὁ": " heaven, sky (Uranus)"},
-    {"υἱός, ὁ ": "son, descendant"},
-    {"Χριστός, ὁ ": "Christ, Messiah, Anointed One (Christ)"},
-    {"ἔργον, τό": "work, deed (ergonomic)"},
-    {"εὐαγγέλιον, τό ": "good news, gospel (evangelistic, evangelical)"},
-    {"ἱερόν, τό ": "temple, sanctuary"},
-     {"σημεἱον, τό ": "sign (semiotics)"},
-    {"τέκνον, τό": " child, son, descendant"}
+    {greek :"ἀδελφός, ὁ ", gloss: "brother (and sister) "},
+    {greek :"ἄνθρωπος, ὁ ", gloss: "man, human being, husband (anthropology)"},
+    {greek :"θεός, ὁ ", gloss: "God (theology)"},
+     {greek :"κόσμος, ὁ ", gloss: "world, universe; adornment (cosmos, cosmology, cosmetics)"},
+     {greek :"κύριος, ὁ ", gloss: "Lord, master, sir"},
+    {greek :"λόγος, ὁ ", gloss: "word, message, account (logic, theology,psychology)"},
+    {greek :"νόμος, ὁ ", gloss: "law, principle (theonomists)"},
+    {greek :"οὐρανός, ὁ", gloss: " heaven, sky (Uranus)"},
+    {greek :"υἱός, ὁ ", gloss: "son, descendant"},
+    {greek :"Χριστός, ὁ ", gloss: "Christ, Messiah, Anointed One (Christ)"},
+    {greek :"ἔργον, τό", gloss: "work, deed (ergonomic)"},
+    {greek :"εὐαγγέλιον, τό ", gloss: "good news, gospel (evangelistic, evangelical)"},
+    {greek :"ἱερόν, τό ", gloss: "temple, sanctuary"},
+     {greek :"σημεἱον, τό ", gloss: "sign (semiotics)"},
+    {greek :"τέκνον, τό", gloss: " child, son, descendant"}
 ]
 const lessonThree = [
-    {"ἀποκρίνομαι ": "I answer, reply"},
-    {"εἰμί ": "I am, exist"},
-    {"ἀκούω": " I hear, listen to, obey (acoustics)"},
-    {"γινώσκω ": "I know, understand, acknowledge (knowledge, Gnostics)"},
-    {"γράφω ": "I write (graphics)"},
-    {"ἔχω ": "I have, hold"},
-    {"λέγω ": "I say, speak (legend)"},
-    {"λαμβάνω ": "I take, receive"},
-    {"λύω ": "I loose, destroy"},
-    {"πιστεύω ": "I believe, have faith/trust in"},
-    {"γίνομαι ": "I become, come, exist, am born"},
-    {"ἔρχομαι ": "I come, go"},
-    {"πορεύομαι ": "I go, travel"},
-    {"ἀλλά ": "but, yet, nevertheless"},
-    {"ὅτι": " that, because"}
+    {greek :"ἀποκρίνομαι ", gloss: "I answer, reply"},
+    {greek :"εἰμί ", gloss: "I am, exist"},
+    {greek :"ἀκούω", gloss: " I hear, listen to, obey (acoustics)"},
+    {greek :"γινώσκω ", gloss: "I know, understand, acknowledge (knowledge, Gnostics)"},
+    {greek :"γράφω ", gloss: "I write (graphics)"},
+    {greek :"ἔχω ", gloss: "I have, hold"},
+    {greek :"λέγω ", gloss: "I say, speak (legend)"},
+    {greek :"λαμβάνω ", gloss: "I take, receive"},
+    {greek :"λύω ", gloss: "I loose, destroy"},
+    {greek :"πιστεύω ", gloss: "I believe, have faith/trust in"},
+    {greek :"γίνομαι ", gloss: "I become, come, exist, am born"},
+    {greek :"ἔρχομαι ", gloss: "I come, go"},
+    {greek :"πορεύομαι ", gloss: "I go, travel"},
+    {greek :"ἀλλά ", gloss: "but, yet, nevertheless"},
+    {greek :"ὅτι", gloss: " that, because"}
 ]
 const lessonFour = [
-    {"ἄγω ": "- I lead, bring (pedagogical)"},
-    {"βλέπω": " I see, look at"},
-    {"διδάσκω": " I teach (didactic)"},
-    {"ἐγείρω ": " I raise up"},
-    {"κρίνω ": " I judge, condemn (critic)"},
-    {"μένω": "  I remain, abide, dwell (remain)"},
-    {"ὑπάγω": "  I go away, depart"},
-    {"δοῦλος, -ου, ὁ ": " slave (doula)"},
-    {"θάνατος, -ου, ὁ ": " death "},
-    {"ψυχή, -ης, ἡ ": " soul, life, living being (psychology)"},
-    {"ὥρα, -ας, ἡ ": " hour"},
-    {"εἰ ": "if,  whether"},
-    {"εἴτε ": "if, whether"},
-    {"καθώς": "  as, just as, even as"},
-    {"ὡς ": "as,  like"},
-    {"ὦ, τό ": " end, Omega"},
-    {"ὁδὸς, ἡ ": "- way"}
+    {greek :"ἄγω ", gloss: "- I lead, bring (pedagogical)"},
+    {greek :"βλέπω", gloss: " I see, look at"},
+    {greek :"διδάσκω", gloss: " I teach (didactic)"},
+    {greek :"ἐγείρω ", gloss: " I raise up"},
+    {greek :"κρίνω ", gloss: " I judge, condemn (critic)"},
+    {greek :"μένω", gloss: "  I remain, abide, dwell (remain)"},
+    {greek :"ὑπάγω", gloss: "  I go away, depart"},
+    {greek :"δοῦλος, -ου, ὁ ", gloss: " slave (doula)"},
+    {greek :"θάνατος, -ου, ὁ ", gloss: " death "},
+    {greek :"ψυχή, -ης, ἡ ", gloss: " soul, life, living being (psychology)"},
+    {greek :"ὥρα, -ας, ἡ ", gloss: " hour"},
+    {greek :"εἰ ", gloss: "if,  whether"},
+    {greek :"εἴτε ", gloss: "if, whether"},
+    {greek :"καθώς", gloss: "  as, just as, even as"},
+    {greek :"ὡς ", gloss: "as,  like"},
+    {greek :"ὦ, τό ", gloss: " end, Omega"},
+    {greek :"ὁδὸς, ἡ ", gloss: "- way"}
 ]
 const lessonFive = [
-    {"βαπτίζω":" I baptize, immerse, dip (baptize)"},
-    {"θεραπεύω":" I heal (therapeutic)"},
-    {"κράζω ":"I cry out"},
-    {"ἄγγελος, ὁ ":"angel, messenger (angel)"},
-    {"μαθητής, ὁ":" disciple, follower 	(mathematics)"},
-    {"ὄχλος, ὁ":" crowd"},
-    {"προφήτης, ὁ":" prophet (prophet)"},
-    {"γάρ ":"for, because "},
-    {"ἐκεῖ ":"there, in that place"},
-    {"κἀγώ":" and I (καί + ἐγώ)"},
-    {"οὖν ":"then, so, therefore"},
-    {"οὕτως":" in this manner, thus, so"},
-    {"τέ":" and, but"},
-    {"οὐ, οὐκ, οὐχ":" no, not"},
-    {"οὐχί":"no! (emphatic)"}
+    {greek :"βαπτίζω", gloss:" I baptize, immerse, dip (baptize)"},
+    {greek :"θεραπεύω", gloss:" I heal (therapeutic)"},
+    {greek :"κράζω ", gloss:"I cry out"},
+    {greek :"ἄγγελος, ὁ ", gloss:"angel, messenger (angel)"},
+    {greek :"μαθητής, ὁ", gloss:" disciple, follower 	(mathematics)"},
+    {greek :"ὄχλος, ὁ", gloss:" crowd"},
+    {greek :"προφήτης, ὁ", gloss:" prophet (prophet)"},
+    {greek :"γάρ ", gloss:"for, because "},
+    {greek :"ἐκεῖ ", gloss:"there, in that place"},
+    {greek :"κἀγώ", gloss:" and I (καί + ἐγώ)"},
+    {greek :"οὖν ", gloss:"then, so, therefore"},
+    {greek :"οὕτως", gloss:" in this manner, thus, so"},
+    {greek :"τέ", gloss:" and, but"},
+    {greek :"οὐ, οὐκ, οὐχ", gloss:" no, not"},
+    {greek :"οὐχί", gloss:"no! (emphatic)"}
 ]
 const lessonSix = [
-    {"ἀγαπάω" : "I love"},
-    {"γεννάω" : "I give birth to, bear, beget (genealogy)"},
-    {"ἐπερωτάω" : "I ask "},
-    {"ἐρωτάω" : "I ask, question, request"},
-    {"αἰτέω" : "I ask, demand"},
-    {"ἀκολουθέω" : "I follow (acolyte)"},
-    {"ζητέω" : "I seek, look for"},
-    {"καλέω" : "I call, invite, name (call)"},
-    {"λαλέω" : "I speak, say (glossolalia)"},
-    {"μαρτυρέω ": "I testify, bear witness (martyr)"},
-    {"παρακαλέω" : "I call, urge, comfort"},
-    {"περιπατέω" : "I walk, live (peripatetic)"},
-    {"ποιέω" : "I do, make (poet)"},
-    {"φοβέομαι" : "I am afraid, fear, respect (phobia)"},
-    {"πληρόω" : "I fill, fulfill, complete"}
+    {greek :"ἀγαπάω" , gloss:"I love"},
+    {greek :"γεννάω" , gloss:"I give birth to, bear, beget (genealogy)"},
+    {greek :"ἐπερωτάω" , gloss:"I ask "},
+    {greek :"ἐρωτάω" , gloss:"I ask, question, request"},
+    {greek :"αἰτέω" , gloss:"I ask, demand"},
+    {greek :"ἀκολουθέω", gloss: "I follow (acolyte)"},
+    {greek :"ζητέω" , gloss:"I seek, look for"},
+    {greek :"καλέω" , gloss:"I call, invite, name (call)"},
+    {greek :"λαλέω" , gloss:"I speak, say (glossolalia)"},
+    {greek :"μαρτυρέω ", gloss:"I testify, bear witness (martyr)"},
+    {greek :"παρακαλέω" , gloss:"I call, urge, comfort"},
+    {greek :"περιπατέω" , gloss:"I walk, live (peripatetic)"},
+    {greek :"ποιέω" , gloss:"I do, make (poet)"},
+    {greek :"φοβέομαι" , gloss:"I am afraid, fear, respect (phobia)"},
+    {greek :"πληρόω" , gloss:"I fill, fulfill, complete"}
 ]
 
 const lessonSeven = [
-    {"ἀπό" : "from, away from (gen)"},
-    {"διά" : "through (gen); because of (acc) 	(diameter)"},
-    {"εἰς" : "into, among, for (acc) (eisegesis)"},
-    {"ἐκ" :"from, out of (gen) (exhale, exegesis)"},
-    {"ἐν" : "in, on, at, by, with (dat)"},
-    {"ἐπί" : "on, upon, over (gen); on, upon, at, in (dat); on, upon, to, for (acc) (epigraph)"},
-    {"κατά" : "down, against (gen); according to (acc) (cataphoric)"},
-    {"μετά" : "with, among (gen); after (acc) "},
-    {"παρά" : "from (gen); with (dat); beside, on, at 	(acc) (parable, paramedic)"},
-    {"περί" : "about, concerning (gen); around (acc) (perimeter)"},
-    {"πρός" : "to, toward (acc) (prosthesis)"},
-    {"σύν" : "with (dat) (syntax)"},
-    {"ὑπέρ" : "for, on behalf of (gen); above, beyond (acc) (hypercritical, hyperactive)"},
-    {"ὑπό" : "by (gen); under, below (acc) (hypotaxis, hypothesis)"},
-    {"ἐνώπιον" : "before, in the presence of"}
+    {greek : "ἀπό", gloss: "from, away from (gen)"},
+    {greek : "διά" , gloss : "through (gen); because of (acc) (diameter)"},
+    {greek : "εἰς", gloss : "into, among, for (acc) (eisegesis)"},
+    {greek : "ἐκ" , gloss:"from, out of (gen) (exhale, exegesis)"},
+    {greek : "ἐν" , gloss: "in, on, at, by, with (dat)"},
+    {greek : "ἐπί" , gloss: "on, upon, over (gen); on, upon, at, in (dat); on, upon, to, for (acc) (epigraph)"},
+    {greek : "κατά", gloss : "down, against (gen); according to (acc) (cataphoric)"},
+    {greek : "μετά" , gloss: "with, among (gen); after (acc) "},
+    {greek : "παρά" , gloss: "from (gen); with (dat); beside, on, at (acc) (parable, paramedic)"},
+    {greek : "περί" , gloss: "about, concerning (gen); around (acc) (perimeter)"},
+    {greek : "πρός" , gloss: "to, toward (acc) (prosthesis)"},
+    {greek : "σύν" , gloss: "with (dat) (syntax)"},
+    {greek : "ὑπέρ", gloss : "for, on behalf of (gen); above, beyond (acc) (hypercritical, hyperactive)"},
+    {greek : "ὑπό" , gloss: "by (gen); under, below (acc) (hypotaxis, hypothesis)"},
+    {greek : "ἐνώπιον" , gloss: "before, in the presence of"}
 
 ]
 const lessonEight = [
-    {"αὐτός, –ή, –ό" : "he, she, it; self, same (autopilot)"},
-    {"ἐγώ, ἡμεῖς" : "I; we (ego, egomaniac)"},
-    {"ὅς, ἥ, ὅ" : "who, which, that"},
-    {"σύ, ὑμεῖς" : "you (sg); you (pl)"},
-    {"ἄρτος, ὁ" : "bread, food "},
-    {"δικαιοσύνη, ἡ" : "righteousness, justice"},
-    {"εἰρήνη, ἡ" : "peace (irenic, Irene)"},
-    {"ἐξουσία, ἡ" : "authority, right, power "},
-    {"θάλασσα, ἡ" : "lake, sea (thalassic)"},
-    {"λαός, ὁ" : "people, crowd (laity)"},
-    {"ὁδός, ἡ" : "way, road (exodus)"},
-    {"οἰκία, ἡ" : "home, dwelling, family (economy)"},
-    {"οἶκος, ὁ" : "house, household, family"},
-    {"ὀφθαλμός, ὁ" : "eye (ophthalmology)"},
-    {"τόπος, ὁ" : "place (topography)"}
+    {greek : "αὐτός, –ή, –ό" , gloss: "he, she, it; self, same (autopilot)"},
+    {greek : "ἐγώ, ἡμεῖς" , gloss: "I; we (ego, egomaniac)"},
+    {greek : "ὅς, ἥ, ὅ" , gloss: "who, which, that"},
+    {greek : "σύ, ὑμεῖς", gloss : "you (sg); you (pl)"},
+    {greek : "ἄρτος, ὁ" , gloss: "bread, food "},
+    {greek : "δικαιοσύνη, ἡ" , gloss: "righteousness, justice"},
+    {greek : "εἰρήνη, ἡ" , gloss: "peace (irenic, Irene)"},
+    {greek : "ἐξουσία, ἡ", gloss: "authority, right, power "},
+    {greek : "θάλασσα, ἡ" , gloss: "lake, sea (thalassic)"},
+    {greek : "λαός, ὁ" , gloss: "people, crowd (laity)"},
+    {greek : "ὁδός, ἡ", gloss : "way, road (exodus)"},
+    {greek : "οἰκία, ἡ" , gloss: "home, dwelling, family (economy)"},
+    {greek : "οἶκος, ὁ" , gloss: "house, household, family"},
+    {greek : "ὀφθαλμός, ὁ" , gloss: "eye (ophthalmology)"},
+    {greek : "τόπος, ὁ" , gloss: "place (topography)"}
 
 ]
 
@@ -430,44 +430,21 @@ function loadReview() {
 // }
 
 // show all vocabulary
-const newVocabulary = [
-    {greek : "ἀπό", meaning: "from, away from (gen)"},
-    {greek : "διά" , meaning : "through (gen); because of (acc) (diameter)"},
-    {greek : "εἰς", meaning : "into, among, for (acc) (eisegesis)"},
-    {greek : "ἐκ" , meaning:"from, out of (gen) (exhale, exegesis)"},
-    {greek : "ἐν" , meaning: "in, on, at, by, with (dat)"},
-    {greek : "ἐπί" , meaning: "on, upon, over (gen); on, upon, at, in (dat); on, upon, to, for (acc) (epigraph)"},
-    {greek : "κατά", meaning : "down, against (gen); according to (acc) (cataphoric)"},
-    {greek : "μετά" , meaning: "with, among (gen); after (acc) "},
-    {greek : "παρά" , meaning: "from (gen); with (dat); beside, on, at (acc) (parable, paramedic)"},
-    {greek : "περί" , meaning: "about, concerning (gen); around (acc) (perimeter)"},
-    {greek : "πρός" , meaning: "to, toward (acc) (prosthesis)"},
-    {greek : "σύν" , meaning: "with (dat) (syntax)"},
-    {greek : "ὑπέρ", meaning : "for, on behalf of (gen); above, beyond (acc) (hypercritical, hyperactive)"},
-    {greek : "ὑπό" , meaning: "by (gen); under, below (acc) (hypotaxis, hypothesis)"},
-    {greek : "ἐνώπιον" , meaning: "before, in the presence of"}
 
-]
 const allVocabs = document.querySelector('.all-vocabs');
 
 allVocabs.addEventListener('click', () => {
     
     const allVocabsEl = document.querySelector('.all-vocabsEl')
     lessonsEL.classList.add('hide')
-    // vocabulary.push(...lessonOne);
-    // vocabulary.push(...lessonTwo);
-    // vocabulary.push(...lessonThree);
-    // vocabulary.push(...lessonFour);
-    // vocabulary.push(...lessonFive);
-    // vocabulary.push(...lessonSix);
-    // vocabulary.push(...lessonSeven);
-    // vocabulary.push(...lessonEight);
-    // console.log(vocabulary)
+    vocabulary.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight);
 
-    let vocabularyList = newVocabulary.map(vocab => {
+    console.log(vocabulary)
+
+    let vocabularyList = vocabulary.map(vocab => {
         return `
             <ul class="vocabulary-list">
-                <li><span>${vocab.greek}</span> : ${vocab.meaning} </li>
+                <li><span>${vocab.greek}</span> : ${vocab.gloss} </li>
             </ul>
         `
 
@@ -486,9 +463,11 @@ function loadVocabulary() {
     if(vocabulary.length == 0) {
         greekVocab.innerHTML = 'Select lesson/s';
     } else {
-        greekVocab.innerHTML = Object.keys(vocabulary[currentVocab]);
+        // greekVocab.innerHTML = Object.keys(vocabulary[currentVocab]);
+        greekVocab.innerText = vocabulary[currentVocab].greek
         // greekVocab.innerText = Object.keys(combinedVocabs[currentVocab]);
-        englishVocab.innerHTML = vocabulary[currentVocab][Object.keys(vocabulary[currentVocab])]
+        // englishVocab.innerHTML = vocabulary[currentVocab][Object.keys(vocabulary[currentVocab])]
+        englishVocab.innerText = vocabulary[currentVocab].gloss
     }
 }
 const wrongVocabs = [];
