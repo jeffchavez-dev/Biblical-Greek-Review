@@ -465,13 +465,15 @@ allVocabs.addEventListener('click', () => {
     // console.log(vocabulary)
 
     let vocabularyList = newVocabulary.map(vocab => {
-        return `<ul class="vocabulary-list>
-            <li>${vocab.greek} : ${vocab.meaning} </li>
-        </ul>`
+        return `
+            <ul class="vocabulary-list">
+                <li><span>${vocab.greek}</span> : ${vocab.meaning} </li>
+            </ul>
+        `
 
     })
 
-    console.log(vocabularyList)
+ 
 
     allVocabsEl.innerHTML = vocabularyList;
   
