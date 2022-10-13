@@ -545,8 +545,8 @@ reviewWrongAnswers.addEventListener('click', () => {
 })
 
 function wrongVocabsReview() {
-    greekVocab.innerHTML = Object.keys(wrongVocabs[currentVocab]);
-    englishVocab.innerHTML = wrongVocabs[currentVocab][Object.keys(wrongVocabs[currentVocab])]
+    greekVocab.innerHTML = wrongVocabs[currentVocab].greek;
+    englishVocab.innerHTML = wrongVocabs[currentVocab].gloss;
 }
 
 const finishedEl = document.querySelector(".finished")
