@@ -429,6 +429,27 @@ function loadReview() {
 //     })
 // }
 
+// show all vocabulary
+
+const allVocabs = document.querySelector('.all-vocabs');
+
+allVocabs.addEventListener('click', () => {
+    
+    const allVocabsEl = document.querySelector('.all-vocabsEl')
+    lessonsEL.classList.add('hide')
+
+    
+    allVocabsEl.innerHTML = `
+        <h2>All Vocabulary</h2>
+        <ul>
+            <li></li>
+        </ul>
+    `;
+  
+    
+   
+
+})
 
 function loadVocabulary() {
     if(vocabulary.length == 0) {
