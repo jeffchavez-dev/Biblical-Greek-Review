@@ -459,6 +459,7 @@ correct.addEventListener("click", ()  => {
     } else {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
+        reset.classList.remove('show');
     }
 
 })
@@ -534,7 +535,7 @@ nextReview.addEventListener('click', () => {
     } else {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
-        // reset.classList.remove('show');
+        reset.classList.remove('show');
     
         finishedEl.style.display = "flex";
 
@@ -564,7 +565,7 @@ reviewNow.addEventListener('click', () => {
     } else {
         vocabEL.classList.add("show");
         lessonsEL.classList.add('hide')
-        // reset.classList.add('show');
+        reset.classList.add('show');
     }
  
 })
