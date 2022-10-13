@@ -259,9 +259,13 @@ input {
 
 .vocabulary-list li {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .vocabulary-list span {
     color: white;
+    font-size: 1.2rem;
+
 }
 
 .toReview {
