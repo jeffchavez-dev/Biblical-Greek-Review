@@ -433,20 +433,21 @@ function loadReview() {
 
 const allVocabs = document.querySelector('.all-vocabs');
 
+let allVocabList = [];
 allVocabs.addEventListener('click', () => {
     
     const allVocabsEl = document.querySelector('.all-vocabsEl')
     lessonsEL.classList.add('hide')
-    vocabulary.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight);
+    allVocabList.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight);
 
     console.log(vocabulary)
 
-    let vocabularyList = vocabulary.map(vocab => {
+    let vocabularyList = allVocabList.map(vocab => {
         return `
             <ul class="vocabulary-list">
                 <li><span>${vocab.greek}</span> : ${vocab.gloss} </li>
             </ul>
-        `
+        `;
 
     })
 
