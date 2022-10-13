@@ -21,7 +21,8 @@ const checkboxes = document.getElementsByName("lessons");
 
 
 
-//add a function that will push every checked input to vocabulary array
+//add a function that will push every checked input to vocabulary array 
+// declare variables 
 
 const lessonOneBtn = document.getElementById("lessonOne");
 const lessonOneEl = document.getElementById("lesson-one");
@@ -619,7 +620,7 @@ let nounParadigms = [
         "Nom-Plural" : "αἱ οἰκίαι",
         "Gen-Plural" : "τῶν οἰκιῶν",
         "Dat-Plural" : "ταῖς οἰκίαις",
-        "Acc-Plural" : "τὰς φωνάς"
+        "Acc-Plural" : "τὰς οἰκίας"
     },
     {
         "Paradigm": "2nd Declension: Masculine",
