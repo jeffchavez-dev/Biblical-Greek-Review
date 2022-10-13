@@ -463,11 +463,8 @@ function loadVocabulary() {
     if(vocabulary.length == 0) {
         greekVocab.innerHTML = 'Select lesson/s';
     } else {
-        // greekVocab.innerHTML = Object.keys(vocabulary[currentVocab]);
-        greekVocab.innerText = vocabulary[currentVocab].greek
-        // greekVocab.innerText = Object.keys(combinedVocabs[currentVocab]);
-        // englishVocab.innerHTML = vocabulary[currentVocab][Object.keys(vocabulary[currentVocab])]
-        englishVocab.innerText = vocabulary[currentVocab].gloss
+        greekVocab.innerText = vocabulary[currentVocab].greek;
+        englishVocab.innerText = vocabulary[currentVocab].gloss;
     }
 }
 const wrongVocabs = [];
