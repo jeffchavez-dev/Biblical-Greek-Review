@@ -247,6 +247,10 @@ input {
     pointer-events: none
 }
 
+
+.all-vocabs {
+    font-size: .8rem;
+}
 .toReview {
     display: flex;
     flex-direction: row;
