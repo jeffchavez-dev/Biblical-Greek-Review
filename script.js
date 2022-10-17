@@ -40,6 +40,8 @@ const lessonSevenBtn = document.getElementById("lessonSeven");
 const lessonSevenEl = document.getElementById("lesson-seven");
 const lessonEightBtn = document.getElementById("lessonEight");
 const lessonEightEl = document.getElementById("lesson-eight");
+const lessonNineBtn = document.getElementById("lessonNine");
+const lessonNineEl = document.getElementById("lesson-nine");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
@@ -248,6 +250,29 @@ const lessonEight = [
 
 ]
 
+const lessonNine = [
+    {greek : "διώκω" , gloss: "I pursue, persecute"},
+    {greek : "δοξάζω" , gloss: "I glorify, praise (doxology)"},
+    {greek : "πέμπω" , gloss: "I send"},
+    {greek : "πράσσω" , gloss: "I do, practice (practical, pragmatic)"},
+    {greek : "σῴζω" , gloss: "I save, rescue, heal (soteriology)"},
+    {greek : "τηρέω" , gloss: "I keep, guard, obey"},
+    {greek : "ἀπόστολος, ὁ" , gloss: "apostle, messenger (apostle)"},
+    {greek : "ἐντολή, ἡ" , gloss: "command"},
+    {greek : "καιρός, ὁ" , gloss: "time, season"},
+    {greek : "κεφαλή, ἡ" , gloss: "head (encephalitis)"},
+    {greek : "πρόσωπον, τό" , gloss: "face, appearance "},
+    {greek : "σάββατον, τό" , gloss: "Sabbath, week (Sabbath)"},
+    {greek : "ἔτι" , gloss: "still, yet, more"},
+    {greek : "μᾶλλον" , gloss: "more, rather"},
+    {greek : "οὐκέτι" , gloss: "no longer"},
+    {greek : "ὁράω" , gloss: "see, look upon, experience (1 John)"},
+    {greek : "ἀρχή" , gloss: "beginning (1 John)"},
+    {greek : "θεάομαι" , gloss: "I see, behold, contemplate (1 John)"},
+    {greek : "χείρ" , gloss: "hand (1 John)"},
+    {greek : "ψηλαφάω" , gloss: "I feel, touch, handle, grope for  (1 John)"}
+]
+
 
 
 
@@ -327,6 +352,14 @@ lessonEightBtn.addEventListener('click', () => {
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 });
+lessonNineBtn.addEventListener('click', () => {
+    addNewLessonNine();
+    lessonNineEl.classList.add("hide")
+    const review = document.createElement("div")
+    review.innerHTML = "LESSON 9";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
+});
 
 
 function addNewLessonOne() {
@@ -387,6 +420,14 @@ function addNewLessonSeven() {
 function addNewLessonEight() {
     if(lessonEightBtn.checked) {
         vocabulary.push(...lessonEight);
+        console.log(lessonEight)
+        // vocabulary.concat(lessonTwo);
+        loadReview()
+    }
+}
+function addNewLessonNine() {
+    if(lessonNineBtn.checked) {
+        vocabulary.push(...lessonNine);
         console.log(lessonEight)
         // vocabulary.concat(lessonTwo);
         loadReview()
