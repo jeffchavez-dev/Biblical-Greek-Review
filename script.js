@@ -584,6 +584,7 @@ reviewWrongAnswers.addEventListener('click', () => {
     reviewWrongAnswers.classList.remove('show');
     nextReview.classList.add("show-nextReview");
     wrongVocabsReview()
+    totalScore.classList.add("hide");
 
 })
 
