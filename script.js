@@ -281,6 +281,7 @@ reviewVocabs.addEventListener('click', () => {
     mainReview.classList.add("hide");
     lessonSection.classList.add("show-lesson")
     goBack.style.display = 'block';
+    mainTitle.classList.add('hide');
 })
 lessonOneBtn.addEventListener('click', () => {
     addNewLessonOne();    
@@ -633,6 +634,7 @@ hideAnswer.addEventListener("click", ()  => {
     hideAnswer.classList.remove('show')
 })
 
+const mainTitle = document.querySelector(".main-title")
 reviewNow.addEventListener('click', () => {
     if(vocabulary == '') {
         alert('choose lessons')
@@ -640,6 +642,7 @@ reviewNow.addEventListener('click', () => {
         vocabEL.classList.add("show");
         lessonsEL.classList.add('hide')
         reset.classList.add('show');
+        mainTitle.classList.add('hide');
     }
  
 })
