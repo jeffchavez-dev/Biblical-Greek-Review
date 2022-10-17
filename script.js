@@ -507,7 +507,7 @@ function loadVocabulary() {
 }
 const wrongVocabs = [];
 
-
+const totalScore = document.querySelector(".total-score")
 
 correct.addEventListener("click", ()  => {
     currentVocab++;
@@ -518,15 +518,18 @@ correct.addEventListener("click", ()  => {
         showAnswer.classList.remove('hide');
         hideAnswer.classList.remove('show');
     } else if(wrongVocabs != '') {
+        totalScore.innerHTML = `You've scored ${vocabulary.length - wrongVocabs.length}/${vocabulary.length}`;
         vocabulary.length = 0;
         currentCount = 1;
         currentVocab = 0;
         reviewWrongAnswers.classList.add('show');
         vocabEL.classList.add('hide')
+        
     } else {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
         reset.classList.remove('show');
+        totalScore.innerHTML = `You've scored ${currentVocab}/${vocabulary.length}`;
     }
 
 })
@@ -550,14 +553,17 @@ wrongAnswer.addEventListener('click', () => {
         hideAnswer.classList.remove('show');
 
     } else if(wrongVocabs != '') {
+        totalScore.innerHTML = `You've scored ${vocabulary.length - wrongVocabs.length}/${vocabulary.length}`;
         vocabulary.length = 0;
         currentCount = 1;
         currentVocab = 0;
         reviewWrongAnswers.classList.add('show');
         vocabEL.classList.add('hide')
+        
     } else {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
+        totalScore.innerHTML = `You've scored ${currentVocab}/${vocabulary.length}`;
     }
     
 })
