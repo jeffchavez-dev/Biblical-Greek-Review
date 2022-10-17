@@ -172,6 +172,12 @@ h1 {
     margin: .5em
 }
 
+.total-score {
+    font-size: 3rem;
+    padding: .5em;
+    color: white;
+}
+
 .reset {
     display: none;
     margin: 0 auto;
