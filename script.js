@@ -441,7 +441,7 @@ allVocabs.addEventListener('click', () => {
     allVocabList.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight);
 
     console.log(vocabulary)
-    allVocabList.sort((a,b) => (a.greek > b.greek) ? 1 : ((b.greek > a.greek) ? -1 : 0));
+    // allVocabList.sort((a,b) => (a.greek > b.greek) ? 1 : ((b.greek > a.greek) ? -1 : 0));
     let vocabularyList = allVocabList.map(vocab => {
         return `
             <ul class="vocabulary-list">
