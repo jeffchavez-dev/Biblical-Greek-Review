@@ -649,11 +649,30 @@ reviewNow.addEventListener('click', () => {
         reset.classList.add('show');
         mainTitle.classList.add('hide');
         reviewingTitle.innerText = "REVIEWING:";
+        reviewTimer()
     }
  
 })
 
-
+let finalTime = []
+const reviewTime = document.querySelector(".review-time")
+function reviewTimer() {
+    let start = 0;
+    const interval = setInterval(myTimer, 1000)
+           
+        function myTimer() {
+            if(currentVocab == vocabulary.length) {
+                clearInterval(interval)
+                console.log(`final time is ${finalTime.length}`)
+                reviewTime.innerHTML = `Your review time is ${finalTime.length} seconds`;
+            } else {
+                const timeStamp = start++; 
+                finalTime.push(timeStamp);
+                console.log(finalTime.length)
+                
+            }
+    }
+}
 // PARADIGMS TABLE //
 
 const nounParadigmsTable = document.querySelector('.noun-paradigms-table');
