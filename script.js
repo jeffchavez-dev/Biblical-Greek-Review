@@ -662,14 +662,11 @@ function reviewTimer() {
            
         function myTimer() {
             if(currentVocab == vocabulary.length) {
-                clearInterval(interval)
-                console.log(`final time is ${finalTime.length}`)
+                clearInterval(interval);
                 reviewTime.innerHTML = `Your review time is: <br> ${finalTime.length} seconds`;
             } else {
                 const timeStamp = start++; 
-                finalTime.push(timeStamp);
-                console.log(finalTime.length)
-                
+                finalTime.push(timeStamp);  
             }
     }
 }
