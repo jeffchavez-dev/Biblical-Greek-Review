@@ -284,6 +284,9 @@ input {
     justify-content: center;
     align-items: center;
 }
+.review-time {
+    margin: .5em;
+}
 .toReview {
     display: flex;
     flex-direction: row;
