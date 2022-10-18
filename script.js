@@ -664,7 +664,7 @@ function reviewTimer() {
             if(currentVocab == vocabulary.length) {
                 clearInterval(interval)
                 console.log(`final time is ${finalTime.length}`)
-                reviewTime.innerHTML = `Your review time is ${finalTime.length} seconds`;
+                reviewTime.innerHTML = `Your review time is: <br> ${finalTime.length} seconds`;
             } else {
                 const timeStamp = start++; 
                 finalTime.push(timeStamp);
