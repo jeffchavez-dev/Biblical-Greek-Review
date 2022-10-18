@@ -166,6 +166,7 @@ h1 {
 .reviewWrongAnswers {
     background-color: red;
     color: white;
+    text-transform: uppercase;
 }
 .retake, .reviewWrongAnswers {
     display: none;
