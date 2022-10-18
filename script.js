@@ -520,6 +520,7 @@ correct.addEventListener("click", ()  => {
         hideAnswer.classList.remove('show');
     } else if(wrongVocabs != '') {
         totalScore.innerHTML = `You've scored: ${vocabulary.length - wrongVocabs.length}/${vocabulary.length}`;
+        reviewingTitle.innerText = "REVIEWED:";
         vocabulary.length = 0;
         currentCount = 1;
         currentVocab = 0;
@@ -531,6 +532,7 @@ correct.addEventListener("click", ()  => {
         vocabEL.classList.add('hide')
         reset.classList.remove('show');
         totalScore.innerHTML = `You've scored: ${currentVocab}/${vocabulary.length}`;
+        reviewingTitle.innerText = "REVIEWED:";
     }
 
 })
@@ -555,6 +557,7 @@ wrongAnswer.addEventListener('click', () => {
 
     } else if(wrongVocabs != '') {
         totalScore.innerHTML = `You've scored: ${vocabulary.length - wrongVocabs.length}/${vocabulary.length}`;
+        reviewingTitle.innerText = "REVIEWED:";
         vocabulary.length = 0;
         currentCount = 1;
         currentVocab = 0;
@@ -565,6 +568,7 @@ wrongAnswer.addEventListener('click', () => {
         retake.classList.add('show');
         vocabEL.classList.add('hide')
         totalScore.innerHTML = `You've scored: ${currentVocab}/${vocabulary.length}`;
+        reviewingTitle.innerText = "REVIEWED:";
     }
     
 })
@@ -635,6 +639,7 @@ hideAnswer.addEventListener("click", ()  => {
 })
 
 const mainTitle = document.querySelector(".main-title")
+const reviewingTitle = document.querySelector(".reviewing-title");
 reviewNow.addEventListener('click', () => {
     if(vocabulary == '') {
         alert('choose lessons')
@@ -643,6 +648,7 @@ reviewNow.addEventListener('click', () => {
         lessonsEL.classList.add('hide')
         reset.classList.add('show');
         mainTitle.classList.add('hide');
+        reviewingTitle.innerText = "REVIEWING:";
     }
  
 })
