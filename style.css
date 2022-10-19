@@ -464,3 +464,7 @@ footer {
 .video-lessons-element {
     display: none;
 }
+
+.show-video-lessons {
+    display: block;
+}
