@@ -79,12 +79,15 @@ reviewNow.addEventListener('click', () => {
         lessonsChecked.forEach((checkbox) => {
             if(checkbox.checked) {
                 lessonsValue.push(checkbox.value);
-                console.log("new lessons")
+                console.log("new lessons");
+                console.log(lessonsValue);
             }
            
         })
     })
     
+
+
 
 const timer = () => {
     let time = 5;
