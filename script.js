@@ -940,10 +940,12 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
 
 const videoLessonsBtn = document.querySelector(".video-lessons-btn")
 const videoLessonsEl = document.querySelector(".video-lessons-element")
+const back = document.querySelector(".back")
+
 
 videoLessonsBtn.addEventListener('click', ()=> {
     videoLessonsEl.classList.add('show-video-lessons')
     mainReview.classList.add("hide");
-    goBack.style.display = 'block';
     document.querySelector(".love-greek").style.display = 'none';
 })
+

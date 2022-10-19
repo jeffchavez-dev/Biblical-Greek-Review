@@ -491,3 +491,11 @@ footer {
 .video-lessons .lesson:hover {
     opacity: 1;
 }
+.back {
+    cursor: pointer;
+    float: left;
+    border-radius: 100px;
+    border: none;
+    padding: .3rem;
+    margin-top: 1rem;
+}
