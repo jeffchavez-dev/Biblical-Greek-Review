@@ -939,3 +939,4 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
   //
 
   const videoLessonsBtn = document.querySelector("video-lessons-btn")
+const videoLessonsEl = document.querySelector(".video-lessons-element")

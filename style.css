@@ -460,3 +460,7 @@ footer {
         
      }
 }
+
+.video-lessons-element {
+    display: none;
+}
