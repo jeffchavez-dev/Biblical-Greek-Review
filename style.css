@@ -464,7 +464,19 @@ footer {
 .video-lessons-element {
     display: none;
 }
+.video-lessons-element h2 {
+     font-size: 2rem;
+     margin-block: 2rem;
+}
 
+.video-lessons {
+    font-size: 1.5rem;
+}
+
+.video-lessons li {
+    line-height: 1.5em;
+    list-style-type: none;
+}
 .show-video-lessons {
     display: block;
 }
