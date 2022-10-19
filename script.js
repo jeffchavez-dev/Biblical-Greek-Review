@@ -935,3 +935,7 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
 )
 
   verbParadigmsTable.innerHTML = verbParadigmsEl;
+
+  //
+
+  const videoLessonsBtn = document.querySelector("video-lessons-btn")
