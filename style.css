@@ -470,13 +470,24 @@ footer {
 }
 
 .video-lessons {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .video-lessons li {
-    line-height: 1.5em;
+    line-height: 1em;
     list-style-type: none;
+}
+.video-lessons a {
+    text-decoration: none;
 }
 .show-video-lessons {
     display: block;
+}
+
+.video-lessons .lesson {
+    opacity: .8;
+}
+
+.video-lessons .lesson:hover {
+    opacity: 1;
 }
