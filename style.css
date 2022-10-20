@@ -466,11 +466,15 @@ footer {
 }
 .video-lessons-element h2 {
      font-size: 2rem;
-     margin-block: 2rem;
+     margin-block: 1rem;
 }
 
 .video-lessons {
     font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .video-lessons li {
