@@ -676,6 +676,7 @@ function reviewTimer() {
 // PARADIGMS TABLE //
 
 const nounParadigmsTable = document.querySelector('.noun-paradigms-table');
+const otherParadigmsTable = document.querySelector('.other-paradigms-table');
 const verbParadigmsTable = document.querySelector('.verb-paradigms-table');
 const paradigmsSection = document.querySelector('.paradigms-section');
 const paradigmReview = document.querySelector('.paradigm-review');
@@ -684,6 +685,7 @@ paradigmReview.addEventListener('click', () => {
     mainReview.classList.add("hide");
     paradigmsSection.style.display = "block";
     nounParadigmsTable.style.display = 'flex';
+    otherParadigmsTable.style.display = 'flex';
     verbParadigmsTable.style.display = 'flex';
     // reset.classList.add('show');
     goBack.style.display = 'block';
@@ -752,6 +754,36 @@ let nounParadigms = [
         "Gen-Plural" : "τῶν ἔργων",
         "Dat-Plural" : "τοις ἔργοις",
         "Acc-Plural" : "τὰ ἔργα"
+    },
+    {
+        "Paradigm": "First Person Personal Pronoun",
+        "Case1" : "Nominative",
+        "Case2" : "Genitive",
+        "Case3" : "Dative",
+        "Case4" : "Accusative",
+        "Nom-Singular" : "ἐγώ",
+        "Gen-Singular" : "μου",
+        "Dat-Singular" : "μοι",
+        "Acc-Singular" : "με",
+        "Nom-Plural" : "ἡμεῖς",
+        "Gen-Plural" : "ἡμῶν",
+        "Dat-Plural" : "ἡμῖν",
+        "Acc-Plural" : "ἡμᾶς"
+    },
+    {
+        "Paradigm": "Second Person Personal Pronoun",
+        "Case1" : "Nominative",
+        "Case2" : "Genitive",
+        "Case3" : "Dative",
+        "Case4" : "Accusative",
+        "Nom-Singular" : "σύ",
+        "Gen-Singular" : "σοῦ",
+        "Dat-Singular" : "σοί",
+        "Acc-Singular" : "σέ",
+        "Nom-Plural" : "ὑμεῖς",
+        "Gen-Plural" : "ὑμῶν",
+        "Dat-Plural" : "ὑμῖν",
+        "Acc-Plural" : "ὑμᾶς"
     }
 ]
 
@@ -789,10 +821,147 @@ const nounParadigmEl = nounParadigms.map(nounParadigm =>
 </details>`  
   )
 
-  nounParadigmsTable.innerHTML = nounParadigmEl;
+nounParadigmsTable.innerHTML = nounParadigmEl;
 
+let otherParadigms = [
+    {
+        "Paradigm": "Article",
+        "Case1s" : "NS",
+        "Case2s" : "GS",
+        "Case3s" : "DS",
+        "Case4s" : "AS",
+        "Case1p" : "NP",
+        "Case2p" : "GP",
+        "Case3p" : "DP",
+        "Case4p" : "AP",
+        "NMS" : "ὁ",
+        "NFS" : "ἡ",
+        "NNS" : "τό",
+        "GMS" : "τοῦ",
+        "GFS" : "τῆς",
+        "GNS" : "τοῦ",
+        "DMS" : "τῷ",
+        "DFS" : "τῇ",
+        "DNS" : "τῷ",
+        "AMS" : "τόν",
+        "AFS" : "τήν",
+        "ANS" : "τό",
+        "NMP" : "οἱ",
+        "NFP" : "αἱ",
+        "NNP" : "τά",
+        "GMP" : "τῶν",
+        "GFP" : "τῶν",
+        "GNP" : "τῶν",
+        "DMP" : "τοῖς",
+        "DFP" : "ταῖς",
+        "DNP" : "τοῖς",
+        "AMP" : "τούς",
+        "AFP" : "τάς",
+        "ANP" : "τά"
+    },
+    {
+        "Paradigm": "Third Person Personal Pronoun ",
+        "Case1s" : "NS",
+        "Case2s" : "GS",
+        "Case3s" : "DS",
+        "Case4s" : "AS",
+        "Case1p" : "NP",
+        "Case2p" : "GP",
+        "Case3p" : "DP",
+        "Case4p" : "AP",
+        "NMS" : "ὁ",
+        "NFS" : "ἡ",
+        "NNS" : "τό",
+        "GMS" : "τοῦ",
+        "GFS" : "τῆς",
+        "GNS" : "τοῦ",
+        "DMS" : "τῷ",
+        "DFS" : "τῇ",
+        "DNS" : "τῷ",
+        "AMS" : "τόν",
+        "AFS" : "τήν",
+        "ANS" : "τό",
+        "NMP" : "οἱ",
+        "NFP" : "αἱ",
+        "NNP" : "τά",
+        "GMP" : "τῶν",
+        "GFP" : "τῶν",
+        "GNP" : "τῶν",
+        "DMP" : "τοῖς",
+        "DFP" : "ταῖς",
+        "DNP" : "τοῖς",
+        "AMP" : "τούς",
+        "AFP" : "τάς",
+        "ANP" : "τά"
+    }
+]
+const otherParadigmEl = otherParadigms.map(otherParadigm => 
+    ` <details>
+            <summary> ${otherParadigm.Paradigm}</summary>
+            <table>
+                <tr>
 
+                    <th>Case</th>
+                    <th>Masculine</th>
+                    <th>Feminine</th>
+                    <th>Neuter</th>
+                </tr>
+                <tr>
+                    <td>${otherParadigm.Case1s}</td>
+                    <td>${otherParadigm.NMS}</td>
+                    <td>${otherParadigm.NFS}</td>
+                    <td>${otherParadigm.NNS}</td>
+                </tr>
+                <tr>
+                    <td>${otherParadigm.Case2s}</td>
+                    <td>${otherParadigm.GMS}</td>
+                    <td>${otherParadigm.GFS}</td>
+                    <td>${otherParadigm.GNS}</td>
+                </tr>
+                <tr>
+                    <td>${otherParadigm.Case3s}</td>
+                    <td>${otherParadigm.DMS}</td>
+                    <td>${otherParadigm.DFS}</td>
+                    <td>${otherParadigm.DNS}</td>
+                </tr>
+                <tr>
+                    <td>${otherParadigm.Case4s}</td>
+                    <td>${otherParadigm.AMS}</td>
+                    <td>${otherParadigm.AFS}</td>
+                    <td>${otherParadigm.ANS}</td>
+                </tr>
+                <tr>
+                    <td>${otherParadigm.Case1p}</td>
+                    <td>${otherParadigm.NMP}</td>
+                    <td>${otherParadigm.NFP}</td>
+                    <td>${otherParadigm.NNP}</td>
+                </tr>
+                <tr>
+                    <td>${otherParadigm.Case2p}</td>
+                    <td>${otherParadigm.GMP}</td>
+                    <td>${otherParadigm.GFP}</td>
+                    <td>${otherParadigm.GNP}</td>
+                </tr>
+                <tr>
+                    <td>${otherParadigm.Case3p}</td>
+                    <td>${otherParadigm.DMP}</td>
+                    <td>${otherParadigm.DFP}</td>
+                    <td>${otherParadigm.DNP}</td>
+                </tr>
+                <tr>
+                    <td>${otherParadigm.Case4p}</td>
+                    <td>${otherParadigm.AMP}</td>
+                    <td>${otherParadigm.AFP}</td>
+                    <td>${otherParadigm.ANP}</td>
+                </tr>
+                
+                
+            </table>
+    </details>`  
+)
 
+console.log()
+otherParadigmsTable.innerHTML = otherParadigmEl;
   
 
   let verbParadigms = [
