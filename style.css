@@ -470,7 +470,7 @@ footer {
 }
 
 .video-lessons {
-    font-size: 1rem;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -478,22 +478,24 @@ footer {
 }
 
 .video-lessons li {
-    line-height: 1em;
+    line-height: 1.5em;
     list-style-type: none;
 }
 .video-lessons a {
     text-decoration: none;
+    color: white;
 }
 .show-video-lessons {
     display: block;
 }
 
-.video-lessons .lesson {
+.video-lessons li {
     opacity: .8;
 }
 
-.video-lessons .lesson:hover {
+.video-lessons li:hover {
     opacity: 1;
+    
 }
 .back {
     cursor: pointer;
