@@ -481,7 +481,7 @@ footer {
     line-height: 1.5em;
     list-style-type: none;
 }
-.video-lessons a {
+.video-lessons details {
     text-decoration: none;
     color: white;
 }
@@ -504,4 +504,13 @@ footer {
     border: none;
     padding: .3rem;
     margin-top: 1rem;
+}
+
+summary {
+    color: white;
+}
+
+.other-resources {
+    font-size: 1rem;
+    color:rgba(0, 0, 0, 0.6)
 }
