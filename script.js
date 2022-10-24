@@ -474,7 +474,7 @@ function addNewLessonNine() {
 }
 
 function addNewLessonTen() {
-    if(lessonNineBtn.checked) {
+    if(lessonTenBtn.checked) {
         vocabulary.push(...lessonTen);
         loadReview()
     }
