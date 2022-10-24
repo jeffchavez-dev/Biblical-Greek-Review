@@ -42,6 +42,8 @@ const lessonEightBtn = document.getElementById("lessonEight");
 const lessonEightEl = document.getElementById("lesson-eight");
 const lessonNineBtn = document.getElementById("lessonNine");
 const lessonNineEl = document.getElementById("lesson-nine");
+const lessonTenBtn = document.getElementById("lessonTen");
+const lessonTenEl = document.getElementById("lesson-ten");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
@@ -310,6 +312,8 @@ reviewVocabs.addEventListener('click', () => {
     goBack.style.display = 'block';
     mainTitle.classList.add('hide');
 })
+
+
 lessonOneBtn.addEventListener('click', () => {
     addNewLessonOne();    
     lessonOneEl.classList.add("hide")
@@ -389,6 +393,15 @@ lessonNineBtn.addEventListener('click', () => {
     toReview.appendChild(review);
 });
 
+lessonTenBtn.addEventListener('click', () => {
+    addNewLessonTen();
+    lessonTenEl.classList.add("hide")
+    const review = document.createElement("div")
+    review.innerHTML = "LESSON 10";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
+});
+
 
 function addNewLessonOne() {
     if(lessonOneBtn.checked) {
@@ -456,8 +469,13 @@ function addNewLessonEight() {
 function addNewLessonNine() {
     if(lessonNineBtn.checked) {
         vocabulary.push(...lessonNine);
-        console.log(lessonEight)
-        // vocabulary.concat(lessonTwo);
+        loadReview()
+    }
+}
+
+function addNewLessonTen() {
+    if(lessonNineBtn.checked) {
+        vocabulary.push(...lessonTen);
         loadReview()
     }
 }
