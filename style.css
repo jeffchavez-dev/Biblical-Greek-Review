@@ -488,6 +488,9 @@ footer {
     display: block;
 }
 
+.video-lessons a {
+    text-decoration: none;
+}
 .video-lessons li {
     opacity: .8;
 }
