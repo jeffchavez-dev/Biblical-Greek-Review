@@ -507,7 +507,7 @@ allVocabs.addEventListener('click', () => {
     
     const allVocabsEl = document.querySelector('.all-vocabsEl')
     lessonsEL.classList.add('hide')
-    allVocabList.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight, ...lessonNine);
+    allVocabList.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight, ...lessonNine ...lessonTen);
 
     console.log(vocabulary)
     // allVocabList.sort((a,b) => (a.greek > b.greek) ? 1 : ((b.greek > a.greek) ? -1 : 0));
