@@ -1132,6 +1132,51 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "1p-translation" : "We were",
         "2p-translation" : "You (all) were",
         "3p-translation" : "They were"
+    },
+    {
+        "Paradigm": "Future Active Tense-Form",
+        "1s" : "ἤμην",
+        "2s" : "ἦς",
+        "3s" : "ἦν",
+        "1p" : "ἦμεν",
+        "2p" : "ἦτε",
+        "3p" : "ἦσαν",
+        "1s-translation" : "",
+        "2s-translation" : "",
+        "3s-translation" : "",
+        "1p-translation" : "",
+        "2p-translation" : "",
+        "3p-translation" : ""
+    },
+    {
+        "Paradigm": "Future Middle Tense-Form",
+        "1s" : "ἤμην",
+        "2s" : "ἦς",
+        "3s" : "ἦν",
+        "1p" : "ἦμεν",
+        "2p" : "ἦτε",
+        "3p" : "ἦσαν",
+        "1s-translation" : "",
+        "2s-translation" : "",
+        "3s-translation" : "",
+        "1p-translation" : "",
+        "2p-translation" : "",
+        "3p-translation" : ""
+    },
+    {
+        "Paradigm": "Future Passive Tense-Form",
+        "1s" : "ἤμην",
+        "2s" : "ἦς",
+        "3s" : "ἦν",
+        "1p" : "ἦμεν",
+        "2p" : "ἦτε",
+        "3p" : "ἦσαν",
+        "1s-translation" : "",
+        "2s-translation" : "",
+        "3s-translation" : "",
+        "1p-translation" : "",
+        "2p-translation" : "",
+        "3p-translation" : ""
     }
   ]
 
