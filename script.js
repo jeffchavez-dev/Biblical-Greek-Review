@@ -85,8 +85,12 @@ reviewNow.addEventListener('click', () => {
     function newVocabs(vocabs) {
         const vocabList = document.createElement('div')
         const vocabularyList = vocabs;
-        // vocabularyList.map(vocab => console.log(vocab.lessonOne) )
-        console.log(vocabs.lessonOne) 
+        console.log(vocabularyList) 
+        for (const vocab of vocabularyList) {
+            console.log(vocab)
+        }
+
+        // console.log(vocabularyList)
     }
 
         lessonsChecked.forEach((checkbox) => {
@@ -99,28 +103,6 @@ reviewNow.addEventListener('click', () => {
         })
     })
     
-
-
-
-const timer = () => {
-    let time = 5;
-    const interval = setInterval(myTimer, 1000)
-    function myTimer() {
-        if(time === 0) {
-            clearInterval(interval)
-            alert("Times Up!")
-        } else {
-            // const timerEl = document.createElement('div');
-            // timerEl.classList.add("btn")
-            // timerEl.innerHTML = time--;
-            // document.body.appendChild(timerEL);
-            // console.log(time--)
-        }
-           
-    } 
-}
-
-// timer()
 
 
 const vocabulary = [];
@@ -472,7 +454,6 @@ function addNewLessonSeven() {
 function addNewLessonEight() {
     if(lessonEightBtn.checked) {
         vocabulary.push(...lessonEight);
-        console.log(lessonEight)
         // vocabulary.concat(lessonTwo);
         loadReview()
     }
@@ -508,24 +489,7 @@ function loadReview() {
     wordCount.innerText = vocabulary.length;
 }
 
-// const vocabularyList = lessonOne.map(vocab => {
-//     `<div>
-//         <p>${vocab["βασιλεία, ἡ"]}
-//     </div>`
-// })
 
-// const vocabularyListOne = document.querySelector(".vocabulary-list")
-
-// vocabularyListOne.innerHTML = vocabularyList;
-
-// function addLEssons() {
-//     checkboxes.forEach(item => {
-//         if(item.checked) {
-//             console.log("Great!");
-//         }
-       
-//     })
-// }
 
 // show all vocabulary
 
