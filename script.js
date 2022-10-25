@@ -48,16 +48,9 @@ const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
 
-async function fetchVocabulary() {
-    const response = await fetch('./vocabs.json')
-    const data = await response.json();
-    const paradigmsData = data.paradigms;
-    const vocabularyData = data.vocabulary;
-    newVocabs(vocabularyData)
-}
 
 
-fetchVocabulary()
+
 
 
 // Refactored code // 
@@ -67,22 +60,40 @@ let lessonsValue = [];
 
 // newVocabs is a callback function // 
 
-function newVocabs(vocabs) {
-    // const vocabList = document.createElement('div')
-    // const vocabularyList = vocabs;
-    // vocabularyList.map(vocab => console.log(vocab.lessonOne) )
-}
+// function newVocabs(vocabs) {
+//     const vocabList = document.createElement('div')
+//     const vocabularyList = vocabs;
+//     // vocabularyList.map(vocab => console.log(vocab.lessonOne) )
+//     console.log(vocabs.lessonOne) 
+// }
 
 
 let lessonsChecked = document.querySelectorAll('input[name="lessons"]');
 
 reviewNow.addEventListener('click', () => {
-        
+
+    async function fetchVocabulary() {
+        const response = await fetch('./vocabs.json')
+        const data = await response.json();
+        const paradigmsData = data.paradigms;
+        const vocabularyData = data.vocabulary;
+        newVocabs(vocabularyData)
+        // reviewVocabulary(vocabularyData)
+    }
+    fetchVocabulary()
+
+    function newVocabs(vocabs) {
+        const vocabList = document.createElement('div')
+        const vocabularyList = vocabs;
+        // vocabularyList.map(vocab => console.log(vocab.lessonOne) )
+        console.log(vocabs.lessonOne) 
+    }
+
         lessonsChecked.forEach((checkbox) => {
             if(checkbox.checked) {
                 lessonsValue.push(checkbox.value);
-                console.log("new lessons");
                 console.log(lessonsValue);
+               
             }
            
         })
