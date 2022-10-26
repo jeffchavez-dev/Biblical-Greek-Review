@@ -90,7 +90,6 @@ reviewNow.addEventListener('click', () => {
             console.log(vocab)
         }
 
-        // console.log(vocabularyList)
     }
 
         lessonsChecked.forEach((checkbox) => {
