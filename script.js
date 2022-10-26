@@ -291,7 +291,7 @@ const lessonTen = [
     {greek : "μαρτυρέω", gloss: " I witness, testify"},
     {greek : "ἀπαγγέλλω", gloss: " I report, bring a report, announce"},
     {greek : "αἰώνιος", gloss: " eternal, unending "},
-    {greek : "πατήρ.", gloss: " father"}
+    {greek : "πατήρ", gloss: " father"}
 ]
 
 
