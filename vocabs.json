@@ -1,5 +1,7 @@
-{ "vocabulary": {
-    "lessonOne": [
+{ "vocabulary": [
+    {"lesson": "lessonOne"},
+    {"lessonVocabs" : 
+     [
         {"ἀγάπη, ἡ": "love"},
         {"γῆ ἡ": "earth, land, ground (geology)"},
         {"ζωή ἡ": "life (zoo, zoology)"},
@@ -121,7 +123,8 @@
         {"ἐνώπιον" : "before, in the presence of"}
     
      ]
-    },
+    }
+},
     "paradigms" : {
         "nouns": [
             {

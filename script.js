@@ -508,7 +508,7 @@ allVocabs.addEventListener('click', () => {
            
            
         `;
-        <div class="vocabulary-list"><span>${vocab.greek}</span> : ${vocab.gloss} </div>
+        // <div class="vocabulary-list"><span>${vocab.greek}</span> : ${vocab.gloss} </div>
     })
 
     allVocabsEl.innerHTML = vocabularyList;
