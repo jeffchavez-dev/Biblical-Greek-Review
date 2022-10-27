@@ -257,13 +257,14 @@ input {
 }
 
 
-.all-vocabs {
-    font-size: .8rem;
+.all-vocabsEL {
+    display: flex;
+    flex-direction: row;
 }
 
 .vocabulary-list {
     color: black;
-    font-size: 1rem;
+    font-size: 1rem;    
 }
 
 .vocabulary-list li {

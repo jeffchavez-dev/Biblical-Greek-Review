@@ -502,14 +502,13 @@ allVocabs.addEventListener('click', () => {
 
     let vocabularyList = allVocabList.map(vocab => {
         return `
-            // <ul class="vocabulary-list">
-            //     <li><span>${vocab.greek}</span> : ${vocab.gloss} </li>
-            // </ul>
-            <div class="vocabulary-list">
-                <span>${vocab.greek}</span> : ${vocab.gloss} </div>
+        <ul class="vocabulary-list">
+            <li><span>${vocab.greek}</span> : ${vocab.gloss} </li>
+        </ul>
+           
            
         `;
-
+        <div class="vocabulary-list"><span>${vocab.greek}</span> : ${vocab.gloss} </div>
     })
 
     allVocabsEl.innerHTML = vocabularyList;
