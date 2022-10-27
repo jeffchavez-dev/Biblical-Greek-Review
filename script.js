@@ -500,13 +500,14 @@ allVocabs.addEventListener('click', () => {
     lessonsEL.classList.add('hide')
     allVocabList.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight, ...lessonNine, ...lessonTen);
 
-    console.log(vocabulary)
-    // allVocabList.sort((a,b) => (a.greek > b.greek) ? 1 : ((b.greek > a.greek) ? -1 : 0));
     let vocabularyList = allVocabList.map(vocab => {
         return `
-            <ul class="vocabulary-list">
-                <li><span>${vocab.greek}</span> : ${vocab.gloss} </li>
-            </ul>
+            // <ul class="vocabulary-list">
+            //     <li><span>${vocab.greek}</span> : ${vocab.gloss} </li>
+            // </ul>
+            <div class="vocabulary-list">
+                <span>${vocab.greek}</span> : ${vocab.gloss} </div>
+           
         `;
 
     })
