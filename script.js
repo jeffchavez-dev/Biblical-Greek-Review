@@ -286,7 +286,6 @@ const lessonTen = [
     {greek : "πλοῖον, τό", gloss: " ship, boat"},
     {greek : "συναγωγή, ἡ", gloss: " synagogue, assembly 	(synagogue)"},
     {greek : "χαρά, ἡ", gloss: " joy (charity)"},
-
     {greek : "φανερόω", gloss: " I make clear, visible, or manifest "},
     {greek : "μαρτυρέω", gloss: " I witness, testify"},
     {greek : "ἀπαγγέλλω", gloss: " I report, bring a report, announce"},
