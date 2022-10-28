@@ -78,7 +78,6 @@ reviewNow.addEventListener('click', () => {
         const paradigmsData = data.paradigms;
         const vocabularyData = data.vocabulary;
         newVocabs(vocabularyData)
-        // reviewVocabulary(vocabularyData)
     }
     fetchVocabulary()
 
