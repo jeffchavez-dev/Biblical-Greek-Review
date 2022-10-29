@@ -20,10 +20,6 @@ const currentCountEL = document.querySelector(".current");
 const checkboxes = document.getElementsByName("lessons");
 
 
-
-//add a function that will push every checked input to vocabulary array 
-// declare variables 
-
 const lessonOneBtn = document.getElementById("lessonOne");
 const lessonOneEl = document.getElementById("lesson-one");
 const lessonTwoBtn = document.getElementById("lessonTwo");
