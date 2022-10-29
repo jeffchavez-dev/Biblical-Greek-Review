@@ -54,16 +54,6 @@ let newVocabsArray = [];
 
 let lessonsValue = [];
 
-// newVocabs is a callback function // 
-
-// function newVocabs(vocabs) {
-//     const vocabList = document.createElement('div')
-//     const vocabularyList = vocabs;
-//     // vocabularyList.map(vocab => console.log(vocab.lessonOne) )
-//     console.log(vocabs.lessonOne) 
-// }
-
-
 let lessonsChecked = document.querySelectorAll('input[name="lessons"]');
 
 reviewNow.addEventListener('click', () => {
