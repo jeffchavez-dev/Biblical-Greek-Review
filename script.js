@@ -522,7 +522,7 @@ allVocabs.addEventListener('click', () => {
     
     const allVocabsEl = document.querySelector('.all-vocabsEl')
     lessonsEL.classList.add('hide')
-    allVocabList.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight, ...lessonNine, ...lessonTen);
+    allVocabList.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight, ...lessonNine, ...lessonTen, ...lessonEleven);
 
     let vocabularyList = allVocabList.map(vocab => {
         return `
