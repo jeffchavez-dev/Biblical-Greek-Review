@@ -281,26 +281,8 @@ const lessonTen = [
 ]
 
 const lessonEleven = [
-    {greek : "ἀνοίγω", gloss: " I open "},
-    {greek : "ἀπολύω", gloss: " I set free, dismiss, divorce"},
-    {greek : "ἄρχω", gloss: " I rule, begin (mid) (oligarch)"},
-    {greek : "προσεύχομαι", gloss: " I pray"},
-    {greek : "προσκυνέω", gloss: " I worship"},
-    {greek : "συνάγω", gloss: " I gather, bring together 	(synagogue)"},
-    {greek : "ἀρχή, ἡ", gloss: " beginning (archaic)"},
-    {greek : "δαιμόνιον, τό", gloss: " demon (demon)"},
-    {greek : "διδάσκαλος, ὁ", gloss: " teacher (didactic)"},
-    {greek : "θρόνος, ὁ", gloss: " throne (throne)"},
-    {greek : "ἱμάτιον, τό", gloss: " clothing, garment"},
-    {greek : "καρπός, ὁ", gloss: " fruit, crop"},
-    {greek : "πλοῖον, τό", gloss: " ship, boat"},
-    {greek : "συναγωγή, ἡ", gloss: " synagogue, assembly 	(synagogue)"},
-    {greek : "χαρά, ἡ", gloss: " joy (charity)"},
-    {greek : "φανερόω", gloss: " I make clear, visible, or manifest "},
-    {greek : "μαρτυρέω", gloss: " I witness, testify"},
-    {greek : "ἀπαγγέλλω", gloss: " I report, bring a report, announce"},
-    {greek : "αἰώνιος", gloss: " eternal, unending "},
-    {greek : "πατήρ", gloss: " father"}
+    
+    
 ]
 
 
