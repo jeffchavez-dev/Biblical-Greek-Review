@@ -40,6 +40,8 @@ const lessonNineBtn = document.getElementById("lessonNine");
 const lessonNineEl = document.getElementById("lesson-nine");
 const lessonTenBtn = document.getElementById("lessonTen");
 const lessonTenEl = document.getElementById("lesson-ten");
+const lessonElevenBtn = document.getElementById("lessonEleven");
+const lessonElevenEl = document.getElementById("lesson-eleven");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
