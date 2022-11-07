@@ -284,7 +284,7 @@ const lessonEleven = [
     {greek : "ἀναβαίνω",  gloss: "I go up, ascend"}, 
     {greek : "ἀπέρχομαι",  gloss: "I go away, depart"},
     {greek : "ἀποθνῄσκω", gloss:  "I die (euthanasia)"},
-    {greek : "βάλλω", "I throw, cast out (ball, ballistic)"},
+    {greek : "βάλλω", gloss: "I throw, cast out (ball, ballistic)" },
     {greek : "εἰσέρχομαι", gloss:  "I go in, enter"},
     {greek : "ἐκβάλλω",  gloss: "I drive/send out"},
     {greek : "ἐσθίω",  gloss: "I eat"},
@@ -295,10 +295,10 @@ const lessonEleven = [
     {greek : "πίπτω", gloss:  "I fall"},
     {greek : "προσέρχομαι",  gloss: "I go to, approach"},
     {greek : "φέρω", gloss:  "I bear, carry "},
-    {greek : "ἐπαγγελία", gloss:  ἡ, "promise"},
+    {greek : "ἐπαγγελία, ἡ", gloss:   "promise"},
     {greek : "Κοινωνία", gloss:  "participation, communion, fellowship"},
     {greek : "ἡμέτερος", gloss:  "our, our own"},
-    {greek : "Πατρὸς", gloss:  "father (genitive form)"}s
+    {greek : "Πατρὸς", gloss:  "father (genitive form)"}
 ]
 
 
