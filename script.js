@@ -1191,7 +1191,37 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3p-translation" : "They will"
     },
     {
-        "Paradigm": "First Aorist Indicative of",
+        "Paradigm": "First Aorist Active Indicative",
+        "1s" : "ἔσομαι",
+        "2s" : "ἔσῃ",
+        "3s" : "ἔσται",
+        "1p" : "ἐσόμεθα",
+        "2p" : "ἔσεσθε",
+        "3p" : "ἔσονται",
+        "1s-translation" : "I will",
+        "2s-translation" : "You will",
+        "3s-translation" : "He/she/it will",
+        "1p-translation" : "We will",
+        "2p-translation" : "You (all) will",
+        "3p-translation" : "They will"
+    },
+    {
+        "Paradigm": "First Aorist Middle Indicative",
+        "1s" : "ἔσομαι",
+        "2s" : "ἔσῃ",
+        "3s" : "ἔσται",
+        "1p" : "ἐσόμεθα",
+        "2p" : "ἔσεσθε",
+        "3p" : "ἔσονται",
+        "1s-translation" : "I will",
+        "2s-translation" : "You will",
+        "3s-translation" : "He/she/it will",
+        "1p-translation" : "We will",
+        "2p-translation" : "You (all) will",
+        "3p-translation" : "They will"
+    },
+    {
+        "Paradigm": "First Aorist Passive Indicative",
         "1s" : "ἔσομαι",
         "2s" : "ἔσῃ",
         "3s" : "ἔσται",
