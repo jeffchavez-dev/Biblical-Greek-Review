@@ -1213,12 +1213,12 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "1p" : "ἐλυσάμεθα",
         "2p" : "ἐλύσασθε",
         "3p" : "ἐλύσαντο",
-        "1s-translation" : "I loosed",
-        "2s-translation" : "You loosed",
-        "3s-translation" : "He/she/it loosed",
-        "1p-translation" : "We loosed",
-        "2p-translation" : "You (all) loosed",
-        "3p-translation" : "They loosed"
+        "1s-translation" : "I loosed for myself",
+        "2s-translation" : "You loosed for yourself",
+        "3s-translation" : "He/she/it loosed for he/she/itself",
+        "1p-translation" : "We loosed for ourselves",
+        "2p-translation" : "You (all) loosed for yourselves",
+        "3p-translation" : "They loosed for themselves"
     },
     {
         "Paradigm": "First Aorist Passive Indicative",
