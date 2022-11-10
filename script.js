@@ -42,6 +42,12 @@ const lessonTenBtn = document.getElementById("lessonTen");
 const lessonTenEl = document.getElementById("lesson-ten");
 const lessonElevenBtn = document.getElementById("lessonEleven");
 const lessonElevenEl = document.getElementById("lesson-eleven");
+
+const lessonTwelveBtn = document.getElementById("lessonEleven");
+const lessonTwelveEl = document.getElementById("lesson-eleven");
+
+
+
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
