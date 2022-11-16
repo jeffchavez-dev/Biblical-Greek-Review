@@ -1077,10 +1077,10 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3p" : "λύονται",
         "1s-translation" : "I am being loosed (P) for myself (M)",
         "2s-translation" : "You are being loosed (P) for myself (M)",
-        "3s-translation" : "He/she/it is being loosed",
-        "1p-translation" : "We are being loosed",
-        "2p-translation" : "You (all) are being loosed",
-        "3p-translation" : "They are being loosed"
+        "3s-translation" : "He/she/it is being loosed (P) for myself (M)",
+        "1p-translation" : "We are being loosed (P) for myself (M)",
+        "2p-translation" : "You (all) are being loosed (P) for myself (M)",
+        "3p-translation" : "They are being loosed (P) for myself (M)"
     },
     {
         "Paradigm": "Present Active Indicative of εἰμί",
