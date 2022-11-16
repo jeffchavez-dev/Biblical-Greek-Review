@@ -1076,8 +1076,8 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "2p" : "λύεσθε",
         "3p" : "λύονται",
         "1s-translation" : "I am being loosed (P) + for myself (M)",
-        "2s-translation" : "You are being loosed (P) + for myself (M)",
-        "3s-translation" : "He/she/it is being loosed (P) + for myself (M)",
+        "2s-translation" : "You are being loosed (P) + for yourself (M)",
+        "3s-translation" : "He/she/it is being loosed (P) + for he/she/itself (M)",
         "1p-translation" : "We are being loosed (P) + for myself (M)",
         "2p-translation" : "You (all) are being loosed (P) + for myself (M)",
         "3p-translation" : "They are being loosed (P) + for myself (M)"
