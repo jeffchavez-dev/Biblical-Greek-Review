@@ -1248,34 +1248,11 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3p-translation" : "They were loosed"
     },
     {
-        "Paradigm": "Second Aorist Active Indicative",
-        "1s" : "ἐλύθην",
-        "2s" : "ἐλύθης",
-        "3s" : "ἐλύθη",
-        "1p" : "ἐλύθημεν",
-        "2p" : "ἐλύθητε",
-        "3p" : "ἐλύθησαν",
-        "1s-translation" : "I was loosed",
-        "2s-translation" : "You were loosed",
-        "3s-translation" : "He/she/it was loosed",
-        "1p-translation" : "We were loosed",
-        "2p-translation" : "You (all) were loosed",
-        "3p-translation" : "They were loosed"
+        "Paradigm": "Second Aorist Active Indicative"
+       
     },
     {
-        "Paradigm": "Second Aorist Middle Indicative",
-        "1s" : "ἐλύθην",
-        "2s" : "ἐλύθης",
-        "3s" : "ἐλύθη",
-        "1p" : "ἐλύθημεν",
-        "2p" : "ἐλύθητε",
-        "3p" : "ἐλύθησαν",
-        "1s-translation" : "I was loosed",
-        "2s-translation" : "You were loosed",
-        "3s-translation" : "He/she/it was loosed",
-        "1p-translation" : "We were loosed",
-        "2p-translation" : "You (all) were loosed",
-        "3p-translation" : "They were loosed"
+        "Paradigm": "Second Aorist Middle Indicative"
     },
     {
         "Paradigm": "Second Aorist Passive Indicative",
