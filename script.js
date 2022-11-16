@@ -1125,7 +1125,7 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3s-translation" : "He/she/it was being loosed (P) + for he/she/itself (M)",
         "1p-translation" : "We were being loosed (P) + for ourselves (M)",
         "2p-translation" : "You (all) were being loosed (P) + for yourselves (M)",
-        "3p-translation" : "They were being loosed"
+        "3p-translation" : "They were being loosed (P) + for themselves (M)"
     },
     {
         "Paradigm": "Imperfect Active Indicative of εἰμί",
