@@ -1278,7 +1278,7 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3p-translation" : "They were loosed"
     },
     {
-        "Paradigm": "First Aorist Passive Indicative",
+        "Paradigm": "Second Aorist Passive Indicative",
         "1s" : "ἐλύθην",
         "2s" : "ἐλύθης",
         "3s" : "ἐλύθη",
