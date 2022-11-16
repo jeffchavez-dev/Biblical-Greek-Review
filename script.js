@@ -1120,7 +1120,7 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "1p" : "ἐλυόμεθα",
         "2p" : "ἐλύεσθε",
         "3p" : "ἐλύοντο",
-        "1s-translation" : "I was being loosed",
+        "1s-translation" : "I was being loosed + for myself (M)",
         "2s-translation" : "You were being loosed",
         "3s-translation" : "He/she/it was being loosed",
         "1p-translation" : "We were being loosed",
