@@ -337,12 +337,9 @@ const lessonTwelve = [
     {greek : "σοφία, ἡ",  gloss: "wisdom (sophistry, sophomore)"},
     {greek : "σωτηρία, ἡ",  gloss: "salvation, deliverance"},
     {greek : "χρόνος, ὁ",  gloss: "time (chronology)"},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""}
-
-    
+    {greek : "διό",  gloss: "therefore, for this reason"},
+    {greek : "εὐθύς",  gloss: "immediately, straightaway"},
+    {greek : "πληρόω",  gloss: "I fill, fulfill, complete (1 John)"}    
 ]
 const lessonThirteen = [
     
