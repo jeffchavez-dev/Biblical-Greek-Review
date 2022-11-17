@@ -306,10 +306,42 @@ const lessonEleven = [
     {greek : "ἡμέτερος", gloss:  "our, our own"},
     {greek : "Πατρὸς", gloss:  "father (genitive form)"}
 ]
-
+//     {greek : "",  gloss: ""}, 
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""}
 const lessonTwelve = [
     {greek : "αἴρω",  gloss: ""}, 
     {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""}
+
     
 ]
 const lessonThirteen = [
