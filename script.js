@@ -278,12 +278,12 @@ const lessonTen = [
     {greek : "καρπός, ὁ", gloss: " fruit, crop"},
     {greek : "πλοῖον, τό", gloss: " ship, boat"},
     {greek : "συναγωγή, ἡ", gloss: " synagogue, assembly 	(synagogue)"},
-    {greek : "χαρά, ἡ", gloss: " joy (charity)"},
-    {greek : "φανερόω", gloss: " I make clear, visible, or manifest "},
-    {greek : "μαρτυρέω", gloss: " I witness, testify"},
-    {greek : "ἀπαγγέλλω", gloss: " I report, bring a report, announce"},
-    {greek : "αἰώνιος", gloss: " eternal, unending "},
-    {greek : "πατήρ", gloss: " father"}
+    {greek : "χαρά, ἡ", gloss: " joy (charity) (1 John)"},
+    {greek : "φανερόω", gloss: " I make clear, visible, or manifest  (1 John)"},
+    {greek : "μαρτυρέω", gloss: " I witness, testify (1 John)"},
+    {greek : "ἀπαγγέλλω", gloss: " I report, bring a report, announce (1 John)"},
+    {greek : "αἰώνιος", gloss: " eternal, unending (1 John)"},
+    {greek : "πατήρ", gloss: " father (1 John)"}
 ]
 
 const lessonEleven = [
