@@ -301,10 +301,10 @@ const lessonEleven = [
     {greek : "πίπτω", gloss:  "I fall"},
     {greek : "προσέρχομαι",  gloss: "I go to, approach"},
     {greek : "φέρω", gloss:  "I bear, carry "},
-    {greek : "ἐπαγγελία, ἡ", gloss:   "promise"},
-    {greek : "Κοινωνία", gloss:  "participation, communion, fellowship"},
-    {greek : "ἡμέτερος", gloss:  "our, our own"},
-    {greek : "Πατρὸς", gloss:  "father (genitive form)"}
+    {greek : "ἐπαγγελία, ἡ", gloss:   "promise (1 John)"},
+    {greek : "Κοινωνία", gloss:  "participation, communion, fellowship (1 John)"},
+    {greek : "ἡμέτερος", gloss:  "our, our own (1 John)"},
+    {greek : "Πατρὸς", gloss:  "father (genitive form) (1 John)"}
 ]
 //     {greek : "",  gloss: ""}, 
 //     {greek : "",  gloss: ""},
