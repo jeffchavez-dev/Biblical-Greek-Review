@@ -452,6 +452,15 @@ lessonElevenBtn.addEventListener('click', () => {
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 });
+lessonTwelveBtn.addEventListener('click', () => {
+    addNewLessonEleven();
+    lessonElevenEl.classList.add("hide")
+    const review = document.createElement("div")
+    review.innerHTML = "LESSON 11";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
+});
+
 
 
 function addNewLessonOne() {
