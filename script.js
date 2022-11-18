@@ -453,10 +453,10 @@ lessonElevenBtn.addEventListener('click', () => {
     toReview.appendChild(review);
 });
 lessonTwelveBtn.addEventListener('click', () => {
-    addNewLessonEleven();
+    addNewLessonTwelve();
     lessonElevenEl.classList.add("hide")
     const review = document.createElement("div")
-    review.innerHTML = "LESSON 11";
+    review.innerHTML = "LESSON 12";
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 });
