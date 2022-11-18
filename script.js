@@ -43,8 +43,8 @@ const lessonTenEl = document.getElementById("lesson-ten");
 const lessonElevenBtn = document.getElementById("lessonEleven");
 const lessonElevenEl = document.getElementById("lesson-eleven");
 
-const lessonTwelveBtn = document.getElementById("lessonEleven");
-const lessonTwelveEl = document.getElementById("lesson-eleven");
+const lessonTwelveBtn = document.getElementById("lessonTwelve");
+const lessonTwelveEl = document.getElementById("lesson-twelve");
 
 
 
