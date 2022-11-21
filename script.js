@@ -344,10 +344,10 @@ const lessonTwelve = [
     {greek : "πληρόω",  gloss: "I fill, fulfill, complete (1 John)"}    
 ]
 const lessonIrreg = [
-    {greek : "ἀνέβην",  gloss: ""}, 
-    {greek : "ἀπῆλθον",  gloss: ""},
-    {greek : "ἀπέθανον",  gloss: ""},
-    {greek : "ἔβαλον",  gloss: ""},
+    {greek : "ἀνέβην",  gloss: "ἀναβαίνω"}, 
+    {greek : "ἀπῆλθον",  gloss: "ἀπέρχομαι"},
+    {greek : "ἀπέθανον",  gloss: "ἀποθνῄσκω"},
+    {greek : "ἔβαλον",  gloss: "βάλλω"},
     {greek : "εἰσῆλθον",  gloss: ""},
     {greek : "ἐξέβαλον",  gloss: "ἐκβάλλω"},
     {greek : "ἔφαγον",  gloss: "ἐσθίω"},
