@@ -497,6 +497,14 @@ lessonTwelveBtn.addEventListener('click', () => {
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 });
+lessonIrregBtn.addEventListener('click', () => {
+    addNewLessonTwelve();
+    lessonIrregEl.classList.add("hide")
+    const review = document.createElement("div")
+    review.innerHTML = "Irregular Verbs";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
+});
 
 
 
