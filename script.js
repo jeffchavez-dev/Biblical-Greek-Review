@@ -504,7 +504,7 @@ lessonTwelveBtn.addEventListener('click', () => {
     toReview.appendChild(review);
 });
 lessonIrregBtn.addEventListener('click', () => {
-    addNewLessonTwelve();
+    addNewLessonIrreg();
     lessonIrregEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "Irregular Verbs";
