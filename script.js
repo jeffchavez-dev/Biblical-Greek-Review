@@ -343,24 +343,24 @@ const lessonTwelve = [
     {greek : "εὐθύς",  gloss: "immediately, straightaway"},
     {greek : "πληρόω",  gloss: "I fill, fulfill, complete (1 John)"}    
 ]
-const lessonThirteen = [
-    //     {greek : "",  gloss: ""}, 
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""}
+const lessonIrreg = [
+    {greek : "",  gloss: ""}, 
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""}
 ]
 const lessonThirteen = [
     //     {greek : "",  gloss: ""}, 
