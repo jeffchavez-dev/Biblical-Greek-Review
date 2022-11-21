@@ -598,6 +598,14 @@ function addNewLessonTwelve() {
     }
 }
 
+function addNewLessonIrreg() {
+    if(lessonIrregBtn.checked) {
+        vocabulary.push(...lessonIrreg);
+        loadReview()
+    }
+}
+
+
 let currentVocab = 0;
 let currentCount = 1;
 
