@@ -342,7 +342,23 @@ const lessonTwelve = [
     {greek : "πληρόω",  gloss: "I fill, fulfill, complete (1 John)"}    
 ]
 const lessonThirteen = [
-    
+    //     {greek : "",  gloss: ""}, 
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""}
 ]
 
 
