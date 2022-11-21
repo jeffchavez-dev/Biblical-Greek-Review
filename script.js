@@ -47,6 +47,8 @@ const lessonTwelveBtn = document.getElementById("lessonTwelve");
 const lessonTwelveEl = document.getElementById("lesson-twelve");
 
 
+const lessonIrregBtn = document.getElementById("lessonIrreg");
+const lessonIrregEl = document.getElementById("lesson-irreg");
 
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
@@ -340,6 +342,25 @@ const lessonTwelve = [
     {greek : "διό",  gloss: "therefore, for this reason"},
     {greek : "εὐθύς",  gloss: "immediately, straightaway"},
     {greek : "πληρόω",  gloss: "I fill, fulfill, complete (1 John)"}    
+]
+const lessonThirteen = [
+    //     {greek : "",  gloss: ""}, 
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""},
+//     {greek : "",  gloss: ""}
 ]
 const lessonThirteen = [
     //     {greek : "",  gloss: ""}, 
