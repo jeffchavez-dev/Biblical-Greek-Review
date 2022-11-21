@@ -348,7 +348,7 @@ const lessonIrreg = [
     {greek : "ἀπῆλθον",  gloss: "ἀπέρχομαι"},
     {greek : "ἀπέθανον",  gloss: "ἀποθνῄσκω"},
     {greek : "ἔβαλον",  gloss: "βάλλω"},
-    {greek : "εἰσῆλθον",  gloss: ""},
+    {greek : "εἰσῆλθον",  gloss: "εἰσέρχομαι"},
     {greek : "ἐξέβαλον",  gloss: "ἐκβάλλω"},
     {greek : "ἔφαγον",  gloss: "ἐσθίω"},
     {greek : "ἐξῆλθον",  gloss: "ἐξέρχομαι"},
