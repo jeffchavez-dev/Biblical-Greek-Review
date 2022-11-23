@@ -1370,7 +1370,19 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3p-translation" : "They knew"
     },
     {
-        "Paradigm": "Second Aorist Middle Indicative"
+        "Paradigm": "Second Aorist Middle Indicative (γίνομαι)",
+        "1s" : "ἔγνων",
+        "2s" : "ἔγνως",
+        "3s" : "ἔγνω",
+        "1p" : "ἔγνωμεν",
+        "2p" : "ἔγνωτε",
+        "3p" : "ἔγνωσαν",
+        "1s-translation" : "I knew",
+        "2s-translation" : "You knew",
+        "3s-translation" : "He/she/it knew",
+        "1p-translation" : "We knew",
+        "2p-translation" : "You (all) knew",
+        "3p-translation" : "They knew"
     },
     {
         "Paradigm": "Second Aorist Passive Indicative"
