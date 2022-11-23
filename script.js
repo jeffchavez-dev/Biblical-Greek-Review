@@ -640,6 +640,7 @@ allVocabs.addEventListener('click', () => {
     
     const allVocabsEl = document.querySelector('.all-vocabsEl')
     lessonsEL.classList.add('hide')
+    document.querySelector(".reviewing-section").style.display = 'none'
     allVocabList.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight, ...lessonNine, ...lessonTen, ...lessonEleven, ...lessonTwelve, ...lessonIrreg);
 
     let vocabularyList = allVocabList.map(vocab => {
