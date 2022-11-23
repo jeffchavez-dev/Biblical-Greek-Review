@@ -1385,7 +1385,19 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3p-translation" : "They received for themselves"
     },
     {
-        "Paradigm": "Second Aorist Passive Indicative"
+        "Paradigm": "Second Aorist Passive Indicative",
+        "1s" : "ἐλαβόμην",
+        "2s" : "ἐλαβου",
+        "3s" : "ἐλαβετο",
+        "1p" : "ἐλαβόμεθα",
+        "2p" : "ἐλαβεσθε",
+        "3p" : "ἐλαβοντο",
+        "1s-translation" : "I received for myself",
+        "2s-translation" : "You received for yourself",
+        "3s-translation" : "He/she/it received for him/her/itself",
+        "1p-translation" : "We received for ourselves",
+        "2p-translation" : "You (all) received for yourselves",
+        "3p-translation" : "They received for themselves"
     }
   ]
 
