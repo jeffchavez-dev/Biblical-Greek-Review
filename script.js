@@ -1386,18 +1386,18 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
     },
     {
         "Paradigm": "Second Aorist Passive Indicative",
-        "1s" : "ἐλαβόμην",
-        "2s" : "ἐλαβου",
-        "3s" : "ἐλαβετο",
-        "1p" : "ἐλαβόμεθα",
-        "2p" : "ἐλαβεσθε",
-        "3p" : "ἐλαβοντο",
-        "1s-translation" : "I received for myself",
-        "2s-translation" : "You received for yourself",
-        "3s-translation" : "He/she/it received for him/her/itself",
-        "1p-translation" : "We received for ourselves",
-        "2p-translation" : "You (all) received for yourselves",
-        "3p-translation" : "They received for themselves"
+        "1s" : "ἐγραφην",
+        "2s" : "ἐγραφης",
+        "3s" : "ἐγράφη",
+        "1p" : "ἐγραφημεν",
+        "2p" : "ἐγραφητε",
+        "3p" : "ἐγραφησαν",
+        "1s-translation" : "I was written",
+        "2s-translation" : "You were written",
+        "3s-translation" : "He/she/it was written",
+        "1p-translation" : "We received were written",
+        "2p-translation" : "You (all) were written",
+        "3p-translation" : "They received were written"
     }
   ]
 
