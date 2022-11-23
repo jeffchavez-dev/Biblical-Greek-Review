@@ -1379,8 +1379,8 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3p" : "ἐλαβοντο",
         "1s-translation" : "I received for myself",
         "2s-translation" : "You received for myself",
-        "3s-translation" : "He/she/it received for myself",
-        "1p-translation" : "We received for myself",
+        "3s-translation" : "He/she/it received for yourself",
+        "1p-translation" : "We received for ourselves",
         "2p-translation" : "You (all) received for yourselves",
         "3p-translation" : "They received for themselves"
     },
