@@ -1364,10 +1364,10 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3p" : "ἔγνωσαν",
         "1s-translation" : "I knew",
         "2s-translation" : "You knew",
-        "3s-translation" : "He/she/it was loosed",
-        "1p-translation" : "We were loosed",
-        "2p-translation" : "You (all) were loosed",
-        "3p-translation" : "They were loosed"
+        "3s-translation" : "He/she/it knew",
+        "1p-translation" : "We knew",
+        "2p-translation" : "You (all) knew",
+        "3p-translation" : "They knew"
     },
     {
         "Paradigm": "Second Aorist Middle Indicative"
