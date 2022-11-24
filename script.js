@@ -296,7 +296,7 @@ const lessonEleven = [
     {greek : "εἰσέρχομαι", gloss:  "I go in, enter"},
     {greek : "ἐκβάλλω",  gloss: "I drive/send out"},
     {greek : "ἐσθίω",  gloss: "I eat"},
-    {greek : "ἐξέρχομαι",  gloss: "I go out, depart, leave"},
+    {greek : "ἐξέρχομαι",  gloss: "I go out, depart, leave, come out"},
     {greek : "εὑρίσκω",  gloss: "I find, discover (Eureka!)"},
     {greek : "καταβαίνω", gloss:  "I go down, descend"},
     {greek : "πίνω",  gloss: "I drink"},
