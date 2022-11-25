@@ -266,3 +266,31 @@ const lessonIrreg = [
     {greek : "εἶπον",  gloss: "λέγω"},
     {greek : "συνήγαγον",  gloss: "συνάγω"}
 ]
+
+
+
+const allVocabs = document.querySelector('.all-vocabs');
+
+let allVocabList = [];
+allVocabs.addEventListener('click', () => {
+    
+    const allVocabsEl = document.querySelector('.all-vocabsEl')
+    lessonsEL.classList.add('hide')
+    document.querySelector(".reviewing-section").style.display = 'none'
+    allVocabList.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight, ...lessonNine, ...lessonTen, ...lessonEleven, ...lessonTwelve, ...lessonIrreg);
+
+    let vocabularyList = allVocabList.map(vocab => {
+        return `
+        <ul class="vocabulary-list">
+            <li><span>${vocab.greek}</span> : ${vocab.gloss} </li>
+        </ul>
+           
+           
+        `;
+        // <div class="vocabulary-list"><span>${vocab.greek}</span> : ${vocab.gloss} </div>
+    })
+
+    allVocabsEl.innerHTML = vocabularyList;
+
+
+})
