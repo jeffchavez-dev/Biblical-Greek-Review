@@ -263,6 +263,7 @@ input {
 
 .all-vocabs a {
     text-decoration: none;
+    color: black;
 }
 
 .vocabulary-list {
