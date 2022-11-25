@@ -268,9 +268,6 @@ const lessonIrreg = [
 ]
 
 
-
-const allVocabs = document.querySelector('.all-vocabs');
-
 let allVocabList = [];
 
     const allVocabsEl = document.querySelector('.all-vocabsEl')
