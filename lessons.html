@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKRQYQHSN4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-YKRQYQHSN4');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/AA.PNG" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <title>Love Greek</title>
+</head>
+<body>
+    
+    
+    <div class="container love-greek">
+        <h1 class="main-title">Do You Love Biblical Greek?</h1>
+        <main class="main-review">
+            <button class="vocabulary-review main-btn">REVIEW VOCABULARY</button>
+            <button class="paradigm-review main-btn">REVIEW PARADIGMS</button>
+            <button class="video-lessons-btn main-btn">LEARN GREEK</button>
+        </main>
+        <div class="main">
+           
+            <div class="vocabulary">
+                <p class="words"><span class="current"></span>/<span class="totalCount"></span> Words</p>
+                <div class="greek-vocabulary"></div>
+                <div class="english-vocabulary"></div>
+                
+                    <div class="buttons">
+                        <button class="wrong-answer btn" id="btn">X</button>
+                        <button class="show-answer btn" id="btn">SHOW</button>
+                        <button class="hide-answer btn" id="btn">HIDE</button>
+                        <button class="correct-answer btn" id="btn">&#10004;</button>
+                        <button class="next-review btn" id="btn">NEXT</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="finished">
+        <div class="modal">
+            <h3>GREAT JOB!</h3>
+            <div class="close">x</div>
+        </div>
+        
+    </div>
+    
+  
+    
+    <div class="total-score"></div>
+  
+
+    <section class="lesson-section container">
+        
+        <ul class="lessons">
+            <h2>Choose lessons</h2>
+            <div class="lessons-list">
+                <li class="lesson" id="lesson-one">
+                    <input type="checkbox" name="lessons" value="lessonOne" id="lessonOne">
+                    <label for="lessonOne">Lesson 1</label>
+                </li>
+                <li class="lesson" id="lesson-two">
+                    <input type="checkbox" name="lessons" value="lessonTwo" id="lessonTwo">
+                    <label for="lessonTwo">Lesson 2</label>
+                </li>
+                <li class="lesson" id="lesson-three">
+                    <input type="checkbox" name="lessons" value="lessonThree" id="lessonThree">
+                    <label for="lessonThree">Lesson 3</label>
+                </li>
+                <li class="lesson" id="lesson-four">
+                    <input type="checkbox" name="lessons" value="lessonFour" id="lessonFour">
+                    <label for="lessonFour">Lesson 4</label>
+                </li>
+                <li class="lesson" id="lesson-five">
+                    <input type="checkbox" name="lessons"  value="lessonFive" id="lessonFive">
+                    <label for="lessonFive">Lesson 5</label>
+                </li>
+                <li class="lesson" id="lesson-six">
+                    <input type="checkbox" name="lessons" value="lessonSix" id="lessonSix">
+                    <label for="lessonSix">Lesson 6</label>
+                </li>
+                <li class="lesson" id="lesson-seven">
+                    <input type="checkbox" name="lessons" value="lessonSeven" id="lessonSeven">
+                    <label for="lessonSeven">Lesson 7</label>
+                </li>
+                <li class="lesson" id="lesson-eight">
+                    <input type="checkbox" name="lessons" value="lessonEight" id="lessonEight">
+                    <label for="lessonEight">Lesson 8</label>
+                </li>
+                <li class="lesson" id="lesson-nine">
+                    <input type="checkbox" name="lessons" value="lessonNine" id="lessonNine">
+                    <label for="lessonNine">Lesson 9</label>
+                </li>
+                <li class="lesson" id="lesson-ten">
+                    <input type="checkbox" name="lessons" value="lessonTen" id="lessonTen">
+                    <label for="lessonTen">Lesson 10</label>
+                </li>
+                <li class="lesson" id="lesson-eleven">
+                    <input type="checkbox" name="lessons" id="lessonEleven">
+                    <label for="lessonEleven">Lesson 11</label>
+                </li>   
+                <li class="lesson" id="lesson-twelve">
+                    <input type="checkbox" name="lessons" id="lessonTwelve">
+                    <label for="lessonTwelve">Lesson 12</label>
+                </li>   
+                <li class="lesson" id="lesson-irreg">
+                    <input type="checkbox" name="lessons" id="lessonIrreg">
+                    <label for="lessonIrreg">Irregular Verbs</label>
+                </li>   
+            </div>
+            <button class="all-vocabs btn"><a href="/vocabulary.html">VIEW ALL VOCABULARY</a></button>
+            <button class="review-now btn" id="btn">REVIEW NOW</button>
+           
+            <!-- <button class="goBack btn" onclick="location.reload()">&#8592;</button> -->
+            <div class="vocabulary-list"></div>
+        </ul>
+       
+       
+        <div class="reviewing-section">
+            <h2 class="review-time" > </h2>
+            <h2 class="reviewing-title">To Review:</h2>
+            <div class="toReview" ></div>
+            
+        </div>
+        <button class="reset btn" id="btn" onclick="location.reload()">RESET</button>
+        <!-- <button class="switch btn" id="btn">SWITCH</button> -->
+    </section>
+    <button class="retake btn" onclick="location.reload()">KEEP PRACTICING!</button>
+    <button class="reviewWrongAnswers btn">Review MISSED</button>
+    <div class="container">
+        <div class="paradigms-section">
+            <h2>Nouns/Article/Pronouns</h2>
+            <div class="noun-paradigms-table paradigms-table"> </div>
+            <div class="other-paradigms-table paradigms-table"> </div>
+            <h2>Verbs</h2>
+            <div class="verb-paradigms-table paradigms-table"> </div>
+            <button class="goBack back" onclick="location.reload()">&#8592;</button>
+        </div>
+    </div>
+
+    <div class="video-lessons-element container">
+        <h2>CORE LESSONS</h2>
+        <ol class="video-lessons">
+            <li>
+                <details class="details">
+                    <summary> Lesson 1: The Greek Alphabet</summary>
+                    <div class="other-resources"> Alphabet Song <br> <iframe src="https://www.youtube.com/embed/3gaeIUsPJ-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                </details> 
+            </li>
+          
+            <li> 
+                <details class="details">
+                <summary> Lesson 2: First Declension Nouns</summary>
+                <div class="other-resources"> The 1st Declension Song <br> <iframe  src="https://www.youtube.com/embed/UEyns65Zf8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </details> 
+            </li>
+            <li> 
+                <details class="details">
+                <summary> Lesson 3: Second Declension Nouns</summary>
+                <div class="other-resources"> The 2nd Declension Song <br>  <iframe src="https://www.youtube.com/embed/EBYeerWcB9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> 
+            </details> 
+            </li>
+            <li> 
+                <details class="details">
+                <summary> Lesson 4: The Basics of Greek Verbs</summary>
+                <div class="other-resources"></div> 
+            </details> 
+
+            </li>
+            <li> 
+                <details class="details">
+                <summary> Lesson 5: Present Indicative Verbs</summary>
+                <div class="other-resources"> Present Active Indicative Song <br>   <iframe src="https://www.youtube.com/embed/4B6QJsgRsV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="other-resources"> Present Middle & Passive Song <br> <iframe src="https://www.youtube.com/embed/T5MypbKH7vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> 
+            </details> 
+
+            </li>
+            <li> 
+                <details class="details">
+                <summary> Lesson 6: Imperfect Indicative Verbs</summary>
+                <!-- <div class="other-resources"> Imperfect Indicative & Secondary Endings Song <iframe width="560" height="315" src="https://www.youtube.com/embed/pQNdUIpygD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> -->
+            </details> 
+
+            </li>
+            <li> 
+                <details class="details">
+                <summary> Lesson 7: Contract Verbs</summary>
+                <div class="other-resources"></div>
+            </details> 
+
+            </li>
+            <li> 
+                <details class="details">
+                    <summary> Lesson 8: Prepositions</summary>
+                    <div class="other-resources"></div>
+                </details> 
+
+            </li>
+            
+            <li>
+                <details class="details">
+                    <summary>Lesson 9: Personal and Relative Pronouns</summary>
+                    <iframe src="https://www.youtube.com/embed/EJFDuBWPK0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="other-resources">Personal Pronouns Song from Daily Dose of Greek <iframe src="https://www.youtube.com/embed/v2cqHDo2vZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div><a href="https://drive.google.com/file/d/1PQMKxbTnt1YOR6le1K5npE7VymvvNvaU/view?usp=sharing">Download PDF &#8681;</a></div>
+                </details> 
+            </li>
+            <li>
+                <details class="details">
+                    <summary>Lesson 10: Future Indicative</summary>
+                    <iframe src="https://www.youtube.com/embed/529OP4QOi7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="other-resources">Future Active and Middle Song <br> <iframe src="https://www.youtube.com/embed/ib78rSGA6eU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    
+                    <div class="other-resources">Passive Song from Daily Dose of Greek <br> <iframe src="https://www.youtube.com/embed/CYFDN1nDcZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="other-resources"></div>
+                    <div><a href="https://drive.google.com/file/d/1RMVMaralWYbnkonImwI98U6-b5yEjkqV/view?usp=sharing">Download PDF &#8681;</a></div>
+                </details> 
+            </li>
+            <li>
+                <details class="details">
+                    <summary>Lesson 11: First Aorist</summary>
+                    <iframe src="https://www.youtube.com/embed/hhR0yGKLEig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="other-resources">The Aorist Active and Middle Song <br> <iframe src="https://www.youtube.com/embed/TMqpwz6Sl7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div><a href="https://drive.google.com/file/d/1sYd5ltISMe0PZc1RWWf9AIzEzdRUT1sc/view?usp=share_link">Download PDF &#8681;</a></div>
+                </details> 
+            </li>
+            <li>
+                <details class="details">
+                    <summary>Lesson 12: Second Aorist</summary>
+                    <iframe src="https://www.youtube.com/embed/-IhB07dWWYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="other-resources"> Aorist Irregular Verbs Mnemonic Device <br> <iframe src="https://www.youtube.com/embed/iuT8Qp0JMtA?start=406" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                    <div><a href="https://drive.google.com/file/d/1JpCTF4GUiJJVll7CsEzcr7fsRnnD7Hd-/view?usp=share_link">Download PDF &#8681;</a></div>
+                </details> 
+            </li>
+             <li> 
+                <details class="details">
+                    <summary> Lesson 13: Liquid Verbs</summary>
+                    <div class="other-resources"></div>
+                </details> 
+
+            </li>
+             <li> 
+                <details class="details">
+                    <summary> Lesson 14 (not yet available)</summary>
+                    <div class="other-resources"></div>
+                </details> 
+
+            </li>
+            <li> 
+                <details class="details">
+                    <summary> Lesson 15 (not yet available)</summary>
+                    <div class="other-resources"></div>
+                </details> 
+
+            </li>
+            <li> 
+                <details class="details">
+                    <summary> Lesson 16 (not yet available)</summary>
+                    <div class="other-resources"></div>
+                </details> 
+
+            </li>
+             <li> 
+                <details class="details">
+                    <summary> Lesson 17 (not yet available)</summary>
+                    <div class="other-resources"></div>
+                </details> 
+
+            </li>
+        </ol>
+        <button class="back" onclick="location.reload()">&#8592;</button>
+    </div>
+    
+    <footer class="footer">
+        <p></p>Love Greek Love God ⓒ 2022
+        <p>Powered with ❤ by <a href="https://github.com/jeffchavez-dev">GitHub</a> and <a href="https://vercel.com/dashboard">Vercel</a></p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
