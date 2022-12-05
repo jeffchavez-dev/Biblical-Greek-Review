@@ -309,23 +309,7 @@ const lessonEleven = [
     {greek : "ἡμέτερος", gloss:  "our, our own (1 John)"},
     {greek : "Πατρὸς", gloss:  "father (genitive form) (1 John)"}
 ]
-//     {greek : "",  gloss: ""}, 
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""}
+
 const lessonTwelve = [
     {greek : "αἴρω",  gloss: "I take up/away"}, 
     {greek : "ἀπαγγέλλω",  gloss: "I announce, report (angel)"},
