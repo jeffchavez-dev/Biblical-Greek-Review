@@ -626,6 +626,13 @@ function addNewLessonIrreg() {
     }
 }
 
+function addNewLessonThirteen() {
+    if(lessonThirteenBtn.checked) {
+        vocabulary.push(...lessonThirteen);
+        loadReview()
+    }
+}
+
 
 let currentVocab = 0;
 let currentCount = 1;
