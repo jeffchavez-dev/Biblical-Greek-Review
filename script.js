@@ -42,6 +42,8 @@ const lessonTenBtn = document.getElementById("lessonTen");
 const lessonTenEl = document.getElementById("lesson-ten");
 const lessonElevenBtn = document.getElementById("lessonEleven");
 const lessonElevenEl = document.getElementById("lesson-eleven");
+const lessonThirteenBtn = document.getElementById("lessonThirteen");
+const lessonThirteenEl = document.getElementById("lesson-thirteen");
 
 const lessonTwelveBtn = document.getElementById("lessonTwelve");
 const lessonTwelveEl = document.getElementById("lesson-twelve");
