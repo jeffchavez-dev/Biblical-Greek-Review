@@ -354,10 +354,10 @@ const lessonIrreg = [
     {greek : "συνήγαγον",  gloss: "συνάγω"}
 ]
 const lessonThirteen = [
-        {greek : "",  gloss: ""}, 
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
+        {greek : "αἰών, –ῶνος, ὁ",  gloss: "eternity, age, world (eon)"}, 
+    {greek : "ἀνήρ, ἀνδρός, ὁ",  gloss: "man, husband 	(androgynous, android)"},
+    {greek : "ἀρχιερεύς, –έως, ὁ",  gloss: "high priest (archenemy, arch)"},
+    {greek : "βασιλεύς, –έως, ὁ",  gloss: "king (basilica)"},
     {greek : "",  gloss: ""},
     {greek : "",  gloss: ""},
     {greek : "",  gloss: ""},
