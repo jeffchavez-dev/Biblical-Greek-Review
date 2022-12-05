@@ -367,10 +367,8 @@ const lessonThirteen = [
     {greek : "ἔθνος, –ους, τό",  gloss: "nation, people; Gentiles (pl) 	(ethnic)"},
     {greek : "ὄνομα, –ατος, τό",  gloss: "name (pseudonym)"},
     {greek : "πνεῦμα, –ατος, τό",  gloss: "Spirit, spirit, wind 	(pneumatology)"},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""}
+    {greek : "σῶμα, –ατος, τό",  gloss: "body (psychosomatic)"},
+    {greek : "σάρξ, σαρκός, ἡ",  gloss: "flesh, body, mortal nature (sarcoma, sarcophagus)"},
 ]
 
 const lessonFourtteen = [
