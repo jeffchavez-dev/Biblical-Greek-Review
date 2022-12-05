@@ -369,23 +369,23 @@ const lessonIrreg = [
     {greek : "συνήγαγον",  gloss: "συνάγω"}
 ]
 const lessonThirteen = [
-    //     {greek : "",  gloss: ""}, 
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""}
+        {greek : "",  gloss: ""}, 
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""}
 ]
 
 const lessonFourtteen = [
