@@ -368,7 +368,7 @@ const lessonThirteen = [
     {greek : "ὄνομα, –ατος, τό",  gloss: "name (pseudonym)"},
     {greek : "πνεῦμα, –ατος, τό",  gloss: "Spirit, spirit, wind 	(pneumatology)"},
     {greek : "σῶμα, –ατος, τό",  gloss: "body (psychosomatic)"},
-    {greek : "σάρξ, σαρκός, ἡ",  gloss: "flesh, body, mortal nature (sarcoma, sarcophagus)"},
+    {greek : "σάρξ, σαρκός, ἡ",  gloss: "flesh, body, mortal nature (sarcoma, sarcophagus)"}
 ]
 
 const lessonFourtteen = [
