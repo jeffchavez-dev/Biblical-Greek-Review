@@ -1420,7 +1420,7 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3p-translation" : "They received were written"
     },
     {
-        "Paradigm": "Liquid Futures",
+        "Paradigm": "Liquid Future Active",
         "1s" : "μενῶ",
         "2s" : "μενεῖς",
         "3s" : "μενεῖ",
