@@ -1435,7 +1435,7 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3p-translation" : "They will remain"
     },
     {
-        "Paradigm": "Liquid Aorist",
+        "Paradigm": "Liquid Aorist Active",
         "1s" : "ἔμεινα",
         "2s" : "ἔμεινας",
         "3s" : "ἔμεινεν",
