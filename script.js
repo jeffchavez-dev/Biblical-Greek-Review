@@ -1433,6 +1433,21 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "1p-translation" : "We will remain",
         "2p-translation" : "You (all) will remain",
         "3p-translation" : "They will remain"
+    },
+    {
+        "Paradigm": "Liquid Aorist",
+        "1s" : "ἔμεινα",
+        "2s" : "ἔμεινας",
+        "3s" : "ἔμεινεν",
+        "1p" : "μενοῦμεν",
+        "2p" : "μενεῖτε",
+        "3p" : "μενοῦσι(ν)",
+        "1s-translation" : "I will remain",
+        "2s-translation" : "You will remain",
+        "3s-translation" : "He/she/it will remain",
+        "1p-translation" : "We will remain",
+        "2p-translation" : "You (all) will remain",
+        "3p-translation" : "They will remain"
     }
   ]
 
