@@ -1442,10 +1442,10 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "1p" : "ἐμείναμεν",
         "2p" : "ἐμείνατε",
         "3p" : "ἔμειναν",
-        "1s-translation" : "I will remain",
-        "2s-translation" : "You will remain",
-        "3s-translation" : "He/she/it will remain",
-        "1p-translation" : "We will remain",
+        "1s-translation" : "I remained",
+        "2s-translation" : "You remained",
+        "3s-translation" : "He/she/it remained",
+        "1p-translation" : "We remained",
         "2p-translation" : "You (all) will remain",
         "3p-translation" : "They will remain"
     }
