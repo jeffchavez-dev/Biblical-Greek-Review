@@ -1447,7 +1447,7 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3s-translation" : "He/she/it remained",
         "1p-translation" : "We remained",
         "2p-translation" : "You (all) remained",
-        "3p-translation" : "They will remain"
+        "3p-translation" : "They remained"
     }
   ]
 
