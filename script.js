@@ -1427,12 +1427,12 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "1p" : "μενοῦμεν",
         "2p" : "μενεῖτε",
         "3p" : "μενοῦσι(ν)",
-        "1s-translation" : "I was written",
-        "2s-translation" : "You were written",
-        "3s-translation" : "He/she/it was written",
-        "1p-translation" : "We received were written",
-        "2p-translation" : "You (all) were written",
-        "3p-translation" : "They received were written"
+        "1s-translation" : "I will remain",
+        "2s-translation" : "You will remain",
+        "3s-translation" : "He/she/it will remain",
+        "1p-translation" : "We will remain",
+        "2p-translation" : "You (all) will remain",
+        "3p-translation" : "They will remain"
     }
   ]
 
