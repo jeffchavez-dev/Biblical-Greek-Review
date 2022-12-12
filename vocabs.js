@@ -267,7 +267,7 @@ const lessonIrreg = [
     {greek : "συνήγαγον",  gloss: "συνάγω"}
 ]
 
-const LessonThirteen = [
+const lessonThirteen = [
     {greek : "ἀνέβην",  gloss: "ἀναβαίνω"}, 
     {greek : "ἀπῆλθον",  gloss: "ἀπέρχομαι"},
     {greek : "ἀπέθανον",  gloss: "ἀποθνῄσκω"},
