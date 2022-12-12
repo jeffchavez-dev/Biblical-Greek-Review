@@ -297,7 +297,7 @@ const LessonThirteen = [
 let allVocabList = [];
 
     const allVocabsEl = document.querySelector('.all-vocabsEl')
-    allVocabList.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight, ...lessonNine, ...lessonTen, ...lessonEleven, ...lessonTwelve, ...lessonIrreg);
+    allVocabList.push(...lessonOne, ...lessonTwo, ...lessonThree, ...lessonFour, ...lessonFive, ...lessonSix, ...lessonSeven, ...lessonEight, ...lessonNine, ...lessonTen, ...lessonEleven, ...lessonTwelve, ...lessonIrreg, ...lessonThirteen);
 
     let vocabularyList = allVocabList.map(vocab => {
         return `
