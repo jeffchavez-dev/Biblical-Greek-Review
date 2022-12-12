@@ -268,29 +268,21 @@ const lessonIrreg = [
 ]
 
 const lessonThirteen = [
-    {greek : "ἀνέβην",  gloss: "ἀναβαίνω"}, 
-    {greek : "ἀπῆλθον",  gloss: "ἀπέρχομαι"},
-    {greek : "ἀπέθανον",  gloss: "ἀποθνῄσκω"},
-    {greek : "ἔβαλον",  gloss: "βάλλω"},
-    {greek : "εἰσῆλθον",  gloss: "εἰσέρχομαι"},
-    {greek : "ἐξέβαλον",  gloss: "ἐκβάλλω"},
-    {greek : "ἔφαγον",  gloss: "ἐσθίω"},
-    {greek : "ἐξῆλθον",  gloss: "ἐξέρχομαι"},
-    {greek : "εὗρον",  gloss: "εὑρίσκω"},
-    {greek : "κατέβην",  gloss: "καταβαίνω"},
-    {greek : "ἔπιον",  gloss: "πίνω"},
-    {greek : "ἔπεσον",  gloss: "πίπτω"},
-    {greek : "προσῆλθον",  gloss: "προσέρχομαι"},
-    {greek : "ἤνεγκον",  gloss: "φέρω; 1S form found in LXX & NT is always ἤνεγκα."},
-    {greek : "ἤγαγον",  gloss: "ἄγω"},
-    {greek : "εἶδον",  gloss: "βλέπω"},
-    {greek : "ἐγενόμην",  gloss: "γίνομαι"},
-    {greek : "ἔγνων",  gloss: "γινώσκω"},
-    {greek : "ἦλθον",  gloss: "ἔρχομαι"},
-    {greek : "ἔσχον",  gloss: "ἔχω"},
-    {greek : "ἔλαβον",  gloss: "λαμβάνω"},
-    {greek : "εἶπον",  gloss: "λέγω"},
-    {greek : "συνήγαγον",  gloss: "συνάγω"}
+     {greek : "αἰών, –ῶνος, ὁ",  gloss: "eternity, age, world (eon)"}, 
+    {greek : "ἀνήρ, ἀνδρός, ὁ",  gloss: "man, husband 	(androgynous, android)"},
+    {greek : "ἀρχιερεύς, –έως, ὁ",  gloss: "high priest (archenemy, arch)"},
+    {greek : "βασιλεύς, –έως, ὁ",  gloss: "king (basilica)"},
+    {greek : "πατήρ, πατρός, ὁ",  gloss: "father, ancestor 	(patristics, patriarch)"},
+    {greek : "γυνή, γυναικός, ἡ",  gloss: "woman, wife 	(gynecology)"},
+    {greek : "μήτηρ, –τρός, ἡ",  gloss: "mother (matriarch)"},
+    {greek : "πίστις, –εως, ἡ",  gloss: "faith, trust"},
+    {greek : "πόλις, –εως, ἡ",  gloss: "city, town (metropolitan)"},
+    {greek : "χάρις, –ιτος, ἡ",  gloss: "grace, thanks (charity)"},
+    {greek : "ἔθνος, –ους, τό",  gloss: "nation, people; Gentiles (pl) 	(ethnic)"},
+    {greek : "ὄνομα, –ατος, τό",  gloss: "name (pseudonym)"},
+    {greek : "πνεῦμα, –ατος, τό",  gloss: "Spirit, spirit, wind 	(pneumatology)"},
+    {greek : "σῶμα, –ατος, τό",  gloss: "body (psychosomatic)"},
+    {greek : "σάρξ, σαρκός, ἡ",  gloss: "flesh, body, mortal nature (sarcoma, sarcophagus)"}
 ]
 
 
