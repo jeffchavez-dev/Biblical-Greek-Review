@@ -373,7 +373,7 @@ const lessonThirteen = [
     {greek : "σάρξ, σαρκός, ἡ",  gloss: "flesh, body, mortal nature (sarcoma, sarcophagus)"}
 ]
 
-const lessonFourtteen = [
+const lessonFourteen = [
     {greek : "ἐγγίζω",  gloss: "I approach, draw near"}, 
     {greek : "ζάω",  gloss: "I live (zoo)"},
     {greek : "οἶδα",  gloss: "I know, understand"},
