@@ -374,9 +374,9 @@ const lessonThirteen = [
 const lessonFourtteen = [
     {greek : "ἐγγίζω",  gloss: "I approach, draw near"}, 
     {greek : "ζάω",  gloss: "I live (zoo)"},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
+    {greek : "οἶδα",  gloss: "I know, understand"},
+    {greek : "ὁράω",  gloss: "I see, perceive (panorama)"},
+    {greek : "πείθω",  gloss: "I persuade, convince"},
     {greek : "",  gloss: ""},
     {greek : "",  gloss: ""},
     {greek : "",  gloss: ""},
