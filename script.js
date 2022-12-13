@@ -386,9 +386,7 @@ const lessonFourtteen = [
     {greek : "στόμα, –ατος, ἡ",  gloss: "mouth (stomach) "},
     {greek : "ὕδωρ, –ατος, τό",  gloss: "water (hydraulics, hydrogen)"},
     {greek : "φῶς, φωτός, τό",  gloss: "light (photon, photograph)"},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""}
+    {greek : "χείρ, χειρός, ἡ",  gloss: "hand"}
 ]
 
 
