@@ -544,6 +544,14 @@ lessonThirteenBtn.addEventListener('click', () => {
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 });
+lessonFourteenBtn.addEventListener('click', () => {
+    addNewLessonFourteen();
+    lessonThirteenEl.classList.add("hide")
+    const review = document.createElement("div")
+    review.innerHTML = "Lesson 14";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
+});
 
 
 
