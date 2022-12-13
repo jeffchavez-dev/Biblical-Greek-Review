@@ -51,6 +51,8 @@ const lessonIrregEl = document.getElementById("lesson-irreg");
 
 const lessonThirteenBtn = document.getElementById("lessonThirteen");
 const lessonThirteenEl = document.getElementById("lesson-thirteen");
+const lessonFourteenBtn = document.getElementById("lessonThirteen");
+const lessonFourteenEl = document.getElementById("lesson-thirteen");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
