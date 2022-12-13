@@ -377,7 +377,7 @@ const lessonFourtteen = [
     {greek : "οἶδα",  gloss: "I know, understand"},
     {greek : "ὁράω",  gloss: "I see, perceive (panorama)"},
     {greek : "πείθω",  gloss: "I persuade, convince"},
-    {greek : "",  gloss: ""},
+    {greek : "αἷμα, –ατος, τό",  gloss: "blood (hematology, hemoglobin)"},
     {greek : "",  gloss: ""},
     {greek : "",  gloss: ""},
     {greek : "",  gloss: ""},
