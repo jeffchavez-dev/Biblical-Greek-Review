@@ -546,7 +546,7 @@ lessonThirteenBtn.addEventListener('click', () => {
 });
 lessonFourteenBtn.addEventListener('click', () => {
     addNewLessonFourteen();
-    lessonThirteenEl.classList.add("hide")
+    lessonFourteenEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "Lesson 14";
     review.classList.add('lesson-added');
