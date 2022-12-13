@@ -659,6 +659,13 @@ function addNewLessonThirteen() {
     }
 }
 
+function addNewLessonFourteen() {
+    if(lessonFourteenBtn.checked) {
+        vocabulary.push(...lessonFourteen);
+        loadReview()
+    }
+}
+
 
 let currentVocab = 0;
 let currentCount = 1;
