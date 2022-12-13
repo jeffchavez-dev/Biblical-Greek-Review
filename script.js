@@ -383,9 +383,9 @@ const lessonFourtteen = [
     {greek : "πούς, ποδός, ὁ",  gloss: "foot (podiatrist)"},
     {greek : "πῦρ, –ός, τό",  gloss: "fire (pyre, pyromaniac)"},
     {greek : "ῥῆμα, –ατος, τό",  gloss: "word, saying  "},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
+    {greek : "στόμα, –ατος, ἡ",  gloss: "mouth (stomach) "},
+    {greek : "ὕδωρ, –ατος, τό",  gloss: "water (hydraulics, hydrogen)"},
+    {greek : "φῶς, φωτός, τό",  gloss: "light (photon, photograph)"},
     {greek : "",  gloss: ""},
     {greek : "",  gloss: ""},
     {greek : "",  gloss: ""}
