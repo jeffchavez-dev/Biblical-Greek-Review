@@ -999,7 +999,7 @@ let nounParadigms = [
         "Acc-Plural" : "ὑμᾶς"
     },
     {
-        "Paradigm": "3rd Declension Person Personal Pronoun",
+        "Paradigm": "3rd Declension: M/F",
         "Case1" : "Nominative",
         "Case2" : "Genitive",
         "Case3" : "Dative",
