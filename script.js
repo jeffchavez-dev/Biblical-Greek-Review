@@ -999,6 +999,21 @@ let nounParadigms = [
         "Acc-Plural" : "τοὺς πατέρας"
     },
     {
+        "Paradigm": "3rd Declension: Neuter (–ματ stem)",
+        "Case1" : "Nominative",
+        "Case2" : "Genitive",
+        "Case3" : "Dative",
+        "Case4" : "Accusative",
+        "Nom-Singular" : "τὸ πνεῦμα",
+        "Gen-Singular" : "τοῦ πνεύματος",
+        "Dat-Singular" : "τῷ πνεύματι",
+        "Acc-Singular" : "τὸ πνεῦμα",
+        "Nom-Plural" : "τὰ πνεύματα",
+        "Gen-Plural" : "τῶν πνευμάτων",
+        "Dat-Plural" : "τοις πνεύμασι(ν)",
+        "Acc-Plural" : "τὰ ἔρπνεύματαγα"
+    },
+    {
         "Paradigm": "First Person Personal Pronoun",
         "Case1" : "Nominative",
         "Case2" : "Genitive",
