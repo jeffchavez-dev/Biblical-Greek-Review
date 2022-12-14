@@ -978,10 +978,10 @@ let nounParadigms = [
         "Gen-Singular" : "τῆς σαρκός",
         "Dat-Singular" : "τῇ σαρκί",
         "Acc-Singular" : "τὴν σάρκα",
-        "Nom-Plural" : "ὑμεῖς",
-        "Gen-Plural" : "ὑμῶν",
-        "Dat-Plural" : "ὑμῖν",
-        "Acc-Plural" : "ὑμᾶς"
+        "Nom-Plural" : "αἱ σάρκες",
+        "Gen-Plural" : "τῶν σαρκῶν",
+        "Dat-Plural" : "ταῖς σαρξί(ν)",
+        "Acc-Plural" : "τὰς σάρκας"
     },
     {
         "Paradigm": "First Person Personal Pronoun",
