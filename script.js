@@ -969,7 +969,7 @@ let nounParadigms = [
         "Acc-Plural" : "τὰ ἔργα"
     },
     {
-        "Paradigm": "3rd Declension: M/F",
+        "Paradigm": "3rd Declension: Feminine (–κ stem) ",
         "Case1" : "Nominative",
         "Case2" : "Genitive",
         "Case3" : "Dative",
