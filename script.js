@@ -984,19 +984,19 @@ let nounParadigms = [
         "Acc-Plural" : "τὰς σάρκας"
     },
     {
-        "Paradigm": "3rd Declension: Masculine (–εϝ stem) ",
+        "Paradigm": "3rd Declension: Masculine ",
         "Case1" : "Nominative",
         "Case2" : "Genitive",
         "Case3" : "Dative",
         "Case4" : "Accusative",
         "Nom-Singular" : "ὁ πατήρ",
-        "Gen-Singular" : "τοῦ πατρός,",
-        "Dat-Singular" : "τῷ πατρί,",
-        "Acc-Singular" : "τὸν πατέρα,",
-        "Nom-Plural" : "οἱ πατέρες,",
-        "Gen-Plural" : "τῶν πατέρων,",
-        "Dat-Plural" : "τοις πατράσιν,",
-        "Acc-Plural" : "τοὺς πατέρας."
+        "Gen-Singular" : "τοῦ πατρός",
+        "Dat-Singular" : "τῷ πατρί",
+        "Acc-Singular" : "τὸν πατέρα",
+        "Nom-Plural" : "οἱ πατέρες",
+        "Gen-Plural" : "τῶν πατέρων",
+        "Dat-Plural" : "τοις πατράσιν",
+        "Acc-Plural" : "τοὺς πατέρας"
     },
     {
         "Paradigm": "First Person Personal Pronoun",
