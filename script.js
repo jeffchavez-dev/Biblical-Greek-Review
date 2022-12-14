@@ -989,14 +989,14 @@ let nounParadigms = [
         "Case2" : "Genitive",
         "Case3" : "Dative",
         "Case4" : "Accusative",
-        "Nom-Singular" : "ὁ βασιλεύς",
-        "Gen-Singular" : "τοῦ βασιλέως",
-        "Dat-Singular" : "τῷ βασιλεῖ",
-        "Acc-Singular" : "τὸν βασιλέα",
-        "Nom-Plural" : "οἱ βασιλεῖς",
-        "Gen-Plural" : "τῶν βασιλέων",
-        "Dat-Plural" : "τοις βασιλεῦσι(ν)",
-        "Acc-Plural" : "τοὺς βασιλεῖς"
+        "Nom-Singular" : "ὁ πατήρ",
+        "Gen-Singular" : "τοῦ πατρός,",
+        "Dat-Singular" : "τῷ πατρί,",
+        "Acc-Singular" : "τὸν πατέρα,",
+        "Nom-Plural" : "οἱ πατέρες,",
+        "Gen-Plural" : "τῶν πατέρων,",
+        "Dat-Plural" : "τοις πατράσιν,",
+        "Acc-Plural" : "τοὺς πατέρας."
     },
     {
         "Paradigm": "First Person Personal Pronoun",
