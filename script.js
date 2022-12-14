@@ -997,7 +997,23 @@ let nounParadigms = [
         "Gen-Plural" : "ὑμῶν",
         "Dat-Plural" : "ὑμῖν",
         "Acc-Plural" : "ὑμᾶς"
+    },
+    {
+        "Paradigm": "3rd Declension Person Personal Pronoun",
+        "Case1" : "Nominative",
+        "Case2" : "Genitive",
+        "Case3" : "Dative",
+        "Case4" : "Accusative",
+        "Nom-Singular" : "σύ",
+        "Gen-Singular" : "σοῦ",
+        "Dat-Singular" : "σοί",
+        "Acc-Singular" : "σέ",
+        "Nom-Plural" : "ὑμεῖς",
+        "Gen-Plural" : "ὑμῶν",
+        "Dat-Plural" : "ὑμῖν",
+        "Acc-Plural" : "ὑμᾶς"
     }
+
 ]
 
 const nounParadigmEl = nounParadigms.map(nounParadigm => 
