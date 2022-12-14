@@ -996,7 +996,7 @@ let nounParadigms = [
         "Nom-Plural" : "οἱ βασιλεῖς",
         "Gen-Plural" : "τῶν βασιλέων",
         "Dat-Plural" : "τοις βασιλεῦσι(ν)",
-        "Acc-Plural" : "τοὺς λόγους"
+        "Acc-Plural" : "τοὺς βασιλεῖς"
     },
     {
         "Paradigm": "First Person Personal Pronoun",
