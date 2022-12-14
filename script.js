@@ -984,6 +984,21 @@ let nounParadigms = [
         "Acc-Plural" : "τὰς σάρκας"
     },
     {
+        "Paradigm": "3rd Declension: Masculine (–εϝ stem) ",
+        "Case1" : "Nominative",
+        "Case2" : "Genitive",
+        "Case3" : "Dative",
+        "Case4" : "Accusative",
+        "Nom-Singular" : "ὁ λόγος",
+        "Gen-Singular" : "τοῦ λόγου",
+        "Dat-Singular" : "τῷ λόγῳ",
+        "Acc-Singular" : "τὸν λόγον",
+        "Nom-Plural" : "οἱ λόγοι",
+        "Gen-Plural" : "τῶν λόγων",
+        "Dat-Plural" : "τοις λόγοις",
+        "Acc-Plural" : "τοὺς λόγους"
+    },
+    {
         "Paradigm": "First Person Personal Pronoun",
         "Case1" : "Nominative",
         "Case2" : "Genitive",
