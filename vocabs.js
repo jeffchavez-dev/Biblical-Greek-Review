@@ -285,7 +285,23 @@ const lessonThirteen = [
     {greek : "σάρξ, σαρκός, ἡ",  gloss: "flesh, body, mortal nature (sarcoma, sarcophagus)"}
 ]
 
-
+const lessonFourteen = [
+    {greek : "ἐγγίζω",  gloss: "I approach, draw near"}, 
+    {greek : "ζάω",  gloss: "I live (zoo)"},
+    {greek : "οἶδα",  gloss: "I know, understand"},
+    {greek : "ὁράω",  gloss: "I see, perceive (panorama)"},
+    {greek : "πείθω",  gloss: "I persuade, convince"},
+    {greek : "αἷμα, –ατος, τό",  gloss: "blood (hematology, hemoglobin)"},
+    {greek : "γραμματεύς, –εως, ὁ",  gloss: "scribe (grammar)"},
+    {greek : "δύναμις, –εως, ἡ",  gloss: "power, miracle (dynamic)"},
+    {greek : "πούς, ποδός, ὁ",  gloss: "foot (podiatrist)"},
+    {greek : "πῦρ, –ός, τό",  gloss: "fire (pyre, pyromaniac)"},
+    {greek : "ῥῆμα, –ατος, τό",  gloss: "word, saying  "},
+    {greek : "στόμα, –ατος, ἡ",  gloss: "mouth (stomach) "},
+    {greek : "ὕδωρ, –ατος, τό",  gloss: "water (hydraulics, hydrogen)"},
+    {greek : "φῶς, φωτός, τό",  gloss: "light (photon, photograph)"},
+    {greek : "χείρ, χειρός, ἡ",  gloss: "hand"}
+]
 let allVocabList = [];
 
     const allVocabsEl = document.querySelector('.all-vocabsEl')
