@@ -1011,7 +1011,7 @@ let nounParadigms = [
         "Nom-Plural" : "τὰ πνεύματα",
         "Gen-Plural" : "τῶν πνευμάτων",
         "Dat-Plural" : "τοις πνεύμασι(ν)",
-        "Acc-Plural" : "τὰ ἔρπνεύματαγα"
+        "Acc-Plural" : "τὰ πνεύματαγα"
     },
     {
         "Paradigm": "First Person Personal Pronoun",
