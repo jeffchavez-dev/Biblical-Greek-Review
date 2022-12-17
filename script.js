@@ -984,7 +984,7 @@ let nounParadigms = [
         "Acc-Plural" : "τὰς σάρκας"
     },
     {
-        "Paradigm": "3rd Declension: Masculine  (–ματ stem) ",
+        "Paradigm": "3rd Declension: Masculine  (–ρ stem) ",
         "Case1" : "Nominative",
         "Case2" : "Genitive",
         "Case3" : "Dative",
