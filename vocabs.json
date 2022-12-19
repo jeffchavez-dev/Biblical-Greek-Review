@@ -136,15 +136,19 @@
     "paradigms" : {
         "nouns": [
             {
-                "Paradigm": "1st Declension: Eta Pattern",
-                "Nom-Singular" : "ἡ φωνή",
-                "Gen-Singular" : "τῆς φωνῆς",
-                "Dat-Singular" : "τῇ φωνῇ",
-                "Acc-Singular" : "τὴν φωνήν",
-                "Nom-Plural" : "αἱ φωναί",
-                "Gen-Plural" : "τῶν φωνῶν",
-                "Dat-Plural" : "ταῖς φωναῖς",
-                "Acc-Plural" : "τὰς φωνάς"
+                "Paradigm": "Present Active Tense-Form",
+                "1s" : "λύω",
+                "2s" : "λύεις",
+                "3s" : "λύει",
+                "1p" : "λύομεν",
+                "2p" : "λύετε",
+                "3p" : "λύουσι(ν)",
+                "1s-translation" : "I am loosing",
+                "2s-translation" : "You are loosing",
+                "3s-translation" : "He/she/it is loosing",
+                "1p-translation" : "We are loosing",
+                "2p-translation" : "You (all) are loosing",
+                "3p-translation" : "They are loosing"
             },
             {
                 "Paradigm": "1st Declension: Alpha Pattern <br>(After –ε, –ι or –ρ )",
