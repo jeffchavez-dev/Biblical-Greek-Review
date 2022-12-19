@@ -167,15 +167,19 @@
                 "3p-translation" : "They are being loosed (P) + for themselves (M)"
             },
             {
-                "Paradigm": "2nd Declension: Masculine",
-                "Nom-Singular" : "ὁ λόγος",
-                "Gen-Singular" : "τοῦ λόγου",
-                "Dat-Singular" : "τῷ λόγῳ",
-                "Acc-Singular" : "τὸν λόγον",
-                "Nom-Plural" : "οἱ λόγοι",
-                "Gen-Plural" : "τῶν λόγων",
-                "Dat-Plural" : "τοις λόγοις",
-                "Acc-Plural" : "τοὺς λόγους"
+                "Paradigm": "Present Active Indicative of εἰμί",
+                "1s" : "εἰμί",
+                "2s" : "εἶ",
+                "3s" : "ἐστίν",
+                "1p" : "ἐσμέν",
+                "2p" : "ἐστέ",
+                "3p" : "εἰσίν",
+                "1s-translation" : "I am",
+                "2s-translation" : "You are",
+                "3s-translation" : "He/she/it is",
+                "1p-translation" : "We are",
+                "2p-translation" : "You (all) are ",
+                "3p-translation" : "They are"
             },
             {
                 "Paradigm": "2nd Declension: Neuter",
