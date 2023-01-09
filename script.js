@@ -407,9 +407,9 @@ const lessonFifteen = [
         {greek : "πιστός, –ή, –όν",  gloss: "faithful, believing"},
         {greek : "πολύς, πολλή, πολύ",  gloss: "much, many, large, 	great (polygon)"},
         {greek : "πονηρός, –ά, –όν",  gloss: "evil, wicked"},
-        {greek : "νῦν",  gloss: ""},
-        {greek : "πάλιν",  gloss: ""},
-        {greek : "ἤ",  gloss: ""}
+        {greek : "νῦν",  gloss: "now, at present"},
+        {greek : "πάλιν",  gloss: "again"},
+        {greek : "ἤ",  gloss: "or, than "}
 ]
 
 
