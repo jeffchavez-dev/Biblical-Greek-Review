@@ -396,10 +396,10 @@ const lessonFourteen = [
 
 const lessonFifteen = [
         {greek : "ἀγαθός, –ή, –όν",  gloss: "good (Agatha)"}, 
-        {greek : "ἅγιος, –α, –ον",  gloss: ""},
-        {greek : "ἄλλος, –η, –ο",  gloss: ""},
-        {greek : "δίκαιος, –α, –ον",  gloss: ""},
-        {greek : "ἕτερος, –α, –ον",  gloss: ""},
+        {greek : "ἅγιος, –α, –ον",  gloss: "holy; saints (pl. subst.) (hagiography)"},
+        {greek : "ἄλλος, –η, –ο",  gloss: "other, another, different (allomorph)"},
+        {greek : "δίκαιος, –α, –ον",  gloss: "righteous, just"},
+        {greek : "ἕτερος, –α, –ον",  gloss: "other, another, different 	(heterosexual)"},
         {greek : "καλός, –ή, –όν",  gloss: ""},
         {greek : "μέγας, μεγάλη, μέγα",  gloss: ""},
         {greek : "νεκρός, –ά, –όν",  gloss: ""},
