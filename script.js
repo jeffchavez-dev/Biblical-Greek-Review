@@ -395,7 +395,7 @@ const lessonFourteen = [
 
 
 const lessonFifteen = [
-        {greek : "ἀγαθός, –ή, –όν",  gloss: ""}, 
+        {greek : "ἀγαθός, –ή, –όν",  gloss: "good (Agatha)"}, 
         {greek : "ἅγιος, –α, –ον",  gloss: ""},
         {greek : "ἄλλος, –η, –ο",  gloss: ""},
         {greek : "δίκαιος, –α, –ον",  gloss: ""},
