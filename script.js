@@ -395,23 +395,23 @@ const lessonFourteen = [
 
 
 const lessonFifteen = [
-        {greek : "",  gloss: ""}, 
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""},
-    {greek : "",  gloss: ""}
+        {greek : "ἀγαθός, –ή, –όν",  gloss: ""}, 
+        {greek : "ἅγιος, –α, –ον",  gloss: ""},
+        {greek : "ἄλλος, –η, –ο",  gloss: ""},
+        {greek : "δίκαιος, –α, –ον",  gloss: ""},
+        {greek : "ἕτερος, –α, –ον",  gloss: ""},
+        {greek : "καλός, –ή, –όν",  gloss: ""},
+        {greek : "μέγας, μεγάλη, μέγα",  gloss: ""},
+        {greek : "νεκρός, –ά, –όν",  gloss: ""},
+        {greek : "πᾶς, πᾶσα, πᾶν",  gloss: ""},
+        {greek : "πιστός, –ή, –όν",  gloss: ""},
+        {greek : "πολύς, πολλή, πολύ",  gloss: ""},
+        {greek : "",  gloss: ""},
+        {greek : "",  gloss: ""},
+        {greek : "",  gloss: ""},
+        {greek : "",  gloss: ""},
+        {greek : "",  gloss: ""},
+        {greek : "",  gloss: ""}
 ]
 
 
