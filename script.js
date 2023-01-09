@@ -404,9 +404,9 @@ const lessonFifteen = [
         {greek : "μέγας, μεγάλη, μέγα",  gloss: "large, great 	(mega-market)"},
         {greek : "νεκρός, –ά, –όν",  gloss: "dead (necromancy, 	necropolis)"},
         {greek : "πᾶς, πᾶσα, πᾶν",  gloss: "every, all (pantheism)"},
-        {greek : "πιστός, –ή, –όν",  gloss: ""},
-        {greek : "πολύς, πολλή, πολύ",  gloss: ""},
-        {greek : "πονηρός, –ά, –όν",  gloss: ""},
+        {greek : "πιστός, –ή, –όν",  gloss: "faithful, believing"},
+        {greek : "πολύς, πολλή, πολύ",  gloss: "much, many, large, 	great (polygon)"},
+        {greek : "πονηρός, –ά, –όν",  gloss: "evil, wicked"},
         {greek : "νῦν",  gloss: ""},
         {greek : "πάλιν",  gloss: ""},
         {greek : "ἤ",  gloss: ""}
