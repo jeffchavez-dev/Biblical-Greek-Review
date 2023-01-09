@@ -395,23 +395,23 @@ const lessonFourteen = [
 
 
 const lessonFifteen = [
-    //     {greek : "",  gloss: ""}, 
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""},
-//     {greek : "",  gloss: ""}
+        {greek : "",  gloss: ""}, 
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""},
+    {greek : "",  gloss: ""}
 ]
 
 
