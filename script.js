@@ -552,7 +552,7 @@ lessonFourteenBtn.addEventListener('click', () => {
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 });
-lessonFiftreenBtn.addEventListener('click', () => {
+lessonFifteenBtn.addEventListener('click', () => {
     addNewLessonFifteen();
     lessonFifteenEl.classList.add("hide")
     const review = document.createElement("div")
