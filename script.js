@@ -54,7 +54,7 @@ const lessonThirteenEl = document.getElementById("lesson-thirteen");
 const lessonFourteenBtn = document.getElementById("lessonFourteen");
 const lessonFourteenEl = document.getElementById("lesson-fourteen");
 const lessonFifteenBtn = document.getElementById("lessonFifteen");
-const lessonFifteenEl = document.getElementById("lesson-Fifteen");
+const lessonFifteenEl = document.getElementById("lesson-fifteen");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
