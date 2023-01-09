@@ -406,12 +406,10 @@ const lessonFifteen = [
         {greek : "πᾶς, πᾶσα, πᾶν",  gloss: ""},
         {greek : "πιστός, –ή, –όν",  gloss: ""},
         {greek : "πολύς, πολλή, πολύ",  gloss: ""},
-        {greek : "",  gloss: ""},
-        {greek : "",  gloss: ""},
-        {greek : "",  gloss: ""},
-        {greek : "",  gloss: ""},
-        {greek : "",  gloss: ""},
-        {greek : "",  gloss: ""}
+        {greek : "πονηρός, –ά, –όν",  gloss: ""},
+        {greek : "νῦν",  gloss: ""},
+        {greek : "πάλιν",  gloss: ""},
+        {greek : "ἤ",  gloss: ""}
 ]
 
 
