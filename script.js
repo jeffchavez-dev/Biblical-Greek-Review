@@ -1544,6 +1544,36 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "1p-translation" : "We remained",
         "2p-translation" : "You (all) remained",
         "3p-translation" : "They remained"
+    },
+    {
+        "Paradigm": "Perfect Active Indicative",
+        "1s" : "ἔμεινα",
+        "2s" : "ἔμεινας",
+        "3s" : "ἔμεινεν",
+        "1p" : "ἐμείναμεν",
+        "2p" : "ἐμείνατε",
+        "3p" : "ἔμειναν",
+        "1s-translation" : "I remained",
+        "2s-translation" : "You remained",
+        "3s-translation" : "He/she/it remained",
+        "1p-translation" : "We remained",
+        "2p-translation" : "You (all) remained",
+        "3p-translation" : "They remained"
+    },
+    {
+        "Paradigm": "Perfect Mid/Pass Indicative",
+        "1s" : "ἔμεινα",
+        "2s" : "ἔμεινας",
+        "3s" : "ἔμεινεν",
+        "1p" : "ἐμείναμεν",
+        "2p" : "ἐμείνατε",
+        "3p" : "ἔμειναν",
+        "1s-translation" : "I remained",
+        "2s-translation" : "You remained",
+        "3s-translation" : "He/she/it remained",
+        "1p-translation" : "We remained",
+        "2p-translation" : "You (all) remained",
+        "3p-translation" : "They remained"
     }
   ]
 
