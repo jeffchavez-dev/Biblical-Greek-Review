@@ -1553,12 +1553,12 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "1p" : "λελύκαμεν",
         "2p" : "λελύκατε",
         "3p" : "λελύκασι(ν)",
-        "1s-translation" : "I remained",
-        "2s-translation" : "You remained",
-        "3s-translation" : "He/she/it remained",
-        "1p-translation" : "We remained",
-        "2p-translation" : "You (all) remained",
-        "3p-translation" : "They remained"
+        "1s-translation" : "I have loosed",
+        "2s-translation" : "You have loosed",
+        "3s-translation" : "He/she/it has loosed",
+        "1p-translation" : "We have loosed",
+        "2p-translation" : "You (all) have loosed",
+        "3p-translation" : "They have loosed"
     },
     {
         "Paradigm": "Perfect Mid/Pass Indicative",
