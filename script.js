@@ -1568,12 +1568,12 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "1p" : "λελύμεθα",
         "2p" : "λέλυσθε",
         "3p" : "λέλυνται",
-        "1s-translation" : "I have loosed",
-        "2s-translation" : "You have loosed",
-        "3s-translation" : "He/she/it has loosed",
-        "1p-translation" : "We have loosed",
-        "2p-translation" : "You (all) have loosed",
-        "3p-translation" : "They have loosed"
+        "1s-translation" : "I have been loosed",
+        "2s-translation" : "You have been loosed",
+        "3s-translation" : "He/she/it has been loosed",
+        "1p-translation" : "We have been loosed",
+        "2p-translation" : "You (all) have been loosed",
+        "3p-translation" : "They have been loosed"
     }
   ]
 
