@@ -1562,18 +1562,18 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
     },
     {
         "Paradigm": "Perfect Mid/Pass Indicative",
-        "1s" : "ἔμεινα",
-        "2s" : "ἔμεινας",
-        "3s" : "ἔμεινεν",
-        "1p" : "ἐμείναμεν",
-        "2p" : "ἐμείνατε",
-        "3p" : "ἔμειναν",
-        "1s-translation" : "I remained",
-        "2s-translation" : "You remained",
-        "3s-translation" : "He/she/it remained",
-        "1p-translation" : "We remained",
-        "2p-translation" : "You (all) remained",
-        "3p-translation" : "They remained"
+        "1s" : "λέλυκα",
+        "2s" : "λέλυκας",
+        "3s" : "λέλυκε(ν)",
+        "1p" : "λελύκαμεν",
+        "2p" : "λελύκατε",
+        "3p" : "λελύκασι(ν)",
+        "1s-translation" : "I have loosed",
+        "2s-translation" : "You have loosed",
+        "3s-translation" : "He/she/it has loosed",
+        "1p-translation" : "We have loosed",
+        "2p-translation" : "You (all) have loosed",
+        "3p-translation" : "They have loosed"
     }
   ]
 
