@@ -365,21 +365,8 @@ const lessonIrregTwo = [
     {greek : "πέποιθα",  gloss: "πείθω"},
     {greek : "ἀναβέβηκα",  gloss: "ἀναβαίνω"},
     {greek : "εὕρηκα",  gloss: "εὑρίσκω"},
-    {greek : "εἴρηκα",  gloss: "λέγω"},
-    {greek : "κατέβην",  gloss: "καταβαίνω"},
-    {greek : "ἔπιον",  gloss: "πίνω"},
-    {greek : "ἔπεσον",  gloss: "πίπτω"},
-    {greek : "προσῆλθον",  gloss: "προσέρχομαι"},
-    {greek : "ἤνεγκον",  gloss: "φέρω; 1S form found in LXX & NT is always ἤνεγκα."},
-    {greek : "ἤγαγον",  gloss: "ἄγω"},
-    {greek : "εἶδον",  gloss: "βλέπω"},
-    {greek : "ἐγενόμην",  gloss: "γίνομαι"},
-    {greek : "ἔγνων",  gloss: "γινώσκω"},
-    {greek : "ἦλθον",  gloss: "ἔρχομαι"},
-    {greek : "ἔσχον",  gloss: "ἔχω"},
-    {greek : "ἔλαβον",  gloss: "λαμβάνω"},
-    {greek : "εἶπον",  gloss: "λέγω"},
-    {greek : "συνήγαγον",  gloss: "συνάγω"}
+    {greek : "εἴρηκα",  gloss: "λέγω"}
+
 ]
 const lessonThirteen = [
         {greek : "αἰών, –ῶνος, ὁ",  gloss: "eternity, age, world (eon)"}, 
