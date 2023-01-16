@@ -368,7 +368,8 @@ const lessonIrregTwo = [
     {greek : "πέποιθα",  gloss: "πείθω"},
     {greek : "ἀναβέβηκα",  gloss: "ἀναβαίνω"},
     {greek : "εὕρηκα",  gloss: "εὑρίσκω"},
-    {greek : "εἴρηκα",  gloss: "λέγω"}
+    {greek : "εἴρηκα",  gloss: "λέγω"},
+    {greek : "ᾔδειν (pluperfect)",  gloss: "οἶδα"}
 
 ]
 const lessonThirteen = [
