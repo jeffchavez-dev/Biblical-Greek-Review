@@ -357,6 +357,31 @@ const lessonIrreg = [
     {greek : "εἶπον",  gloss: "λέγω"},
     {greek : "συνήγαγον",  gloss: "συνάγω"}
 ]
+const lessonIrregTwo = [
+    {greek : "γέγονα",  gloss: "γίνομαι"}, 
+    {greek : "γέγραφα",  gloss: "γράφω"},
+    {greek : "ἐλήλυθα",  gloss: "ἔρχομαι"},
+    {greek : "εἴληφα",  gloss: "βάλλω"},
+    {greek : "εἴληφα",  gloss: "λαμβάνω"},
+    {greek : "ἐξέβαλον",  gloss: "ἐκβάλλω"},
+    {greek : "ἔφαγον",  gloss: "ἐσθίω"},
+    {greek : "ἐξῆλθον",  gloss: "ἐξέρχομαι"},
+    {greek : "εὗρον",  gloss: "εὑρίσκω"},
+    {greek : "κατέβην",  gloss: "καταβαίνω"},
+    {greek : "ἔπιον",  gloss: "πίνω"},
+    {greek : "ἔπεσον",  gloss: "πίπτω"},
+    {greek : "προσῆλθον",  gloss: "προσέρχομαι"},
+    {greek : "ἤνεγκον",  gloss: "φέρω; 1S form found in LXX & NT is always ἤνεγκα."},
+    {greek : "ἤγαγον",  gloss: "ἄγω"},
+    {greek : "εἶδον",  gloss: "βλέπω"},
+    {greek : "ἐγενόμην",  gloss: "γίνομαι"},
+    {greek : "ἔγνων",  gloss: "γινώσκω"},
+    {greek : "ἦλθον",  gloss: "ἔρχομαι"},
+    {greek : "ἔσχον",  gloss: "ἔχω"},
+    {greek : "ἔλαβον",  gloss: "λαμβάνω"},
+    {greek : "εἶπον",  gloss: "λέγω"},
+    {greek : "συνήγαγον",  gloss: "συνάγω"}
+]
 const lessonThirteen = [
         {greek : "αἰών, –ῶνος, ὁ",  gloss: "eternity, age, world (eon)"}, 
     {greek : "ἀνήρ, ἀνδρός, ὁ",  gloss: "man, husband 	(androgynous, android)"},
