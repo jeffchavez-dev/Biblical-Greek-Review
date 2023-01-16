@@ -545,11 +545,18 @@ lessonIrregBtn.addEventListener('click', () => {
     addNewLessonIrreg();
     lessonIrregEl.classList.add("hide")
     const review = document.createElement("div")
-    review.innerHTML = "Irregular Verbs";
+    review.innerHTML = "Irreg Verbs 1";
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 });
-
+lessonIrregTwoBtn.addEventListener('click', () => {
+    addNewLessonIrregTwo();
+    lessonIrregEl.classList.add("hide")
+    const review = document.createElement("div")
+    review.innerHTML = "Irreg Verbs 2";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
+});
 lessonThirteenBtn.addEventListener('click', () => {
     addNewLessonThirteen();
     lessonThirteenEl.classList.add("hide")
