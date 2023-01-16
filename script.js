@@ -681,8 +681,8 @@ function addNewLessonIrreg() {
     }
 }
 
-function addNewLessonIrreg() {
-    if(lessonIrregBtn.checked) {
+function addNewLessonIrregTwo() {
+    if(lessonIrregTwoBtn.checked) {
         vocabulary.push(...lessonIrregTwo);
         loadReview()
     }
