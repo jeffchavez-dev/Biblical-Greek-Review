@@ -551,7 +551,7 @@ lessonIrregBtn.addEventListener('click', () => {
 });
 lessonIrregTwoBtn.addEventListener('click', () => {
     addNewLessonIrregTwo();
-    lessonIrregEl.classList.add("hide")
+    lessonIrregTwoEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "Irreg Verbs 2";
     review.classList.add('lesson-added');
