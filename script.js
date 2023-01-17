@@ -1603,6 +1603,21 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "1p-translation" : "We have been loosed",
         "2p-translation" : "You (all) have been loosed",
         "3p-translation" : "They have been loosed"
+    },
+    {
+        "Paradigm": "Pluperfect Mid/Pass Indicative",
+        "1s" : "λέλυμαι",
+        "2s" : "λέλυσαι",
+        "3s" : "λέλυται",
+        "1p" : "λελύμεθα",
+        "2p" : "λέλυσθε",
+        "3p" : "λέλυνται",
+        "1s-translation" : "I have been loosed",
+        "2s-translation" : "You have been loosed",
+        "3s-translation" : "He/she/it has been loosed",
+        "1p-translation" : "We have been loosed",
+        "2p-translation" : "You (all) have been loosed",
+        "3p-translation" : "They have been loosed"
     }
   ]
 
