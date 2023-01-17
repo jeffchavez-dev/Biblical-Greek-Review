@@ -1605,7 +1605,7 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
         "3p-translation" : "They have been loosed"
     },
     {
-        "Paradigm": "Pluperfect Mid/Pass Indicative",
+        "Paradigm": "Pluperfect Active Indicative",
         "1s" : "λέλυμαι",
         "2s" : "λέλυσαι",
         "3s" : "λέλυται",
