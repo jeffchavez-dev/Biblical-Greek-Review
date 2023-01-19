@@ -1606,18 +1606,18 @@ otherParadigmsTable.innerHTML = otherParadigmEl;
     },
     {
         "Paradigm": "Pluperfect Active Indicative",
-        "1s" : "λέλυμαι",
-        "2s" : "λέλυσαι",
-        "3s" : "λέλυται",
-        "1p" : "λελύμεθα",
-        "2p" : "λέλυσθε",
-        "3p" : "λέλυνται",
-        "1s-translation" : "I have been loosed",
-        "2s-translation" : "You have been loosed",
-        "3s-translation" : "He/she/it has been loosed",
-        "1p-translation" : "We have been loosed",
-        "2p-translation" : "You (all) have been loosed",
-        "3p-translation" : "They have been loosed"
+        "1s" : "(ἐ)λελύκειν",
+        "2s" : "(ἐ)λελύκεις",
+        "3s" : "(ἐ)λελύκει(ν)",
+        "1p" : "(ἐ)λελύκειμεν",
+        "2p" : "(ἐ)λελύκειτε",
+        "3p" : "(ἐ)λελύκεισαν",
+        "1s-translation" : "I had loosed",
+        "2s-translation" : "You had loosed",
+        "3s-translation" : "He/she/it had loosed",
+        "1p-translation" : "We had loosed",
+        "2p-translation" : "You (all) had loosed",
+        "3p-translation" : "They had loosed"
     }
   ]
 
