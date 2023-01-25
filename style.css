@@ -558,3 +558,9 @@ summary {
     transform: scale(1.1);
     transition: .5s ease-in-out;
 }
+
+
+.exam-btn a {
+    text-decoration: none;
+    color: black;
+}

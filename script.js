@@ -1683,3 +1683,24 @@ videoLessonsBtn.addEventListener('click', ()=> {
 })
 
 
+
+
+// Final Exam's Timer
+
+
+let examTime = []
+
+function reviewTimer() {
+    let start = 0;
+    const interval = setInterval(myTimer, 1000)
+           
+        function myTimer() {
+            if(currentVocab == vocabulary.length) {
+                clearInterval(interval);
+                reviewTime.innerHTML = `Review time: <br> ${Math.round(finalTime.length/60)} m ${finalTime.length % 60} s`;
+            } else {
+                const timeStamp = start++; 
+                finalTime.push(timeStamp);  
+            }
+    }
+}
