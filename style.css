@@ -537,9 +537,11 @@ summary {
 .final-reviewer-file {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+ 
 }
 .final-reviewer-text {
     margin-bottom: 5rem;
+    font-style: italic;
 }
 
 .exam-btn {
@@ -563,4 +565,8 @@ summary {
 .exam-btn a {
     text-decoration: none;
     color: black;
+}
+
+#start-time {
+    margin: 1em;
 }
