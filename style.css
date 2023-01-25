@@ -526,3 +526,16 @@ summary {
     font-size: 1rem;
     color:rgba(0, 0, 0, 0.6)
 }
+
+
+
+/**   FiNALS */
+
+
+.final-reviewer-file {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.final-reviewer-text {
+    margin-bottom: 5rem;
+}
