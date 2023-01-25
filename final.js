@@ -15,7 +15,7 @@ let start
 
 examBtn.addEventListener('click', ()=> {
     startTime.textContent = time;
-    prompt("Are you sure that you're ready?")
+    alert("Are you sure that you're ready?")
 
 })
 
