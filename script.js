@@ -1684,11 +1684,3 @@ videoLessonsBtn.addEventListener('click', ()=> {
 
 
 
-
-// Final Exam's Timer
-
-
-let examTime = []
-
-const startTime = date();
-console.log(startTime)
