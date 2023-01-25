@@ -531,11 +531,30 @@ summary {
 
 /**   FiNALS */
 
-
+.final-exam-page {
+    max-width: 80%;
+}
 .final-reviewer-file {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 .final-reviewer-text {
     margin-bottom: 5rem;
+}
+
+.exam-btn {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5em;
+    background-color: wheat;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8); 
+}
+
+.exam-btn:hover {
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
 }
