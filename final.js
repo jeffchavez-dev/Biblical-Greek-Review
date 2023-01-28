@@ -18,7 +18,7 @@ let start
 examBtn.addEventListener('click', ()=> {
     startTime.textContent = time;
 
-    const ready = document.createElement('div')
+    const exam = document.createElement('div')
     ready.textContent = "Are you ready?"
     examEl.style.display = "none"
     examPage.appendChild(ready)
