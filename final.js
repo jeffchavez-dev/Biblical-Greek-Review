@@ -29,7 +29,7 @@ examBtn.addEventListener('click', ()=> {
         if (ready == "Yes") {
             return true;
         } else {
-            return confirm("Are you sure?")
+            return false;
         }
     }
 
