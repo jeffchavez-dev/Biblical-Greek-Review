@@ -25,6 +25,14 @@ examBtn.addEventListener('click', ()=> {
 
     let ready = prompt("Are you sure that you're ready? Type YES, if you are!", "Yes");
 
+    function checkResponse(ready) {
+        if (ready == "Yes") {
+            return true;
+        } else {
+            return confirm("Are you sure?")
+        }
+    }
+
     if (prompt != null) {
         console.log("YES")
 
