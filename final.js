@@ -37,6 +37,7 @@ examBtn.addEventListener('click', ()=> {
         alert( 'Access granted' );
         } else {
         alert( 'Access denied' );
+        windows.onload()
         }
 
 })
