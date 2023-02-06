@@ -43,7 +43,4 @@ examBtn.addEventListener('click', ()=> {
 })
 
 
-function examTimer() {
-
-}
 console.log(time)
