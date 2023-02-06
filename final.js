@@ -33,12 +33,11 @@ examBtn.addEventListener('click', ()=> {
         }
     }
 
-    if (prompt != null) {
-        console.log("YES")
-
-    } else {
-        window.reload()
-    }
+    if ( checkResponse(ready) ) {
+            alert( 'Access granted' );
+        } else {
+        alert( 'Access denied' );
+        }
 
 })
 
