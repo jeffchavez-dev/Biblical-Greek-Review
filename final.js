@@ -23,7 +23,7 @@ examBtn.addEventListener('click', ()=> {
     // examEl.style.display = "none"
     // examPage.appendChild(ready)
 
-    let ready = prompt("Are you sure that you're ready? Type YES, if you are!");
+    let ready = prompt("Are you sure that you're ready? Type YES, if you are!", "Yes");
 
     if (prompt != null) {
         console.log("YES")
