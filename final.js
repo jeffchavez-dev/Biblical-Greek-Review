@@ -33,12 +33,12 @@ examBtn.addEventListener('click', ()=> {
         }
     }
 
-    // if ( checkResponse(ready) ) {
-    //     alert( 'Access granted' );
-    //     } else {
-    //     alert( 'Access denied' );
-    //     windows.onload()
-    //     }
+    if ( checkResponse(ready) ) {
+        alert( 'Access granted' );
+        } else {
+        alert( 'Access denied' );
+        windows.onload()
+        }
 
 })
 
