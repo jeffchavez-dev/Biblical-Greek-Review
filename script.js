@@ -427,6 +427,24 @@ const lessonFifteen = [
         {greek : "ἤ",  gloss: "or, than "}
 ]
 
+const lessonSixteen = [
+    {greek : "ἀγαθός, –ή, –όν",  gloss: "good (Agatha)"}, 
+    {greek : "ἅγιος, –α, –ον",  gloss: "holy; saints (pl. subst.) (hagiography)"},
+    {greek : "ἄλλος, –η, –ο",  gloss: "other, another, different (allomorph)"},
+    {greek : "δίκαιος, –α, –ον",  gloss: "righteous, just"},
+    {greek : "ἕτερος, –α, –ον",  gloss: "other, another, different 	(heterosexual)"},
+    {greek : "καλός, –ή, –όν",  gloss: "good, beautiful (calligraphy)"},
+    {greek : "μέγας, μεγάλη, μέγα",  gloss: "large, great 	(mega-market)"},
+    {greek : "νεκρός, –ά, –όν",  gloss: "dead (necromancy, 	necropolis)"},
+    {greek : "πᾶς, πᾶσα, πᾶν",  gloss: "every, all (pantheism)"},
+    {greek : "πιστός, –ή, –όν",  gloss: "faithful, believing"},
+    {greek : "πολύς, πολλή, πολύ",  gloss: "much, many, large, 	great (polygon)"},
+    {greek : "πονηρός, –ά, –όν",  gloss: "evil, wicked"},
+    {greek : "νῦν",  gloss: "now, at present"},
+    {greek : "πάλιν",  gloss: "again"},
+    {greek : "ἤ",  gloss: "or, than "}
+]
+
 
 
 
