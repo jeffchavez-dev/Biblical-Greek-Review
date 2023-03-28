@@ -443,6 +443,40 @@ const lessonSixteen = [
     {greek : "νῦν",  gloss: "now, at present"},
     {greek : "πάλιν",  gloss: "again"},
     {greek : "ἤ",  gloss: "or, than "}
+
+    {greek : "ἁμαρτάνω", I sin (ἥμαρτον)
+    {greek : "Βούλομαι", I wish, want, desire
+    {greek : "δεῖ", It is necessary, one must/should
+    {greek : "δοκέω", I seem, suppose, think
+   {greek : " δύναμαι", I am able, can
+    {greek : "θέλω", I want, wish, desire
+    {greek : "μέλλω", I am about to, am going to
+    {greek : "θέλημα, -ατος, τό", will, wish, desire
+    {greek : "νύξ, νυκτός, ἡ", night
+    {greek : "μακάριος, -α, -ον", blessed, happy
+    {greek : "μηδείς, μηδεία, μηδέν", no one, nothing (subst)
+    {greek : "τυφλός, -ή, -όν", blind; blind person (subst)
+    {greek : "πρό", 	before, in front of (gen)
+    {greek : "μηδέ", 	and not, nor
+    {greek : "ὥστε", 	so that
+    {greek : "δέχομαι", I take, receive, welcome
+    {greek : "δικαιόω", I declare righteous, justify
+    {greek : "λογίζομαι", I consider, reckon
+    {greek : "σταυρόω", I crucify
+    {greek : "χαίρω", I rejoice, greetings
+    {greek : "ἄν", (particle of indefiniteness: untranslated)
+    {greek : "ἐάν", if, when
+    {greek : "ἐὰν μή", unless
+    {greek : "ἵνα", in order that, so that, that
+    {greek : "ὅπου", where
+    {greek : "ὅπως", in order that, that
+    {greek : "ὅστις, ἥτις, ὅ τι", whoever, whatever, who
+    {greek : "ὅταν", whenever, when (ὅτε + ἄν)
+    {greek : "ὅτε", when
+    {greek : "ποῦ", where?
+
+
+
 ]
 
 
