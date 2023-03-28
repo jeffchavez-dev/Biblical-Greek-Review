@@ -59,7 +59,7 @@ const lessonFourteenEl = document.getElementById("lesson-fourteen");
 const lessonFifteenBtn = document.getElementById("lessonFifteen");
 const lessonFifteenEl = document.getElementById("lesson-fifteen");
 const lessonSixteenBtn = document.getElementById("lessonSixteen");
-const lessonSixteenEl = document.getElementById("lesson-sixteenn");
+const lessonSixteenEl = document.getElementById("lesson-sixteen");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
