@@ -58,8 +58,8 @@ const lessonFourteenBtn = document.getElementById("lessonFourteen");
 const lessonFourteenEl = document.getElementById("lesson-fourteen");
 const lessonFifteenBtn = document.getElementById("lessonFifteen");
 const lessonFifteenEl = document.getElementById("lesson-fifteen");
-const lessonSixteenBtn = document.getElementById("lessonFifteen");
-const lessonSixteenEl = document.getElementById("lesson-fifteen");
+const lessonSixteenBtn = document.getElementById("lessonSixteen");
+const lessonSixteenEl = document.getElementById("lesson-sixteenn");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
