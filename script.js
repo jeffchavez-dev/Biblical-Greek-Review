@@ -428,52 +428,37 @@ const lessonFifteen = [
 ]
 
 const lessonSixteen = [
-    {greek : "ἀγαθός, –ή, –όν",  gloss: "good (Agatha)"}, 
-    {greek : "ἅγιος, –α, –ον",  gloss: "holy; saints (pl. subst.) (hagiography)"},
-    {greek : "ἄλλος, –η, –ο",  gloss: "other, another, different (allomorph)"},
-    {greek : "δίκαιος, –α, –ον",  gloss: "righteous, just"},
-    {greek : "ἕτερος, –α, –ον",  gloss: "other, another, different 	(heterosexual)"},
-    {greek : "καλός, –ή, –όν",  gloss: "good, beautiful (calligraphy)"},
-    {greek : "μέγας, μεγάλη, μέγα",  gloss: "large, great 	(mega-market)"},
-    {greek : "νεκρός, –ά, –όν",  gloss: "dead (necromancy, 	necropolis)"},
-    {greek : "πᾶς, πᾶσα, πᾶν",  gloss: "every, all (pantheism)"},
-    {greek : "πιστός, –ή, –όν",  gloss: "faithful, believing"},
-    {greek : "πολύς, πολλή, πολύ",  gloss: "much, many, large, 	great (polygon)"},
-    {greek : "πονηρός, –ά, –όν",  gloss: "evil, wicked"},
-    {greek : "νῦν",  gloss: "now, at present"},
-    {greek : "πάλιν",  gloss: "again"},
-    {greek : "ἤ",  gloss: "or, than "}
-
-    {greek : "ἁμαρτάνω", I sin (ἥμαρτον)
-    {greek : "Βούλομαι", I wish, want, desire
-    {greek : "δεῖ", It is necessary, one must/should
-    {greek : "δοκέω", I seem, suppose, think
-   {greek : " δύναμαι", I am able, can
-    {greek : "θέλω", I want, wish, desire
-    {greek : "μέλλω", I am about to, am going to
-    {greek : "θέλημα, -ατος, τό", will, wish, desire
-    {greek : "νύξ, νυκτός, ἡ", night
-    {greek : "μακάριος, -α, -ον", blessed, happy
-    {greek : "μηδείς, μηδεία, μηδέν", no one, nothing (subst)
-    {greek : "τυφλός, -ή, -όν", blind; blind person (subst)
-    {greek : "πρό", 	before, in front of (gen)
-    {greek : "μηδέ", 	and not, nor
-    {greek : "ὥστε", 	so that
-    {greek : "δέχομαι", I take, receive, welcome
-    {greek : "δικαιόω", I declare righteous, justify
-    {greek : "λογίζομαι", I consider, reckon
-    {greek : "σταυρόω", I crucify
-    {greek : "χαίρω", I rejoice, greetings
-    {greek : "ἄν", (particle of indefiniteness: untranslated)
-    {greek : "ἐάν", if, when
-    {greek : "ἐὰν μή", unless
-    {greek : "ἵνα", in order that, so that, that
-    {greek : "ὅπου", where
-    {greek : "ὅπως", in order that, that
-    {greek : "ὅστις, ἥτις, ὅ τι", whoever, whatever, who
-    {greek : "ὅταν", whenever, when (ὅτε + ἄν)
-    {greek : "ὅτε", when
-    {greek : "ποῦ", where?
+ 
+    {greek : "ἁμαρτάνω", gloss: "I sin (ἥμαρτον)"},
+    {greek : "Βούλομαι", gloss: "I wish, want, desire"},
+    {greek : "δεῖ", gloss: "It is necessary, one must/should"},
+    {greek : "δοκέω", gloss: "I seem, suppose, think"},
+   {greek : " δύναμαι", gloss: "I am able, can"},
+    {greek : "θέλω", gloss: "I want, wish, desire"},
+    {greek : "μέλλω", gloss: "I am about to, am going to"},
+    {greek : "θέλημα, -ατος, τό", gloss: "will, wish, desire"},
+    {greek : "νύξ, νυκτός, ἡ", gloss: "night"},
+    {greek : "μακάριος, -α, -ον", gloss: "blessed, happy"},
+    {greek : "μηδείς, μηδεία, μηδέν", gloss: "no one, nothing (subst)"},
+    {greek : "τυφλός, -ή, -όν", gloss: "blind; blind person (subst)"},
+    {greek : "πρό", 	gloss: "before, in front of (gen)"},
+    {greek : "μηδέ", 	gloss: "and not, nor"},
+    {greek : "ὥστε", 	gloss: "so that"},
+    {greek : "δέχομαι", gloss: "I take, receive, welcome"},
+    {greek : "δικαιόω", gloss: "I declare righteous, justify"},
+    {greek : "λογίζομαι", gloss: "I consider, reckon"},
+    {greek : "σταυρόω", gloss: "I crucify"},
+    {greek : "χαίρω", gloss: "I rejoice, greetings"},
+    {greek : "ἄν", gloss: "(particle of indefiniteness: untranslated)"},
+    {greek : "ἐάν", gloss: "if, when"},
+    {greek : "ἐὰν μή", gloss: "unless"},
+    {greek : "ἵνα", gloss: "in order that, so that, that"},
+    {greek : "ὅπου", gloss: "where"},
+    {greek : "ὅπως", gloss: "in order that, that"},
+    {greek : "ὅστις, ἥτις, ὅ τι", gloss: "whoever, whatever, who"},
+    {greek : "ὅταν", gloss: "whenever, when (ὅτε + ἄν)"},
+    {greek : "ὅτε", gloss: "when"},
+    {greek : "ποῦ", gloss: "where?"}
 
 
 
