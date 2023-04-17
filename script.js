@@ -466,6 +466,46 @@ const lessonSixteen = [
 
 ]
 
+const lessonSeventeen = [
+        
+        {greek : "ἀσπάζομαι", gloss: "	I greet
+        {greek : "ἐπιγινώσκω", gloss: "	I know, understand
+        {greek : "ἐργάζομαι", gloss: "	I work, do, perform
+        {greek : "καθίζω", gloss: "	I sit
+        {greek : "κατοικέω", gloss: "	I live, dwell
+        {greek : "γενεά", gloss: "	generation, family
+        {greek : "ἔτος, -ους, τό", gloss: "	year
+        {greek : "θηρίον, ου, τό", gloss: " 	animal, beast
+        {greek : "θλῖψις, -εως, ἡ", gloss: "	tribulation, affliction
+        {greek : "χρεία, ας, ἡ", gloss: "	need
+
+        {greek : "κρίσις, -εως, ἡ", gloss: "	judgment, condemnation
+        {greek : "φόβος, ου, ὁ", gloss: "	fear, reverence, respect
+        {greek : "φυλακή, ῆς, ἡ", gloss: "	watch, guard, prison
+        {greek : "ἔμπροσθεν", gloss: "	in front of, before
+        {greek : "ἴδε, ἰδού", gloss: "	behold, look, see
+        {greek : "ἀνίστημι", gloss: "	I stand up, arise
+        {greek : "ἀποδίδωμι", gloss: "	I give back, pay
+        {greek : "ἀπόλλυμι", gloss: "	I destroy, am lost (mid)
+        {greek : "ἀφίημι", gloss: "	I forgive, let go, divorce
+        {greek : "δίδωμι", gloss: "	I give
+        {greek : "ἵστημι", gloss: "	I stand, set
+        {greek : "παραδίδωμι", gloss: "	I hand over, betray, entrust
+        {greek : "τίθημι", gloss: "	I put, place, appoint
+        {greek : "φημί", gloss: "	I say, affirm
+        {greek : "ἁμαρτωλός, -όν", gloss: "	sinful, sinner (subst)
+        {greek : "ἔρημος, -όν", gloss: "	desolate, desert, wilderness (subst)
+        {greek : "μικρός, -ά, -όν", gloss: "	small
+        {greek : "ὅμοιος-α, -ον", gloss: "	same nature, similar
+        {greek : "ἄχρι", gloss: "	until
+        {greek : "οὐαί", gloss: "	woe
+
+
+
+]
+
+
+
 
 
 
