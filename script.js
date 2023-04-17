@@ -60,6 +60,8 @@ const lessonFifteenBtn = document.getElementById("lessonFifteen");
 const lessonFifteenEl = document.getElementById("lesson-fifteen");
 const lessonSixteenBtn = document.getElementById("lessonSixteen");
 const lessonSixteenEl = document.getElementById("lesson-sixteen");
+const lessonSeventeenBtn = document.getElementById("lessonSeventeen");
+const lessonSeventeenEl = document.getElementById("lesson-seventeen");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
@@ -409,7 +411,6 @@ const lessonFourteen = [
     {greek : "φῶς, φωτός, τό",  gloss: "light (photon, photograph)"},
     {greek : "χείρ, χειρός, ἡ",  gloss: "hand"}
 ]
-
 
 const lessonFifteen = [
         {greek : "ἀγαθός, –ή, –όν",  gloss: "good (Agatha)"}, 
