@@ -808,6 +808,13 @@ function addNewLessonSixteen() {
         loadReview()
     }
 }
+function addNewLessonSeventeen() {
+    if(lessonSixteenBtn.checked) {
+        vocabulary.push(...lessonSixteen);
+        loadReview()
+    }
+}
+
 
 let currentVocab = 0;
 let currentCount = 1;
