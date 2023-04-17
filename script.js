@@ -809,7 +809,7 @@ function addNewLessonSixteen() {
     }
 }
 function addNewLessonSeventeen() {
-    if(lessonSixteenBtn.checked) {
+    if(lessonSeventeenBtn.checked) {
         vocabulary.push(...lessonSixteen);
         loadReview()
     }
