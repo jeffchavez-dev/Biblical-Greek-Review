@@ -810,7 +810,7 @@ function addNewLessonSixteen() {
 }
 function addNewLessonSeventeen() {
     if(lessonSeventeenBtn.checked) {
-        vocabulary.push(...lessonSixteen);
+        vocabulary.push(...lessonSeventeen);
         loadReview()
     }
 }
