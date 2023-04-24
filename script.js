@@ -431,37 +431,25 @@ const lessonFifteen = [
 ]
 
 const lessonSixteen = [
- 
-    {greek : "ἁμαρτάνω", gloss: "I sin (ἥμαρτον)"},
-    {greek : "Βούλομαι", gloss: "I wish, want, desire"},
-    {greek : "δεῖ", gloss: "It is necessary, one must/should"},
-    {greek : "δοκέω", gloss: "I seem, suppose, think"},
-   {greek : " δύναμαι", gloss: "I am able, can"},
-    {greek : "θέλω", gloss: "I want, wish, desire"},
-    {greek : "μέλλω", gloss: "I am about to, am going to"},
-    {greek : "θέλημα, -ατος, τό", gloss: "will, wish, desire"},
-    {greek : "νύξ, νυκτός, ἡ", gloss: "night"},
-    {greek : "μακάριος, -α, -ον", gloss: "blessed, happy"},
-    {greek : "μηδείς, μηδεία, μηδέν", gloss: "no one, nothing (subst)"},
-    {greek : "τυφλός, -ή, -όν", gloss: "blind; blind person (subst)"},
-    {greek : "πρό", 	gloss: "before, in front of (gen)"},
-    {greek : "μηδέ", 	gloss: "and not, nor"},
-    {greek : "ὥστε", 	gloss: "so that"},
-    {greek : "δέχομαι", gloss: "I take, receive, welcome"},
-    {greek : "δικαιόω", gloss: "I declare righteous, justify"},
-    {greek : "λογίζομαι", gloss: "I consider, reckon"},
-    {greek : "σταυρόω", gloss: "I crucify"},
-    {greek : "χαίρω", gloss: "I rejoice, greetings"},
-    {greek : "ἄν", gloss: "(particle of indefiniteness: untranslated)"},
-    {greek : "ἐάν", gloss: "if, when"},
-    {greek : "ἐὰν μή", gloss: "unless"},
-    {greek : "ἵνα", gloss: "in order that, so that, that"},
-    {greek : "ὅπου", gloss: "where"},
-    {greek : "ὅπως", gloss: "in order that, that"},
-    {greek : "ὅστις, ἥτις, ὅ τι", gloss: "whoever, whatever, who"},
-    {greek : "ὅταν", gloss: "whenever, when (ὅτε + ἄν)"},
-    {greek : "ὅτε", gloss: "when"},
-    {greek : "ποῦ", gloss: "where?"}
+    εὐαγγελίζω, I announce good news, preach  	(evangelist)
+    θεωρέω, I gaze, behold, look at
+    κάθημαι, I sit (cathedral—where the “seat” 	of 	the bishop is)
+    κηρύσσω, I herald, proclaim, preach (kerygma)
+    ὑπάρχω, I exist, am
+    αἰώνιος, –α, -ον, eternal (aeon)
+    ἕκαστος, –η, –ον, each
+    ἔξω, outside (exoskeleton)
+    ἕως, until, while
+    οὐδέ, and not, neither, nor
+    οὔτε, and not, neither, nor
+    τότε, then
+    οὐδείς, οὐδεμία, οὐδέν, no one, nothing (subst)
+    πρεσβύτερος, –α, –ον, elder, older 	(Presbyterian)
+    ἀμήν, amen, truly, so be it (Amen)
+
+
+
+
 
 
 
@@ -469,37 +457,24 @@ const lessonSixteen = [
 
 const lessonSeventeen = [
         
-        {greek : "ἀσπάζομαι", gloss: "	I greet"},
-        {greek : "ἐπιγινώσκω", gloss: "	I know, understand"},
-        {greek : "ἐργάζομαι", gloss: "	I work, do, perform"},
-        {greek : "καθίζω", gloss: "	I sit"},
-        {greek : "κατοικέω", gloss: "	I live, dwell"},
-        {greek : "γενεά", gloss: "	generation, family"},
-        {greek : "ἔτος, -ους, τό", gloss: "	year"},
-        {greek : "θηρίον, ου, τό", gloss: " 	animal, beast"},
-        {greek : "θλῖψις, -εως, ἡ", gloss: "	tribulation, affliction"},
-        {greek : "χρεία, ας, ἡ", gloss: "	need"},
+    φανερόω, I reveal, make known, manifest (phantom, epiphany)
+    κρατέω, I grasp, seize, arrest (democracy)
+    εἷς, μία, ἕν, one (hendiadys)
+    δύο, two (duet)
+    τρεῖς, three (triad)
+    τέσσαρες, four (tesseract)
+    πέντε, five (Pentagon)
+    ἑπτά, seven (heptagon)
+    δέκα, ten (decimeter)
+    δώδεκα, twelve (dodecagon)
+    πρῶτος, –η, –ον, first (prototype)
+    δεύτερος, –α, –ον, second (Deuteronomy)
+    τρίτος, –η, –ον, third (tricycle)
+    τέταρτος, –η, –ον, fourth (tetrarch)
+    μή, no, not (employed with non-	indicative verbs)
 
-        {greek : "κρίσις, -εως, ἡ", gloss: "	judgment, condemnation"},
-        {greek : "φόβος, ου, ὁ", gloss: "	fear, reverence, respect"},
-        {greek : "φυλακή, ῆς, ἡ", gloss: "	watch, guard, prison"},
-        {greek : "ἔμπροσθεν", gloss: "	in front of, before"},
-        {greek : "ἴδε, ἰδού", gloss: "	behold, look, see"},
-        {greek : "ἀνίστημι", gloss: "	I stand up, arise"},
-        {greek : "ἀποδίδωμι", gloss: "	I give back, pay"},
-        {greek : "ἀπόλλυμι", gloss: "	I destroy, am lost (mid)"},
-        {greek : "ἀφίημι", gloss: "	I forgive, let go, divorce"},
-        {greek : "δίδωμι", gloss: "	I give"},
-        {greek : "ἵστημι", gloss: "	I stand, set"},
-        {greek : "παραδίδωμι", gloss: "	I hand over, betray, entrust"},
-        {greek : "τίθημι", gloss: "	I put, place, appoint"},
-        {greek : "φημί", gloss: "	I say, affirm"},
-        {greek : "ἁμαρτωλός, -όν", gloss: "	sinful, sinner (subst)"},
-        {greek : "ἔρημος, -όν", gloss: "	desolate, desert, wilderness (subst)"},
-        {greek : "μικρός, -ά, -όν", gloss: "	small"},
-        {greek : "ὅμοιος-α, -ον", gloss: "	same nature, similar"},
-        {greek : "ἄχρι", gloss: "	until"},
-        {greek : "οὐαί", gloss: "	woe"}
+    
+    
 ]
 
 
