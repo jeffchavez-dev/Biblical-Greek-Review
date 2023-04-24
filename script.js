@@ -813,6 +813,12 @@ function addNewLessonSeventeen() {
         loadReview()
     }
 }
+function addNewLessonEighteen() {
+    if(lessonEighteenBtn.checked) {
+        vocabulary.push(...lessonEighteen);
+        loadReview()
+    }
+}
 
 
 let currentVocab = 0;
