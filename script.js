@@ -62,6 +62,8 @@ const lessonSixteenBtn = document.getElementById("lessonSixteen");
 const lessonSixteenEl = document.getElementById("lesson-sixteen");
 const lessonSeventeenBtn = document.getElementById("lessonSeventeen");
 const lessonSeventeenEl = document.getElementById("lesson-seventeen");
+const lessonEighteenBtn = document.getElementById("lessonEightteen");
+const lessonEighteenEl = document.getElementById("lesson-eighteen");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
@@ -660,6 +662,15 @@ lessonSeventeenBtn.addEventListener('click', () => {
     lessonSeventeenEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "Lesson 17";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
+});
+
+lessonEighteenBtn.addEventListener('click', () => {
+    addNewLessonEightteen();
+    lessonEighteenEl.classList.add("hide")
+    const review = document.createElement("div")
+    review.innerHTML = "Lesson 18";
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 });
