@@ -479,14 +479,14 @@ const lessonEighteen = [
     {greek: "παιδίον, τό",  gloss: "child (pedagogy)"},
     {greek: "ὄρος, –ους, τό",  gloss: "mountain, hill (orology)"},
     {greek: "ἐλπίς, –ίδος, ἡ",  gloss: "hope"},
-    {greek: "μόνος, –η, –ον, only",  gloss: "single, alone 	(monocle, monograph)"},
+    {greek: "μόνος, –η, –ον",  gloss: "only, single, alone 	(monocle, monograph)"},
     {greek: "ὅλος, –η, –ον",  gloss: "whole, entire, complete 	(wholistic)"},
     {greek: "ἀγαπητός, –ή, –όν",  gloss: "beloved"},
     {greek: "μέσος, –η, –ον",  gloss: "middle, midst (Mesopotamia)"},
     {greek: "λοιπός, –ή, –όν",  gloss: "remaining, rest"},
     {greek: "δεξιός, –ά, –όν",  gloss: "right (ambidextrous—	having “both right” hands)"},
     {greek: "ἄρα",  gloss: "so then"},
-    {greek: "ἤδη, already",  gloss: "now"},
+    {greek: "ἤδη",  gloss: "already, now"},
     {greek: "ὧδε",  gloss: "here"}
 
 ]
