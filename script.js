@@ -471,21 +471,21 @@ const lessonSeventeen = [
 
 const lessonEighteen = [
         
-    προσφέρω, I bring to, offer (fertile, metaphor)
-    ἑτοιμάζω, I prepare
-    δέω, I bind
-    παιδίον, τό, child (pedagogy)
-    ὄρος, –ους, τό, mountain, hill (orology)
-    ἐλπίς, –ίδος, ἡ, hope
-    μόνος, –η, –ον, only, single, alone 	(monocle, monograph)
-    ὅλος, –η, –ον, whole, entire, complete 	(wholistic)
-    ἀγαπητός, –ή, –όν, beloved
-    μέσος, –η, –ον, middle, midst (Mesopotamia)
-    λοιπός, –ή, –όν, remaining, rest
-    δεξιός, –ά, –όν, right (ambidextrous—	having “both right” hands)
-    ἄρα, so then
-    ἤδη, already, now
-    ὧδε, here
+    {greek: "προσφέρω",  gloss: "I bring to, offer (fertile, metaphor)
+    {greek: "ἑτοιμάζω",  gloss: "I prepare
+    {greek: "δέω",  gloss: "I bind
+    {greek: "παιδίον, τό",  gloss: "child (pedagogy)
+    {greek: "ὄρος, –ους, τό",  gloss: "mountain, hill (orology)
+    {greek: "ἐλπίς, –ίδος, ἡ",  gloss: "hope
+    {greek: "μόνος, –η, –ον, only",  gloss: "single, alone 	(monocle, monograph)
+    {greek: "ὅλος, –η, –ον",  gloss: "whole, entire, complete 	(wholistic)
+    {greek: "ἀγαπητός, –ή, –όν",  gloss: "beloved
+    {greek: "μέσος, –η, –ον",  gloss: "middle, midst (Mesopotamia)
+    {greek: "λοιπός, –ή, –όν",  gloss: "remaining, rest
+    {greek: "δεξιός, –ά, –όν",  gloss: "right (ambidextrous—	having “both right” hands)
+    {greek: "ἄρα",  gloss: "so then
+    {greek: "ἤδη, already",  gloss: "now
+    {greek: "ὧδε",  gloss: "here
 
 
 
