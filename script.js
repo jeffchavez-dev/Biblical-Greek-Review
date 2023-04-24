@@ -431,47 +431,41 @@ const lessonFifteen = [
 ]
 
 const lessonSixteen = [
-    εὐαγγελίζω, I announce good news, preach  	(evangelist)
-    θεωρέω, I gaze, behold, look at
-    κάθημαι, I sit (cathedral—where the “seat” 	of 	the bishop is)
-    κηρύσσω, I herald, proclaim, preach (kerygma)
-    ὑπάρχω, I exist, am
-    αἰώνιος, –α, -ον, eternal (aeon)
-    ἕκαστος, –η, –ον, each
-    ἔξω, outside (exoskeleton)
-    ἕως, until, while
-    οὐδέ, and not, neither, nor
-    οὔτε, and not, neither, nor
-    τότε, then
-    οὐδείς, οὐδεμία, οὐδέν, no one, nothing (subst)
-    πρεσβύτερος, –α, –ον, elder, older 	(Presbyterian)
-    ἀμήν, amen, truly, so be it (Amen)
-
-
-
-
-
-
+    {greek: "εὐαγγελίζω,",  gloss: " I announce good news, preach  	(evangelist)"},
+    {greek: "θεωρέω, ",  gloss: "I gaze, behold, look at"},
+    {greek: "κάθημαι,",  gloss: " I sit (cathedral—where the “seat” 	of 	the bishop is)"},
+    {greek: "κηρύσσω,",  gloss: " I herald, proclaim, preach (kerygma)"},
+    {greek: "ὑπάρχω, ",  gloss: "I exist, am"},
+    {greek: "αἰώνιος, –α, -ον,",  gloss: " eternal (aeon)"},
+    {greek: "ἕκαστος, –η, –ον, ",  gloss: "each"},
+    {greek: "ἔξω, ",  gloss: "outside (exoskeleton)"},
+    {greek: "ἕως, ",  gloss: "until, while"},
+    {greek: "οὐδέ, ",  gloss: "and not, neither, nor"},
+    {greek: "οὔτε, ",  gloss: "and not, neither, nor"},
+    {greek: "τότε, ",  gloss: "then"},
+    {greek: "οὐδείς, οὐδεμία, οὐδέν, ",  gloss: "no one, nothing (subst)"},
+    {greek: "πρεσβύτερος, –α, –ον, ",  gloss: "elder, older 	(Presbyterian)"},
+    {greek: "ἀμήν, ",  gloss: "amen, truly, so be it (Amen)"}
 
 ]
 
 const lessonSeventeen = [
         
-    φανερόω, I reveal, make known, manifest (phantom, epiphany)
-    κρατέω, I grasp, seize, arrest (democracy)
-    εἷς, μία, ἕν, one (hendiadys)
-    δύο, two (duet)
-    τρεῖς, three (triad)
-    τέσσαρες, four (tesseract)
-    πέντε, five (Pentagon)
-    ἑπτά, seven (heptagon)
-    δέκα, ten (decimeter)
-    δώδεκα, twelve (dodecagon)
-    πρῶτος, –η, –ον, first (prototype)
-    δεύτερος, –α, –ον, second (Deuteronomy)
-    τρίτος, –η, –ον, third (tricycle)
-    τέταρτος, –η, –ον, fourth (tetrarch)
-    μή, no, not (employed with non-	indicative verbs)
+    {greek: "φανερόω, ",  gloss: "I reveal, make known, manifest (phantom, epiphany)"},
+    {greek: "κρατέω,",  gloss: " I grasp, seize, arrest (democracy)"},
+    {greek: "εἷς, μία, ἕν, ",  gloss: "one (hendiadys)"},
+    {greek: "δύο, ",  gloss: "two (duet)"},
+    {greek: "τρεῖς, ",  gloss: "three (triad)"},
+    {greek: "τέσσαρες, ",  gloss: "four (tesseract)"},
+    {greek: "πέντε,",  gloss: " five (Pentagon)"},
+    {greek: "ἑπτά, ",  gloss: "seven (heptagon)"},
+    {greek: "δέκα, ",  gloss: "ten (decimeter)"},
+    {greek: "δώδεκα, ",  gloss: "twelve (dodecagon)"},
+    {greek: "πρῶτος, –η, –ον, ",  gloss: "first (prototype)"},
+    {greek: "δεύτερος, –α, –ον,",  gloss: " second (Deuteronomy)"},
+    {greek: "τρίτος, –η, –ον,",  gloss: " third (tricycle)"},
+    {greek: "τέταρτος, –η, –ον, ",  gloss: "fourth (tetrarch)"},
+    {greek: "μή, ",  gloss: "no, not (employed with non-	indicative verbs)"}
     
 ]
 
