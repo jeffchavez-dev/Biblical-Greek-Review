@@ -477,21 +477,25 @@ const lessonSeventeen = [
 
 const lessonEighteen = [
         
-    φανερόω, I reveal, make known, manifest (phantom, epiphany)
-    κρατέω, I grasp, seize, arrest (democracy)
-    εἷς, μία, ἕν, one (hendiadys)
-    δύο, two (duet)
-    τρεῖς, three (triad)
-    τέσσαρες, four (tesseract)
-    πέντε, five (Pentagon)
-    ἑπτά, seven (heptagon)
-    δέκα, ten (decimeter)
-    δώδεκα, twelve (dodecagon)
-    πρῶτος, –η, –ον, first (prototype)
-    δεύτερος, –α, –ον, second (Deuteronomy)
-    τρίτος, –η, –ον, third (tricycle)
-    τέταρτος, –η, –ον, fourth (tetrarch)
-    μή, no, not (employed with non-	indicative verbs)
+    προσφέρω, I bring to, offer (fertile, metaphor)
+    ἑτοιμάζω, I prepare
+    δέω, I bind
+    παιδίον, τό, child (pedagogy)
+    ὄρος, –ους, τό, mountain, hill (orology)
+    ἐλπίς, –ίδος, ἡ, hope
+    μόνος, –η, –ον, only, single, alone 	(monocle, monograph)
+    ὅλος, –η, –ον, whole, entire, complete 	(wholistic)
+    ἀγαπητός, –ή, –όν, beloved
+    μέσος, –η, –ον, middle, midst (Mesopotamia)
+    λοιπός, –ή, –όν, remaining, rest
+    δεξιός, –ά, –όν, right (ambidextrous—	having “both right” hands)
+    ἄρα, so then
+    ἤδη, already, now
+    ὧδε, here
+
+
+
+
     
 ]
 
