@@ -471,21 +471,21 @@ const lessonSeventeen = [
 
 const lessonEighteen = [
         
-    προσφέρω, I bring to, offer (fertile, metaphor)
-    ἑτοιμάζω, I prepare
-    δέω, I bind
-    παιδίον, τό, child (pedagogy)
-    ὄρος, –ους, τό, mountain, hill (orology)
-    ἐλπίς, –ίδος, ἡ, hope
-    μόνος, –η, –ον, only, single, alone 	(monocle, monograph)
-    ὅλος, –η, –ον, whole, entire, complete 	(wholistic)
-    ἀγαπητός, –ή, –όν, beloved
-    μέσος, –η, –ον, middle, midst (Mesopotamia)
-    λοιπός, –ή, –όν, remaining, rest
-    δεξιός, –ά, –όν, right (ambidextrous—	having “both right” hands)
-    ἄρα, so then
-    ἤδη, already, now
-    ὧδε, here
+    // προσφέρω, I bring to, offer (fertile, metaphor)
+    // ἑτοιμάζω, I prepare
+    // δέω, I bind
+    // παιδίον, τό, child (pedagogy)
+    // ὄρος, –ους, τό, mountain, hill (orology)
+    // ἐλπίς, –ίδος, ἡ, hope
+    // μόνος, –η, –ον, only, single, alone 	(monocle, monograph)
+    // ὅλος, –η, –ον, whole, entire, complete 	(wholistic)
+    // ἀγαπητός, –ή, –όν, beloved
+    // μέσος, –η, –ον, middle, midst (Mesopotamia)
+    // λοιπός, –ή, –όν, remaining, rest
+    // δεξιός, –ά, –όν, right (ambidextrous—	having “both right” hands)
+    // ἄρα, so then
+    // ἤδη, already, now
+    // ὧδε, here
 
 
 
