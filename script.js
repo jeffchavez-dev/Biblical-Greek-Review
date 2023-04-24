@@ -472,10 +472,29 @@ const lessonSeventeen = [
     τρίτος, –η, –ον, third (tricycle)
     τέταρτος, –η, –ον, fourth (tetrarch)
     μή, no, not (employed with non-	indicative verbs)
-
-    
     
 ]
+
+const lessonEighteen = [
+        
+    φανερόω, I reveal, make known, manifest (phantom, epiphany)
+    κρατέω, I grasp, seize, arrest (democracy)
+    εἷς, μία, ἕν, one (hendiadys)
+    δύο, two (duet)
+    τρεῖς, three (triad)
+    τέσσαρες, four (tesseract)
+    πέντε, five (Pentagon)
+    ἑπτά, seven (heptagon)
+    δέκα, ten (decimeter)
+    δώδεκα, twelve (dodecagon)
+    πρῶτος, –η, –ον, first (prototype)
+    δεύτερος, –α, –ον, second (Deuteronomy)
+    τρίτος, –η, –ον, third (tricycle)
+    τέταρτος, –η, –ον, fourth (tetrarch)
+    μή, no, not (employed with non-	indicative verbs)
+    
+]
+
 
 
 
