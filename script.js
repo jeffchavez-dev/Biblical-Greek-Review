@@ -714,6 +714,24 @@ lessonEighteenBtn.addEventListener('click', () => {
     review.classList.add('lesson-added');
     toReview.appendChild(review);
 });
+lessonNineteenBtn.addEventListener('click', () => {
+    addNewLessonNineteen();
+    lessonEighteenEl.classList.add("hide")
+    const review = document.createElement("div")
+    review.innerHTML = "Lesson 19";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
+});
+
+lessonTwentyBtn.addEventListener('click', () => {
+    addNewLessonTwenty();
+    lessonEighteenEl.classList.add("hide")
+    const review = document.createElement("div")
+    review.innerHTML = "Lesson 20";
+    review.classList.add('lesson-added');
+    toReview.appendChild(review);
+});
+
 
 
 
