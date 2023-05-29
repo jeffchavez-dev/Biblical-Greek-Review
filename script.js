@@ -496,41 +496,39 @@ const lessonEighteen = [
 ]
 const lessonNineteen = [
         
-    {greek: "προσφέρω",  gloss: "I bring to, offer (fertile, metaphor)"},
-    {greek: "ἑτοιμάζω",  gloss: "I prepare"},
-    {greek: "δέω",  gloss: "I bind"},
-    {greek: "παιδίον, τό",  gloss: "child (pedagogy)"},
-    {greek: "ὄρος, –ους, τό",  gloss: "mountain, hill (orology)"},
-    {greek: "ἐλπίς, –ίδος, ἡ",  gloss: "hope"},
-    {greek: "μόνος, –η, –ον",  gloss: "only, single, alone 	(monocle, monograph)"},
-    {greek: "ὅλος, –η, –ον",  gloss: "whole, entire, complete 	(wholistic)"},
-    {greek: "ἀγαπητός, –ή, –όν",  gloss: "beloved"},
-    {greek: "μέσος, –η, –ον",  gloss: "middle, midst (Mesopotamia)"},
-    {greek: "λοιπός, –ή, –όν",  gloss: "remaining, rest"},
-    {greek: "δεξιός, –ά, –όν",  gloss: "right (ambidextrous—	having “both right” hands)"},
-    {greek: "ἄρα",  gloss: "so then"},
-    {greek: "ἤδη",  gloss: "already, now"},
-    {greek: "ὧδε",  gloss: "here"}
-
+    {greek: "ἀλλήλων",  gloss: "of one another (alien)"},
+    {greek: "ἑαυτοῦ, –ῆς, –οῦ",  gloss: "(of) himself, herself, itself"},
+    {greek: "ἐκεῖνος, –η, –ο",  gloss: "that; those (pl)"},
+    {greek: "ἐμαυτοῦ, –ῆς",  gloss: "myself"},		
+    {greek: "οὗτος, αὕτη, τοῦτο",  gloss: "this; these (pl)"},
+    {greek: "σεαυτοῦ, –ῆς",  gloss: "(of) yourself"},
+    {greek: "τις, τι",  gloss: "someone, certain"},
+    {greek: "τίς, τί",  gloss: "who? which? what?"},
+    {greek: "ἴδιος, –α, –ον",  gloss: "one’s own, peculiar (idiot)"},
+    {greek: "κακός, –ή, –όν",  gloss: "bad, evil (cacophony)"},
+    {greek: "ὅσος, –η, –ον",  gloss: "as much as "},
+    {greek: "τοιοῦτος, –αύτη, οῦτον",  gloss: "of such a kind, 	such as this"},
+    {greek: "πῶς",  gloss: "how?"}, 
+    {greek: "ἐμός, –ή, –όν",  gloss: "my, mine"},
+    {greek: "ἔσχατος, –η, –ον",  gloss: "last (eschatology)"}
 ]
 const lessonTwenty = [
         
-    {greek: "προσφέρω",  gloss: "I bring to, offer (fertile, metaphor)"},
-    {greek: "ἑτοιμάζω",  gloss: "I prepare"},
-    {greek: "δέω",  gloss: "I bind"},
-    {greek: "παιδίον, τό",  gloss: "child (pedagogy)"},
-    {greek: "ὄρος, –ους, τό",  gloss: "mountain, hill (orology)"},
-    {greek: "ἐλπίς, –ίδος, ἡ",  gloss: "hope"},
-    {greek: "μόνος, –η, –ον",  gloss: "only, single, alone 	(monocle, monograph)"},
-    {greek: "ὅλος, –η, –ον",  gloss: "whole, entire, complete 	(wholistic)"},
-    {greek: "ἀγαπητός, –ή, –όν",  gloss: "beloved"},
-    {greek: "μέσος, –η, –ον",  gloss: "middle, midst (Mesopotamia)"},
-    {greek: "λοιπός, –ή, –όν",  gloss: "remaining, rest"},
-    {greek: "δεξιός, –ά, –όν",  gloss: "right (ambidextrous—	having “both right” hands)"},
-    {greek: "ἄρα",  gloss: "so then"},
-    {greek: "ἤδη",  gloss: "already, now"},
-    {greek: "ὧδε",  gloss: "here"}
-
+    {greek: "ἁμαρτάνω",  gloss: "I sin (ἥμαρτον) (hamartology)"},
+    {greek: "βούλομαι",  gloss: "I wish, want, desire (volition)"},
+    {greek: "δεῖ",  gloss: "It is necessary, one must/should"}, 
+    {greek: "δοκέω",  gloss: "I seem, suppose, think (Docetism)"},
+    {greek: "δύναμαι",  gloss: "I am able, can (dynamic)"},
+    {greek: "θέλω",  gloss: "I want, wish, desire 	(Monothelitism)"},
+    {greek: "μέλλω",  gloss: "I am about to, am going to"},
+    {greek: "θέλημα, –ατος, τό",  gloss: "will, wish, desire"},
+    {greek: "νύξ, νυκτός, ἡ",  gloss: "night"},
+    {greek: "μακάριος, –α, –ον",  gloss: "blessed, happy (macarism)"},
+    {greek: "μηδείς, μηδεία, μηδέν",  gloss: "no one, nothing (subst)"},
+    {greek: "τυφλός, –ή, –όν",  gloss: "blind; blind person 	(subst)"},
+    {greek: "πρό",  gloss: "before, in front of (gen) (prologue)"},
+    {greek: "μηδέ",  gloss: "and not, nor"},
+    {greek: "ὥστε",  gloss: "so that"}
 ]
 
 
