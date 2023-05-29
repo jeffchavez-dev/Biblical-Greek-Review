@@ -716,7 +716,7 @@ lessonEighteenBtn.addEventListener('click', () => {
 });
 lessonNineteenBtn.addEventListener('click', () => {
     addNewLessonNineteen();
-    lessonEighteenEl.classList.add("hide")
+    lessonNineteenEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "Lesson 19";
     review.classList.add('lesson-added');
@@ -725,7 +725,7 @@ lessonNineteenBtn.addEventListener('click', () => {
 
 lessonTwentyBtn.addEventListener('click', () => {
     addNewLessonTwenty();
-    lessonEighteenEl.classList.add("hide")
+    lessonTwentyEl.classList.add("hide")
     const review = document.createElement("div")
     review.innerHTML = "Lesson 20";
     review.classList.add('lesson-added');
