@@ -878,6 +878,20 @@ function addNewLessonEighteen() {
     }
 }
 
+function addNewLessonNineteen() {
+    if(lessonNineteenBtn.checked) {
+        vocabulary.push(...lessonNineteen);
+        loadReview()
+    }
+}
+
+function addNewLessonTwenty() {
+    if(lessonTwentyBtn.checked) {
+        vocabulary.push(...lessonTwenty);
+        loadReview()
+    }
+}
+
 
 let currentVocab = 0;
 let currentCount = 1;
