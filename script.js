@@ -64,10 +64,10 @@ const lessonSeventeenBtn = document.getElementById("lessonSeventeen");
 const lessonSeventeenEl = document.getElementById("lesson-seventeen");
 const lessonEighteenBtn = document.getElementById("lessonEighteen");
 const lessonEighteenEl = document.getElementById("lesson-eighteen");
-const lessonNineteenBtn = document.getElementById("lessonEighteen");
-const lessonNineteenEl = document.getElementById("lesson-eighteen");
-const lessonEighteenBtn = document.getElementById("lessonEighteen");
-const lessonEighteenEl = document.getElementById("lesson-eighteen");
+const lessonNineteenBtn = document.getElementById("lessonNineteen");
+const lessonNineteenEl = document.getElementById("lesson-nineteen");
+const lessonTwentyBtn = document.getElementById("lessonTwenty");
+const lessonTwentyEl = document.getElementById("lesson-twenty");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
