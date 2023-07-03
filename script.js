@@ -532,6 +532,37 @@ const lessonTwenty = [
 ]
 
 
+const lessonTwentyOne = [
+        
+    
+]
+
+
+const lessonTwentyTwo = [
+    ἀσπάζομαι, I greet
+    ἐπιγινώσκω, I know, understand 	(Gnostic, agnostic, prognosis)
+    ἐργάζομαι, I work, do, perform 	(ergometer, ergonomics, energy)
+    καθίζω, I sit (cathedral [seat of bishop])
+    κατοικέω, I live, dwell (economy)
+    χαίρω, I rejoice; greetings (charity)
+    ἔτος, –ους, τό, year
+    θηρίον, τό, animal, beast
+    κρίσις, –εως, ἡ, judgment, condemnation 	(crisis)
+    φόβος, ὁ, fear, reverence, respect (phobia)
+    φυλακή, ἡ, watch, guard, prison (prophylactic)
+    ἔμπροσθεν, in front of, before
+    ἰδού, behold, look, see
+    θλῖψις, –εως, ἡ, tribulation, affliction
+    χρεία, ἡ, need
+
+
+    
+    
+    
+]
+
+
+
 
 
 
