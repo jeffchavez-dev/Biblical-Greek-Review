@@ -533,7 +533,24 @@ const lessonTwenty = [
 
 
 const lessonTwentyOne = [
-        
+    δέχομαι, I take, receive, welcome
+    δικαιόω, I declare righteous, justify
+    λογίζομαι, I consider, reckon (theology, 	apologetics)
+    σταυρόω, I crucify
+    ἄν, (particle of indefiniteness: untranslated)
+    ἐάν, if, when
+    ἐὰν μή, unless
+    ἕως, until, while
+    ὅπως, in order that, that
+    ὅστις, ἥτις, ὅ τι, whoever, whatever, who
+    ὅταν, whenever, when (ὅτε + ἄν)
+    ὅτε, when 
+    ποῦ, where?
+    ἵνα, in order that, so that, that
+    ὅπου, where
+
+
+    
     
 ]
 
