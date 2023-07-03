@@ -533,21 +533,21 @@ const lessonTwenty = [
 
 
 const lessonTwentyOne = [
-    δέχομαι, I take, receive, welcome
-    δικαιόω, I declare righteous, justify
-    λογίζομαι, I consider, reckon (theology, 	apologetics)
-    σταυρόω, I crucify
-    ἄν, (particle of indefiniteness: untranslated)
-    ἐάν, if, when
-    ἐὰν μή, unless
-    ἕως, until, while
-    ὅπως, in order that, that
-    ὅστις, ἥτις, ὅ τι, whoever, whatever, who
-    ὅταν, whenever, when (ὅτε + ἄν)
-    ὅτε, when 
-    ποῦ, where?
-    ἵνα, in order that, so that, that
-    ὅπου, where
+   {greek: "δέχομαι",  gloss: " I take, receive, welcome
+    {greek: "δικαιόω",  gloss: " I declare righteous, justify
+    {greek: "λογίζομαι",  gloss: " I consider, reckon (theology, 	apologetics)
+   {greek: " σταυρόω",  gloss: " I crucify
+    {greek: "ἄν",  gloss: " (particle of indefiniteness: untranslated)
+    {greek: "ἐάν",  gloss: " if, when
+    {greek: "ἐὰν μή",  gloss: " unless
+    {greek: "ἕως",  gloss: " until, while
+    {greek: "ὅπως",  gloss: " in order that, that
+    {greek: "ὅστις, ἥτις, ὅ τι",  gloss: " whoever, whatever, who
+    {greek: "ὅταν",  gloss: " whenever, when (ὅτε + ἄν)
+    {greek: "ὅτε",  gloss: " when 
+    {greek: "ποῦ",  gloss: " where?
+    {greek: "ἵνα",  gloss: " in order that, so that, that
+    {greek: "ὅπου",  gloss: " where
 
 
     
@@ -556,21 +556,21 @@ const lessonTwentyOne = [
 
 
 const lessonTwentyTwo = [
-    ἀσπάζομαι, I greet
-    ἐπιγινώσκω, I know, understand 	(Gnostic, agnostic, prognosis)
-    ἐργάζομαι, I work, do, perform 	(ergometer, ergonomics, energy)
-    καθίζω, I sit (cathedral [seat of bishop])
-    κατοικέω, I live, dwell (economy)
-    χαίρω, I rejoice; greetings (charity)
-    ἔτος, –ους, τό, year
-    θηρίον, τό, animal, beast
-    κρίσις, –εως, ἡ, judgment, condemnation 	(crisis)
-    φόβος, ὁ, fear, reverence, respect (phobia)
-    φυλακή, ἡ, watch, guard, prison (prophylactic)
-    ἔμπροσθεν, in front of, before
-    ἰδού, behold, look, see
-    θλῖψις, –εως, ἡ, tribulation, affliction
-    χρεία, ἡ, need
+    {greek: "ἀσπάζομαι",  gloss: " I greet
+    {greek: "ἐπιγινώσκω",  gloss: " I know, understand 	(Gnostic, agnostic, prognosis)
+    {greek: "ἐργάζομαι",  gloss: " I work, do, perform 	(ergometer, ergonomics, energy)
+   {greek: " καθίζω",  gloss: " I sit (cathedral [seat of bishop])
+   {greek: "κατοικέω",  gloss: " I live, dwell (economy)
+    {greek: "χαίρω",  gloss: " I rejoice; greetings (charity)
+    {greek: "ἔτος, –ους, τό",  gloss: " year
+    {greek: "θηρίον, τό",  gloss: " animal, beast
+    {greek: "κρίσις, –εως, ἡ",  gloss: " judgment, condemnation 	(crisis)
+    {greek: "φόβος, ὁ",  gloss: " fear, reverence, respect (phobia)
+    {greek: "φυλακή, ἡ",  gloss: " watch, guard, prison (prophylactic)
+    {greek: "ἔμπροσθεν",  gloss: " in front of, before
+    {greek: "ἰδού",  gloss: " behold, look, see
+    {greek: "θλῖψις, –εως, ἡ",  gloss: " tribulation, affliction
+   {greek: " χρεία, ἡ",  gloss: " need
 
 
     
