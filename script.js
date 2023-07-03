@@ -533,21 +533,21 @@ const lessonTwenty = [
 
 
 const lessonTwentyOne = [
-   {greek: "δέχομαι",  gloss: " I take, receive, welcome
-    {greek: "δικαιόω",  gloss: " I declare righteous, justify
-    {greek: "λογίζομαι",  gloss: " I consider, reckon (theology, 	apologetics)
-   {greek: " σταυρόω",  gloss: " I crucify
-    {greek: "ἄν",  gloss: " (particle of indefiniteness: untranslated)
-    {greek: "ἐάν",  gloss: " if, when
-    {greek: "ἐὰν μή",  gloss: " unless
-    {greek: "ἕως",  gloss: " until, while
-    {greek: "ὅπως",  gloss: " in order that, that
-    {greek: "ὅστις, ἥτις, ὅ τι",  gloss: " whoever, whatever, who
-    {greek: "ὅταν",  gloss: " whenever, when (ὅτε + ἄν)
-    {greek: "ὅτε",  gloss: " when 
-    {greek: "ποῦ",  gloss: " where?
-    {greek: "ἵνα",  gloss: " in order that, so that, that
-    {greek: "ὅπου",  gloss: " where
+   {greek: "δέχομαι",  gloss: " I take, receive, welcome"},
+    {greek: "δικαιόω",  gloss: " I declare righteous, justify"},
+    {greek: "λογίζομαι",  gloss: " I consider, reckon (theology, 	apologetics)"},
+   {greek: " σταυρόω",  gloss: " I crucify"},
+    {greek: "ἄν",  gloss: " (particle of indefiniteness: untranslated)"},
+    {greek: "ἐάν",  gloss: " if, when"},
+    {greek: "ἐὰν μή",  gloss: " unless"},
+    {greek: "ἕως",  gloss: " until, while"},
+    {greek: "ὅπως",  gloss: " in order that, that"},
+    {greek: "ὅστις, ἥτις, ὅ τι",  gloss: " whoever, whatever, who"},
+    {greek: "ὅταν",  gloss: " whenever, when (ὅτε + ἄν)"},
+    {greek: "ὅτε",  gloss: " when "},
+    {greek: "ποῦ",  gloss: " where?"},
+    {greek: "ἵνα",  gloss: " in order that, so that, that"},
+    {greek: "ὅπου",  gloss: " where"}
 
 
     
@@ -556,21 +556,21 @@ const lessonTwentyOne = [
 
 
 const lessonTwentyTwo = [
-    {greek: "ἀσπάζομαι",  gloss: " I greet
-    {greek: "ἐπιγινώσκω",  gloss: " I know, understand 	(Gnostic, agnostic, prognosis)
-    {greek: "ἐργάζομαι",  gloss: " I work, do, perform 	(ergometer, ergonomics, energy)
-   {greek: " καθίζω",  gloss: " I sit (cathedral [seat of bishop])
-   {greek: "κατοικέω",  gloss: " I live, dwell (economy)
-    {greek: "χαίρω",  gloss: " I rejoice; greetings (charity)
-    {greek: "ἔτος, –ους, τό",  gloss: " year
-    {greek: "θηρίον, τό",  gloss: " animal, beast
-    {greek: "κρίσις, –εως, ἡ",  gloss: " judgment, condemnation 	(crisis)
-    {greek: "φόβος, ὁ",  gloss: " fear, reverence, respect (phobia)
-    {greek: "φυλακή, ἡ",  gloss: " watch, guard, prison (prophylactic)
-    {greek: "ἔμπροσθεν",  gloss: " in front of, before
-    {greek: "ἰδού",  gloss: " behold, look, see
-    {greek: "θλῖψις, –εως, ἡ",  gloss: " tribulation, affliction
-   {greek: " χρεία, ἡ",  gloss: " need
+    {greek: "ἀσπάζομαι",  gloss: " I greet"},
+    {greek: "ἐπιγινώσκω",  gloss: " I know, understand 	(Gnostic, agnostic, prognosis)"},
+    {greek: "ἐργάζομαι",  gloss: " I work, do, perform 	(ergometer, ergonomics, energy)"},
+   {greek: " καθίζω",  gloss: " I sit (cathedral [seat of bishop])"},
+   {greek: "κατοικέω",  gloss: " I live, dwell (economy)"},
+    {greek: "χαίρω",  gloss: " I rejoice; greetings (charity)"},
+    {greek: "ἔτος, –ους, τό",  gloss: " year"},
+    {greek: "θηρίον, τό",  gloss: " animal, beast"},
+    {greek: "κρίσις, –εως, ἡ",  gloss: " judgment, condemnation 	(crisis)"},
+    {greek: "φόβος, ὁ",  gloss: " fear, reverence, respect (phobia)"},
+    {greek: "φυλακή, ἡ",  gloss: " watch, guard, prison (prophylactic)"},
+    {greek: "ἔμπροσθεν",  gloss: " in front of, before"},
+    {greek: "ἰδού",  gloss: " behold, look, see"},
+    {greek: "θλῖψις, –εως, ἡ",  gloss: " tribulation, affliction"},
+   {greek: " χρεία, ἡ",  gloss: " need"}
 
 
     
