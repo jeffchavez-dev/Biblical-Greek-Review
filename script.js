@@ -533,10 +533,10 @@ const lessonTwenty = [
 
 
 const lessonTwentyOne = [
-   {greek: "δέχομαι",  gloss: " I take, receive, welcome"},
+    {greek: "δέχομαι",  gloss: " I take, receive, welcome"},
     {greek: "δικαιόω",  gloss: " I declare righteous, justify"},
     {greek: "λογίζομαι",  gloss: " I consider, reckon (theology, 	apologetics)"},
-   {greek: " σταυρόω",  gloss: " I crucify"},
+    {greek: " σταυρόω",  gloss: " I crucify"},
     {greek: "ἄν",  gloss: " (particle of indefiniteness: untranslated)"},
     {greek: "ἐάν",  gloss: " if, when"},
     {greek: "ἐὰν μή",  gloss: " unless"},
@@ -548,10 +548,6 @@ const lessonTwentyOne = [
     {greek: "ποῦ",  gloss: " where?"},
     {greek: "ἵνα",  gloss: " in order that, so that, that"},
     {greek: "ὅπου",  gloss: " where"}
-
-
-    
-    
 ]
 
 
@@ -559,8 +555,8 @@ const lessonTwentyTwo = [
     {greek: "ἀσπάζομαι",  gloss: " I greet"},
     {greek: "ἐπιγινώσκω",  gloss: " I know, understand 	(Gnostic, agnostic, prognosis)"},
     {greek: "ἐργάζομαι",  gloss: " I work, do, perform 	(ergometer, ergonomics, energy)"},
-   {greek: " καθίζω",  gloss: " I sit (cathedral [seat of bishop])"},
-   {greek: "κατοικέω",  gloss: " I live, dwell (economy)"},
+    {greek: " καθίζω",  gloss: " I sit (cathedral [seat of bishop])"},
+    {greek: "κατοικέω",  gloss: " I live, dwell (economy)"},
     {greek: "χαίρω",  gloss: " I rejoice; greetings (charity)"},
     {greek: "ἔτος, –ους, τό",  gloss: " year"},
     {greek: "θηρίον, τό",  gloss: " animal, beast"},
@@ -571,11 +567,7 @@ const lessonTwentyTwo = [
     {greek: "ἰδού",  gloss: " behold, look, see"},
     {greek: "θλῖψις, –εως, ἡ",  gloss: " tribulation, affliction"},
    {greek: " χρεία, ἡ",  gloss: " need"}
-
-
-    
-    
-    
+ 
 ]
 
 
