@@ -948,6 +948,22 @@ function addNewLessonTwenty() {
 }
 
 
+function addNewLessonTwentyOne() {
+    if(lessonTwentyOneBtn.checked) {
+        vocabulary.push(...lessonTwentyOne);
+        loadReview()
+    }
+}
+
+
+function addNewLessonTwentyTwo() {
+    if(lessonTwentyTwoBtn.checked) {
+        vocabulary.push(...lessonTwentyTwo);
+        loadReview()
+    }
+}
+
+
 let currentVocab = 0;
 let currentCount = 1;
 
