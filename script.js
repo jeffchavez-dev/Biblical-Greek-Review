@@ -1013,6 +1013,12 @@ function addNewLessonTwentyTwo() {
 }
 
 
+function addNewLessonTwentyThree() {
+    if(lessonTwentyThreeBtn.checked) {
+        vocabulary.push(...lessonTwentyThree);
+        loadReview()
+    }
+
 let currentVocab = 0;
 let currentCount = 1;
 
