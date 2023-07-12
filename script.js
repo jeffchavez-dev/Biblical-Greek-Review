@@ -72,6 +72,8 @@ const lessonTwentyOneBtn = document.getElementById("lessonTwentyOne");
 const lessonTwentyOneEl = document.getElementById("lesson-twentyone");
 const lessonTwentyTwoBtn = document.getElementById("lessonTwentyTwo");
 const lessonTwentyTwoEl = document.getElementById("lesson-twentytwo");
+const lessonTwentyThreeBtn = document.getElementById("lessonTwentyThree");
+const lessonTwentyThreeEl = document.getElementById("lesson-twentythree");
 const toReview = document.querySelector(".toReview");
 const goBack = document.querySelector(".goBack");
 
