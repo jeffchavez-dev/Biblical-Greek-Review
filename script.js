@@ -1018,7 +1018,7 @@ function addNewLessonTwentyThree() {
         vocabulary.push(...lessonTwentyThree);
         loadReview()
     }
-
+}
 let currentVocab = 0;
 let currentCount = 1;
 
@@ -1989,6 +1989,4 @@ videoLessonsBtn.addEventListener('click', ()=> {
     mainReview.classList.add("hide");
     document.querySelector(".love-greek").style.display = 'none';
 })
-
-
 
