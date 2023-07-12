@@ -575,22 +575,21 @@ const lessonTwentyTwo = [
 ]
 
 const lessonTwentyThree = [
-    {greek: "ἀνίστημι, I stand up, arise (Anastasia)
-    {greek: "ἀποδίδωμι, I give back, pay 
-    {greek: "ἀπόλλυμι, I destroy, am lost (mid) (Apollyon)
-   {greek: " ἀφίημι, I forgive, let go, divorce
-    {greek: "δίδωμι, I give (donation)
-    {greek: "ἵστημι, I stand, set (stand)
-    {greek: "παραδίδωμι, I hand over, betray, entrust
-    {greek: "τίθημι, I put, place, appoint 
-    {greek: "φημί, I say, affirm (prophet)
-    {greek: "ἁμαρτωλός, –όν, sinful, sinner (subst)
-    {greek: "γενεά, –ᾶς, ἡ, generation, family (generation)
-    {greek: "μικρός, –ά, –όν, small (microphone, 	micrometer)
-    {greek: "ὅμοιος, –α, –ον, same nature, similar 
-    {greek: "ἄχρι, until
-    {greek: "οὐαί, woe
- 
+    {greek: "ἀνίστημι",  gloss: "  I stand up, arise (Anastasia)"},
+    {greek: "ἀποδίδωμι",  gloss: "  I give back, pay "},
+    {greek: "ἀπόλλυμι",  gloss: "  I destroy, am lost (mid) (Apollyon)"},
+   {greek: " ἀφίημι",  gloss: "  I forgive, let go, divorce"},
+    {greek: "δίδωμι",  gloss: "  I give (donation)"},
+    {greek: "ἵστημι",  gloss: "  I stand, set (stand)"},
+    {greek: "παραδίδωμι",  gloss: "  I hand over, betray, entrust"},
+    {greek: "τίθημι",  gloss: "  I put, place, appoint "},
+    {greek: "φημί",  gloss: "  I say, affirm (prophet)"},
+    {greek: "ἁμαρτωλός, –όν",  gloss: "  sinful, sinner (subst)"},
+    {greek: "γενεά, –ᾶς, ἡ",  gloss: "  generation, family (generation)"},
+    {greek: "μικρός, –ά, –όν",  gloss: "  small (microphone, 	micrometer)"},
+    {greek: "ὅμοιος, –α, –ον",  gloss: "  same nature, similar "},
+    {greek: "ἄχρι",  gloss: "  until"},
+    {greek: "οὐαί",  gloss: "  woe"}
 ]
 
 
