@@ -784,6 +784,7 @@ lessonFourteenBtn.addEventListener('click', () => {
 
 
 
+// to be updated - for simplification
 
 function addNewLessonOne() {
     if(lessonOneBtn.checked) {
