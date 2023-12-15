@@ -19,6 +19,20 @@ const wordCount = document.querySelector(".totalCount");
 const currentCountEL = document.querySelector(".current");
 const checkboxes = document.getElementsByName("lessons");
 
+//simplify getting the buttons
+const lessonButtons = [];
+const lessonElements = [];
+
+for (let i = 1; i <= 12; i++) {
+    const btnId = `lesson${i}Btn`;
+    const elId = `lesson-${i}`;
+
+    const btn = document.getElementById(btnId);
+    const el = document.getElementById(elId);
+
+    lessonButtons.push(btn);
+    lessonElements.push(el);
+}
 
 const lessonOneBtn = document.getElementById("lessonOne");
 const lessonOneEl = document.getElementById("lesson-one");
