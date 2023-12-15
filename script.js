@@ -34,6 +34,10 @@ for (let i = 1; i <= 12; i++) {
     lessonElements.push(el);
 }
 
+lessonButtons[0].addEventListener('click', () => handleLessonButtonClick(1, addNewLessonFunction));
+lessonElements[0].classList.add("hide");
+// Repeat for other buttons and elements
+
 const lessonOneBtn = document.getElementById("lessonOne");
 const lessonOneEl = document.getElementById("lesson-one");
 const lessonTwoBtn = document.getElementById("lessonTwo");
