@@ -904,25 +904,6 @@ function addNewLessonFourteen() {
     }
 }
 
-function addNewLessonFifteen() {
-    if(lessonFifteenBtn.checked) {
-        vocabulary.push(...lessonFifteen);
-        loadReview()
-    }
-}
-function addNewLessonSixteen() {
-    if(lessonSixteenBtn.checked) {
-        vocabulary.push(...lessonSixteen);
-        loadReview()
-    }
-}
-function addNewLessonSeventeen() {
-    if(lessonSeventeenBtn.checked) {
-        vocabulary.push(...lessonSeventeen);
-        loadReview()
-    }
-}
-
 
 
 
