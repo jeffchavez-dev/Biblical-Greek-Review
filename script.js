@@ -815,15 +815,6 @@ lessonTwentyTwoBtn.addEventListener('click', () => {
     toReview.appendChild(review);
 });
 
-lessonTwentyThreeBtn.addEventListener('click', () => {
-    addNewLessonTwentyThree();
-    lessonTwentyThreeEl.classList.add("hide")
-    const review = document.createElement("div")
-    review.innerHTML = "Lesson 23";
-    review.classList.add('lesson-added');
-    toReview.appendChild(review);
-});
-
 
 
 
