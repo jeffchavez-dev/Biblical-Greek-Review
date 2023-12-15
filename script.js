@@ -841,68 +841,11 @@ function addNewLessonSeven() {
         loadReview()
     }
 }
-function addNewLessonEight() {
-    if(lessonEightBtn.checked) {
-        vocabulary.push(...lessonEight);
-        // vocabulary.concat(lessonTwo);
-        loadReview()
-    }
-}
-function addNewLessonNine() {
-    if(lessonNineBtn.checked) {
-        vocabulary.push(...lessonNine);
+    vocabulary.push(...lessonIrregTwo);
         loadReview()
     }
 }
 
-function addNewLessonTen() {
-    if(lessonTenBtn.checked) {
-        vocabulary.push(...lessonTen);
-        loadReview()
-    }
-}
-
-function addNewLessonEleven() {
-    if(lessonElevenBtn.checked) {
-        vocabulary.push(...lessonEleven);
-        loadReview()
-    }
-}
-
-function addNewLessonTwelve() {
-    if(lessonTwelveBtn.checked) {
-        vocabulary.push(...lessonTwelve);
-        loadReview()
-    }
-}
-
-function addNewLessonIrreg() {
-    if(lessonIrregBtn.checked) {
-        vocabulary.push(...lessonIrreg);
-        loadReview()
-    }
-}
-
-function addNewLessonIrregTwo() {
-    if(lessonIrregTwoBtn.checked) {
-        vocabulary.push(...lessonIrregTwo);
-        loadReview()
-    }
-}
-
-function addNewLessonThirteen() {
-    if(lessonThirteenBtn.checked) {
-        vocabulary.push(...lessonThirteen);
-        loadReview()
-    }
-}
-
-function addNewLessonFourteen() {
-    if(lessonFourteenBtn.checked) {
-        vocabulary.push(...lessonFourteen);
-        loadReview()
-    }
-}
 
 
 
