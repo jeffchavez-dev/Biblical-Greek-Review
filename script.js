@@ -922,21 +922,6 @@ function addNewLessonSeventeen() {
         loadReview()
     }
 }
-function addNewLessonEighteen() {
-    if(lessonEighteenBtn.checked) {
-        vocabulary.push(...lessonEighteen);
-        loadReview()
-    }
-}
-
-function addNewLessonNineteen() {
-    if(lessonNineteenBtn.checked) {
-        vocabulary.push(...lessonNineteen);
-        loadReview()
-    }
-}
-
-}
 
 
 
