@@ -618,6 +618,21 @@ const lessonTwentyThree = [
 
 
 
+// Assuming lessonButtons is an array containing your lesson buttons
+const lessonButtons = [lessonOneBtn, lessonTwoBtn, lessonThreeBtn, lessonFourBtn, lessonFiveBtn, lessonSixBtn, lessonSevenBtn, lessonEightBtn];
+
+// Function to handle the click event for a lesson button
+function handleLessonButtonClick(lessonNumber, addNewLessonFunction) {
+    addNewLesson(lessonNumber, addNewLessonFunction);
+}
+
+// Attach the event listener to each lesson button
+for (let i = 0; i < lessonButtons.length; i++) {
+    const lessonNumber = i + 1;
+    const addNewLessonFunction = window[`addNewLesson${lessonNumber}`]; // Assuming your addNewLesson functions are global
+
+    lessonButtons[i].addEventListener('click', () => handleLessonButtonClick(lessonNumber, addNewLessonFunction));
+}
 
 
 reviewVocabs.addEventListener('click', () => {
