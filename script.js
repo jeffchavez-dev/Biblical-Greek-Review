@@ -686,6 +686,23 @@ lessonFourBtn.addEventListener('click', () => {
 
 // to be updated - for simplification
 
+
+
+function addNewLesson(lessonBtn, lessonArray) {
+    if (lessonBtn.checked) {
+        vocabulary.push(...lessonArray);
+        loadReview();
+    }
+}
+
+lessonOneBtn.addEventListener('click', () => addNewLesson(lessonOneBtn, lessonOne));
+lessonTwoBtn.addEventListener('click', () => addNewLesson(lessonTwoBtn, lessonTwo));
+lessonThreeBtn.addEventListener('click', () => addNewLesson(lessonThreeBtn, lessonThree));
+lessonFourBtn.addEventListener('click', () => addNewLesson(lessonFourBtn, lessonFour));
+// Repeat for other lessons as needed
+
+
+
 function addNewLessonOne() {
     if(lessonOneBtn.checked) {
         vocabulary.push(...lessonOne);
