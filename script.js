@@ -635,6 +635,8 @@ for (let i = 0; i < lessonButtons.length; i++) {
 }
 
 
+//******************** */
+
 reviewVocabs.addEventListener('click', () => {
     mainReview.classList.add("hide");
     lessonSection.classList.add("show-lesson")
