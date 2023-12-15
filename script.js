@@ -771,25 +771,6 @@ lessonSeventeenBtn.addEventListener('click', () => {
     toReview.appendChild(review);
 });
 
-lessonEighteenBtn.addEventListener('click', () => {
-    addNewLessonEighteen();
-    lessonEighteenEl.classList.add("hide")
-    const review = document.createElement("div")
-    review.innerHTML = "Lesson 18";
-    review.classList.add('lesson-added');
-    toReview.appendChild(review);
-});
-lessonNineteenBtn.addEventListener('click', () => {
-    addNewLessonNineteen();
-    lessonNineteenEl.classList.add("hide")
-    const review = document.createElement("div")
-    review.innerHTML = "Lesson 19";
-    review.classList.add('lesson-added');
-    toReview.appendChild(review);
-});
-
-
-
 
 
 
