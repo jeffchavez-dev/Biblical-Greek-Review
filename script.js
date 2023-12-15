@@ -936,19 +936,6 @@ function addNewLessonNineteen() {
     }
 }
 
-function addNewLessonTwenty() {
-    if(lessonTwentyBtn.checked) {
-        vocabulary.push(...lessonTwenty);
-        loadReview()
-    }
-}
-
-
-function addNewLessonTwentyOne() {
-    if(lessonTwentyOneBtn.checked) {
-        vocabulary.push(...lessonTwentyOne);
-        loadReview()
-    }
 }
 
 
