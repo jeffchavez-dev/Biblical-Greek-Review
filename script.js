@@ -966,6 +966,11 @@ function addNewLessonTwentyThree() {
         loadReview()
     }
 }
+
+
+
+
+
 let currentVocab = 0;
 let currentCount = 1;
 
